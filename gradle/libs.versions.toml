@@ -86,7 +86,7 @@ koin-compose = "io.insert-koin:koin-androidx-compose:3.4.2"
 initializer = "com.github.qiushui95:AndroidInitializer:1.0.11"
 
 #https://github.com/JodaOrg/joda-time
-jodatime = "joda-time:joda-time:2.12.2"
+jodatime = "joda-time:joda-time:2.12.3"
 
 #https://square.github.io/leakcanary/getting_started/
 leakcanary = "com.squareup.leakcanary:leakcanary-android:2.10"
