@@ -121,4 +121,10 @@ dependencies {
 
     implementation(libs.transformers.glide)
     implementation(libs.transformers.gpu)
+
+    implementation(libs.landscapist.glide)
+    implementation(libs.landscapist.placeholder)
+    implementation(libs.landscapist.animation)
+    implementation(libs.landscapist.transformation)
+    implementation(libs.landscapist.palette)
 }
