@@ -32,7 +32,7 @@ core = "androidx.core:core-ktx:1.9.0"
 core-splash = "androidx.core:core-splashscreen:1.0.0"
 
 #https://developer.android.com/jetpack/androidx/releases/lifecycle
-lifecycle-runtime = "androidx.lifecycle:lifecycle-runtime:2.6.0"
+lifecycle-runtime = "androidx.lifecycle:lifecycle-runtime-ktx:2.6.0"
 lifecycle-viewmodel = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.0"
 lifecycle-viewmodel-savedstate = "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.0"
 lifecycle-viewmodel-compose = "androidx.lifecycle:lifecycle-viewmodel-compose:2.6.0"
