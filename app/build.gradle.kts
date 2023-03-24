@@ -127,4 +127,7 @@ dependencies {
     implementation(libs.landscapist.animation)
     implementation(libs.landscapist.transformation)
     implementation(libs.landscapist.palette)
+
+    implementation(libs.compose.destinations.core)
+    ksp(libs.compose.destinations.ksp)
 }
