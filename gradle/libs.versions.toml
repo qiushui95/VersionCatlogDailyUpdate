@@ -8,7 +8,7 @@ ksp = "com.google.devtools.ksp:1.8.10-1.0.9"
 [libraries]
 gradlePlugin-android = "com.android.tools.build:gradle:7.4.2"
 gradlePlugin-kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.10"
-gradlePlugin-mavenPublish = "com.vanniktech:gradle-maven-publish-plugin:0.25.0"
+gradlePlugin-mavenPublish = "com.vanniktech:gradle-maven-publish-plugin:0.25.1"
 gradlePlugin-ksp = "com.google.devtools.ksp:com.google.devtools.ksp.gradle.plugin:1.8.10-1.0.9"
 
 #https://github.com/google/accompanist
