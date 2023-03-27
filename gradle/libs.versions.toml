@@ -83,7 +83,7 @@ mvi-test = "org.orbit-mvi:orbit-test:4.6.1"
 #https://github.com/qoqa/glide-svg
 koin-core = "io.insert-koin:koin-core:3.3.3"
 koin-android = "io.insert-koin:koin-android:3.3.3"
-koin-compose = "io.insert-koin:koin-androidx-compose:3.4.2"
+koin-compose = "io.insert-koin:koin-androidx-compose:3.4.3"
 
 #https://github.com/qiushui95/AndroidInitializer
 initializer = "com.github.qiushui95:AndroidInitializer:1.0.11"
