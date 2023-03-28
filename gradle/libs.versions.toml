@@ -83,7 +83,7 @@ mvi-test = "org.orbit-mvi:orbit-test:4.6.1"
 
 #https://github.com/qoqa/glide-svg
 koin-core = "io.insert-koin:koin-core:3.4.0"
-koin-android = "io.insert-koin:koin-android:3.3.3"
+koin-android = "io.insert-koin:koin-android:3.4.0"
 koin-compose = "io.insert-koin:koin-androidx-compose:3.4.3"
 
 #https://github.com/qiushui95/AndroidInitializer
@@ -151,7 +151,7 @@ landscapist-palette = "com.github.skydoves:landscapist-palette:2.1.9"
 
 #https://github.com/raamcosta/compose-destinations
 compose-destinations-core = "io.github.raamcosta.compose-destinations:core:1.8.38-beta"
-compose-destinations-ksp = "io.github.raamcosta.compose-destinations:ksp:1.8.37-beta"
+compose-destinations-ksp = "io.github.raamcosta.compose-destinations:ksp:1.8.38-beta"
 
 #https://github.com/airbnb/lottie-android
 lottie-view="com.airbnb.android:lottie:6.0.0"
