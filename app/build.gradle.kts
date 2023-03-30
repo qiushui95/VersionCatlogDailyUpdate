@@ -71,7 +71,7 @@ dependencies {
 
     implementation(libs.material)
 
-    implementation(libs.okhttp)
+    implementation(libs.okhttp.core)
     implementation(libs.okhttp.logging)
 
     implementation(libs.mvi.core)
