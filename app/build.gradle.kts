@@ -63,7 +63,8 @@ dependencies {
 
     implementation(libs.compose.material)
     implementation(libs.compose.foundation)
-    implementation(libs.compose.tooling)
+    implementation(libs.compose.preview)
+    debugImplementation(libs.compose.tooling)
 
     implementation(libs.coroutines.android)
 
