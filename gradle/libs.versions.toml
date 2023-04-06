@@ -138,7 +138,7 @@ room-core = "androidx.room:room-ktx:2.5.1"
 room-ksp = "androidx.room:room-compiler:2.5.1"
 
 #https://github.com/facebook/stetho
-stetho = "com.facebook.stetho:stetho:1.6.0"
+stetho-core = "com.facebook.stetho:stetho:1.6.0"
 stetho-okhttp = "com.facebook.stetho:stetho-okhttp3:1.6.0"
 
 #https://github.com/wasabeef/transformers

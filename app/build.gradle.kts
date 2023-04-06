@@ -116,7 +116,7 @@ dependencies {
     implementation(libs.room.core)
     ksp(libs.room.ksp)
 
-    implementation(libs.stetho)
+    implementation(libs.stetho.core)
     implementation(libs.stetho.okhttp)
 
     implementation(libs.transformers.glide)
