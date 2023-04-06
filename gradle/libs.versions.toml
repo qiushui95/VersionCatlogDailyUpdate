@@ -3,14 +3,14 @@ composeCompiler = "1.4.4"
 
 [plugins]
 spotless = "com.diffplug.spotless:6.17.0"
-ksp = "com.google.devtools.ksp:1.8.10-1.0.9"
+ksp = "com.google.devtools.ksp:1.8.20-1.0.10"
 validator = "org.jetbrains.kotlinx.binary-compatibility-validator:0.13.0"
 
 [libraries]
 gradlePlugin-android = "com.android.tools.build:gradle:7.4.2"
 gradlePlugin-kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.10"
 gradlePlugin-mavenPublish = "com.vanniktech:gradle-maven-publish-plugin:0.25.1"
-gradlePlugin-ksp = "com.google.devtools.ksp:com.google.devtools.ksp.gradle.plugin:1.8.10-1.0.9"
+gradlePlugin-ksp = "com.google.devtools.ksp:com.google.devtools.ksp.gradle.plugin:1.8.20-1.0.10"
 
 #https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
 android-utils = "com.blankj:utilcodex:1.31.1"
