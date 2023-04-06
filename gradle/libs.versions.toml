@@ -11,6 +11,9 @@ gradlePlugin-kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.10"
 gradlePlugin-mavenPublish = "com.vanniktech:gradle-maven-publish-plugin:0.25.1"
 gradlePlugin-ksp = "com.google.devtools.ksp:com.google.devtools.ksp.gradle.plugin:1.8.10-1.0.9"
 
+#https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
+android-utils = "com.blankj:utilcodex:1.31.1"
+
 #https://github.com/google/accompanist
 accompanist-uicontroller = "com.google.accompanist:accompanist-systemuicontroller:0.30.0"
 accompanist-drawablepainter = "com.google.accompanist:accompanist-drawablepainter:0.30.0"
@@ -154,5 +157,5 @@ compose-destinations-core = "io.github.raamcosta.compose-destinations:core:1.8.3
 compose-destinations-ksp = "io.github.raamcosta.compose-destinations:ksp:1.8.38-beta"
 
 #https://github.com/airbnb/lottie-android
-lottie-view="com.airbnb.android:lottie:6.0.0"
-lottie-compose="com.airbnb.android:lottie-compose:6.0.0"
+lottie-view = "com.airbnb.android:lottie:6.0.0"
+lottie-compose = "com.airbnb.android:lottie-compose:6.0.0"
