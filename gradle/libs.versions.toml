@@ -2,7 +2,7 @@
 composeCompiler = "1.4.4"
 
 [plugins]
-spotless = "com.diffplug.spotless:6.17.0"
+spotless = "com.diffplug.spotless:6.18.0"
 ksp = "com.google.devtools.ksp:1.8.10-1.0.9"
 validator = "org.jetbrains.kotlinx.binary-compatibility-validator:0.13.0"
 
