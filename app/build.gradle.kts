@@ -102,10 +102,11 @@ dependencies {
     implementation(libs.bugly)
 
     implementation(libs.glide.core)
-    implementation(libs.glide.compose)
     implementation(libs.glide.okhttp)
-    implementation(libs.glide.svg)
     ksp(libs.glide.ksp)
+
+    implementation(libs.transformers.glide)
+    implementation(libs.transformers.gpu)
 
     implementation(libs.moshi.core)
     ksp(libs.moshi.ksp)
@@ -120,15 +121,9 @@ dependencies {
     implementation(libs.stetho.core)
     implementation(libs.stetho.okhttp)
 
-    implementation(libs.transformers.glide)
-    implementation(libs.transformers.gpu)
-
     implementation(libs.landscapist.glide)
     implementation(libs.landscapist.placeholder)
     implementation(libs.landscapist.animation)
     implementation(libs.landscapist.transformation)
     implementation(libs.landscapist.palette)
-
-    implementation(libs.compose.destinations.core)
-    ksp(libs.compose.destinations.ksp)
 }
