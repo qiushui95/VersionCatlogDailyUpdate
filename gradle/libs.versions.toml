@@ -4,11 +4,12 @@ composeCompiler = "1.4.4"
 [plugins]
 spotless = "com.diffplug.spotless:6.17.0"
 ksp = "com.google.devtools.ksp:1.8.20-1.0.10"
+spotless = "com.diffplug.spotless:6.18.0"
 validator = "org.jetbrains.kotlinx.binary-compatibility-validator:0.13.0"
 
 [libraries]
 gradlePlugin-android = "com.android.tools.build:gradle:7.4.2"
-gradlePlugin-kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.10"
+gradlePlugin-kotlin = "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.20"
 gradlePlugin-mavenPublish = "com.vanniktech:gradle-maven-publish-plugin:0.25.1"
 gradlePlugin-ksp = "com.google.devtools.ksp:com.google.devtools.ksp.gradle.plugin:1.8.20-1.0.10"
 
@@ -92,7 +93,7 @@ koin-android = "io.insert-koin:koin-android:3.4.0"
 koin-compose = "io.insert-koin:koin-androidx-compose:3.4.3"
 
 #https://github.com/qiushui95/AndroidInitializer
-initializer = "com.github.qiushui95:AndroidInitializer:1.0.15"
+initializer = "com.github.qiushui95:AndroidInitializer:1.0.16"
 
 #https://github.com/JodaOrg/joda-time
 jodatime = "joda-time:joda-time:2.12.5"
@@ -148,7 +149,7 @@ transformers-glide = "jp.wasabeef.transformers:glide:1.0.6"
 transformers-gpu = "jp.wasabeef.transformers:glide-gpu:1.0.6"
 
 #https://github.com/skydoves/landscapist
-landscapist-glide = "com.github.skydoves:landscapist-glide:2.1.9"
+landscapist-glide = "com.github.skydoves:landscapist-glide:2.1.10"
 landscapist-placeholder = "com.github.skydoves:landscapist-placeholder:2.1.9"
 landscapist-animation = "com.github.skydoves:landscapist-animation:2.1.9"
 landscapist-transformation = "com.github.skydoves:landscapist-transformation:2.1.9"
