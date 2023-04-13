@@ -148,7 +148,7 @@ transformers-glide = "jp.wasabeef.transformers:glide:1.0.6"
 transformers-gpu = "jp.wasabeef.transformers:glide-gpu:1.0.6"
 
 #https://github.com/skydoves/landscapist
-landscapist-glide = "com.github.skydoves:landscapist-glide:2.1.9"
+landscapist-glide = "com.github.skydoves:landscapist-glide:2.1.10"
 landscapist-placeholder = "com.github.skydoves:landscapist-placeholder:2.1.9"
 landscapist-animation = "com.github.skydoves:landscapist-animation:2.1.9"
 landscapist-transformation = "com.github.skydoves:landscapist-transformation:2.1.9"
