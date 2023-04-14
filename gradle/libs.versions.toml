@@ -19,7 +19,7 @@ moshi = "1.14.0"
 retrofit = "2.9.0"
 room = "2.5.1"
 stetho = "1.6.0"
-landscapist = "2.1.10"
+landscapist = "2.1.11"
 lottie = "6.0.0"
 
 [plugins]
