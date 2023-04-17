@@ -1,28 +1,51 @@
 [versions]
+#https://developer.android.com/jetpack/androidx/releases/compose-compiler
 composeCompiler = "1.4.5"
+#https://github.com/google/ksp
 ksp = "1.8.20-1.0.10"
+#https://github.com/JetBrains/kotlin
 kotlin = "1.8.20"
+#https://github.com/google/accompanist
 accompanist = "0.30.1"
+#https://developer.android.com/jetpack/androidx/releases/activity
 activity = "1.7.0"
+#https://developer.android.com/jetpack/androidx/releases/appcompat
 appcompat = "1.6.1"
+#https://developer.android.com/jetpack/androidx/releases/lifecycle
 lifecycle = "2.6.1"
+#https://developer.android.com/jetpack/androidx/releases/compose
 compose = "1.4.1"
+#https://github.com/Kotlin/kotlinx.coroutines
 coroutines = "1.6.4"
+#https://github.com/square/okhttp
 okhttp = "4.10.0"
+#https://github.com/orbit-mvi/orbit-mvi
 mvi = "4.6.1"
+#https://github.com/InsertKoinIO/koin
 koinCore = "3.4.0"
 koinAndroid = "3.4.0"
 koinCompose = "3.4.3"
+#https://github.com/bumptech/glide
 glide = "4.15.1"
+#https://github.com/wasabeef/transformers
 transformers = "1.0.6"
+#https://github.com/square/moshi
 moshi = "1.14.0"
+#https://github.com/square/retrofit
 retrofit = "2.9.0"
+#https://developer.android.com/jetpack/androidx/releases/room
 room = "2.5.1"
+#https://github.com/facebook/stetho
 stetho = "1.6.0"
+#https://github.com/skydoves/landscapist
 landscapist = "2.1.11"
+#https://github.com/airbnb/lottie-android
 lottie = "6.0.0"
+#https://github.com/LuckSiege/PictureSelector
+selector = "v3.11.1"
 
 [plugins]
+#https://github.com/diffplug/spotless
 spotless = "com.diffplug.spotless:6.18.0"
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 validator = "org.jetbrains.kotlinx.binary-compatibility-validator:0.13.0"
@@ -30,7 +53,8 @@ validator = "org.jetbrains.kotlinx.binary-compatibility-validator:0.13.0"
 [libraries]
 gradlePlugin-android = "com.android.tools.build:gradle:7.4.2"
 gradlePlugin-kotlin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
-gradlePlugin-mavenPublish = "com.vanniktech:gradle-maven-publish-plugin:0.25.1"
+#https://github.com/vanniktech/gradle-maven-publish-plugin
+gradlePlugin-mavenPublish = "com.vanniktech:gradle-maven-publish-plugin:0.25.2"
 gradlePlugin-ksp = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
 
 #https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
@@ -179,3 +203,9 @@ chucker = "com.github.chuckerteam.chucker:library:3.5.2"
 
 #https://developer.android.com/jetpack/androidx/releases/constraintlayout
 compose-constraint = "androidx.constraintlayout:constraintlayout-compose:1.0.1"
+
+#https://github.com/LuckSiege/PictureSelector
+selector-core = { group = "io.github.lucksiege", name = "pictureselector", version.ref = "selector" }
+selector-compress = { group = "io.github.lucksiege", name = "compress", version.ref = "selector" }
+selector-crop = { group = "io.github.lucksiege", name = "ucrop", version.ref = "selector" }
+selector-camerax = { group = "io.github.lucksiege", name = "camerax", version.ref = "selector" }

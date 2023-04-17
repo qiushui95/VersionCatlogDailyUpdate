@@ -126,4 +126,9 @@ dependencies {
     implementation(libs.landscapist.animation)
     implementation(libs.landscapist.transformation)
     implementation(libs.landscapist.palette)
+
+    implementation(libs.selector.core)
+    implementation(libs.selector.compress)
+    implementation(libs.selector.crop)
+    implementation(libs.selector.camerax)
 }
