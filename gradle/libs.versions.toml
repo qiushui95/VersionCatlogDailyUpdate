@@ -45,6 +45,8 @@ lottie = "6.0.0"
 selector = "v3.11.1"
 #https://developer.android.com/jetpack/androidx/releases/fragment
 fragment = "1.5.7"
+#https://github.com/ReactiveCircus/FlowBinding
+flowBinding = "1.2.0"
 
 [plugins]
 #https://github.com/diffplug/spotless
@@ -218,3 +220,18 @@ alioss = { group = "com.aliyun.dpa", name = "oss-android-sdk", version = "2.9.13
 #https://developer.android.com/jetpack/androidx/releases/fragment
 fragment-core = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragment" }
 fragment-test = { group = "androidx.fragment", name = "fragment-testing", version.ref = "fragment" }
+
+#https://github.com/ReactiveCircus/FlowBinding
+flow-binding-core = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-core", version.ref = "flowBinding" }
+flow-binding-activity = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-activity", version.ref = "flowBinding" }
+flow-binding-android = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-android", version.ref = "flowBinding" }
+flow-binding-appcompat = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-appcompat", version.ref = "flowBinding" }
+flow-binding-drawerlayout = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-drawerlayout", version.ref = "flowBinding" }
+flow-binding-lifecycle = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-lifecycle", version.ref = "flowBinding" }
+flow-binding-material = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-material", version.ref = "flowBinding" }
+flow-binding-navigation = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-navigation", version.ref = "flowBinding" }
+flow-binding-preference = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-preference", version.ref = "flowBinding" }
+flow-binding-recyclerview = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-recyclerview", version.ref = "flowBinding" }
+flow-binding-swiperefreshlayout = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-swiperefreshlayout", version.ref = "flowBinding" }
+flow-binding-viewpager = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-viewpager", version.ref = "flowBinding" }
+flow-binding-viewpager2 = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-viewpager2", version.ref = "flowBinding" }

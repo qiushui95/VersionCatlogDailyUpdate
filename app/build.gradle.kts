@@ -131,4 +131,18 @@ dependencies {
     implementation(libs.selector.compress)
     implementation(libs.selector.crop)
     implementation(libs.selector.camerax)
+
+    implementation(libs.flow.binding.core)
+    implementation(libs.flow.binding.activity)
+    implementation(libs.flow.binding.android)
+    implementation(libs.flow.binding.appcompat)
+    implementation(libs.flow.binding.drawerlayout)
+    implementation(libs.flow.binding.lifecycle)
+    implementation(libs.flow.binding.material)
+    implementation(libs.flow.binding.navigation)
+    implementation(libs.flow.binding.preference)
+    implementation(libs.flow.binding.recyclerview)
+    implementation(libs.flow.binding.swiperefreshlayout)
+    implementation(libs.flow.binding.viewpager)
+    implementation(libs.flow.binding.viewpager2)
 }
