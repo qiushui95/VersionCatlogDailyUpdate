@@ -148,7 +148,7 @@ jodatime = "joda-time:joda-time:2.12.5"
 leakcanary = "com.squareup.leakcanary:leakcanary-android:2.10"
 
 #https://github.com/Tencent/MMKV/blob/master/README_CN.md
-mmkv = "com.tencent:mmkv-static:1.2.15"
+mmkv = "com.tencent:mmkv-static:1.2.16"
 
 #https://github.com/iqiyi/xCrash/blob/master/README.zh-CN.md
 xcrash = "com.iqiyi.xcrash:xcrash-android-lib:3.1.0"
