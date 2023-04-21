@@ -145,4 +145,6 @@ dependencies {
     implementation(libs.flow.binding.swiperefreshlayout)
     implementation(libs.flow.binding.viewpager)
     implementation(libs.flow.binding.viewpager2)
+
+    implementation(libs.immutable.collections)
 }

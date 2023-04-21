@@ -235,3 +235,6 @@ flow-binding-recyclerview = { group = "io.github.reactivecircus.flowbinding", na
 flow-binding-swiperefreshlayout = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-swiperefreshlayout", version.ref = "flowBinding" }
 flow-binding-viewpager = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-viewpager", version.ref = "flowBinding" }
 flow-binding-viewpager2 = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-viewpager2", version.ref = "flowBinding" }
+
+#https://github.com/Kotlin/kotlinx.collections.immutable
+immutable-collections = { group = "org.jetbrains.kotlinx", name = "kotlinx-collections-immutable-jvm", version = "0.3.5" }
