@@ -68,6 +68,7 @@ android-utils = "com.blankj:utilcodex:1.31.1"
 accompanist-uicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version.ref = "accompanist" }
 accompanist-drawablepainter = { group = "com.google.accompanist", name = "accompanist-drawablepainter", version.ref = "accompanist" }
 accompanist-placeholder = { group = "com.google.accompanist", name = "accompanist-placeholder", version.ref = "accompanist" }
+accompanist-flowlayout = { group = "com.google.accompanist", name = "accompanist-flowlayout", version.ref = "accompanist" }
 
 #https://developer.android.com/jetpack/androidx/releases/activity
 activity-core = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity" }

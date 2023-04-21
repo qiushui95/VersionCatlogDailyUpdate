@@ -42,6 +42,7 @@ dependencies {
     implementation(libs.accompanist.drawablepainter)
     implementation(libs.accompanist.placeholder)
     implementation(libs.accompanist.uicontroller)
+    implementation(libs.accompanist.flowlayout)
 
     implementation(libs.activity.core)
     implementation(libs.activity.compose)
