@@ -148,4 +148,6 @@ dependencies {
     implementation(libs.flow.binding.viewpager2)
 
     implementation(libs.immutable.collections)
+
+    implementation(libs.update)
 }

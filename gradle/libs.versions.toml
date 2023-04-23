@@ -239,3 +239,6 @@ flow-binding-viewpager2 = { group = "io.github.reactivecircus.flowbinding", name
 
 #https://github.com/Kotlin/kotlinx.collections.immutable
 immutable-collections = { group = "org.jetbrains.kotlinx", name = "kotlinx-collections-immutable-jvm", version = "0.3.5" }
+
+#https://github.com/azhon/AppUpdate
+update = { group = "io.github.azhon", name = "appupdate", version = "4.2.8" }
