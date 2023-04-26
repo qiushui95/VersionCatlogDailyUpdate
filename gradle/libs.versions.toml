@@ -4,7 +4,7 @@ composeCompiler = "1.4.6"
 #https://github.com/google/ksp
 ksp = "1.8.20-1.0.11"
 #https://github.com/JetBrains/kotlin
-kotlin = "1.8.20"
+kotlin = "1.8.21"
 #https://github.com/google/accompanist
 accompanist = "0.30.1"
 #https://developer.android.com/jetpack/androidx/releases/activity
