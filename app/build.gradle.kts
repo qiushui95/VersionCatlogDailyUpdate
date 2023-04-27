@@ -150,4 +150,8 @@ dependencies {
     implementation(libs.immutable.collections)
 
     implementation(libs.update)
+
+    implementation(libs.wechat)
+
+    implementation(libs.weibo)
 }

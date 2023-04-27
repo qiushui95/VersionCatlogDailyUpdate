@@ -242,3 +242,9 @@ immutable-collections = { group = "org.jetbrains.kotlinx", name = "kotlinx-colle
 
 #https://github.com/azhon/AppUpdate
 update = { group = "io.github.azhon", name = "appupdate", version = "4.2.8" }
+
+#https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html#jump2
+wechat = { group = "com.tencent.mm.opensdk", name = "wechat-sdk-android", version = "6.8.24" }
+
+#https://github.com/sinaweibosdk/weibo_android_sdk
+weibo = { group = "io.github.sinaweibosdk", name = "core", version = "12.5.0@aar" }
