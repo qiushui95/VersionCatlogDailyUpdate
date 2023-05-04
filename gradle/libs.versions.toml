@@ -3,7 +3,7 @@ agp = "7.4.2"
 #https://developer.android.com/jetpack/androidx/releases/compose-compiler
 composeCompiler = "1.4.6"
 #https://github.com/google/ksp
-ksp = "1.8.20-1.0.11"
+ksp = "1.8.21-1.0.11"
 #https://github.com/JetBrains/kotlin
 kotlin = "1.8.20"
 #https://github.com/google/accompanist
