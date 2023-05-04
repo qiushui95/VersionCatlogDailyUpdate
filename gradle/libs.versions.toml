@@ -19,7 +19,7 @@ compose = "1.4.2"
 #https://github.com/Kotlin/kotlinx.coroutines
 coroutines = "1.6.4"
 #https://github.com/square/okhttp
-okhttp = "4.10.0"
+okhttp = "4.11.0"
 #https://github.com/orbit-mvi/orbit-mvi
 mvi = "4.6.1"
 #https://github.com/InsertKoinIO/koin
