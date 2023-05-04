@@ -1,7 +1,7 @@
 [versions]
 agp = "7.4.2"
 #https://developer.android.com/jetpack/androidx/releases/compose-compiler
-composeCompiler = "1.4.6"
+composeCompiler = "1.4.7"
 #https://github.com/google/ksp
 ksp = "1.8.21-1.0.11"
 #https://github.com/JetBrains/kotlin
@@ -15,7 +15,7 @@ appcompat = "1.6.1"
 #https://developer.android.com/jetpack/androidx/releases/lifecycle
 lifecycle = "2.6.1"
 #https://developer.android.com/jetpack/androidx/releases/compose
-compose = "1.4.2"
+compose = "1.4.3"
 #https://github.com/Kotlin/kotlinx.coroutines
 coroutines = "1.6.4"
 #https://github.com/square/okhttp
@@ -39,7 +39,7 @@ room = "2.5.1"
 #https://github.com/facebook/stetho
 stetho = "1.6.0"
 #https://github.com/skydoves/landscapist
-landscapist = "2.1.11"
+landscapist = "2.1.12"
 #https://github.com/airbnb/lottie-android
 lottie = "6.0.0"
 #https://github.com/LuckSiege/PictureSelector
