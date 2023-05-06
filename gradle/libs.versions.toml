@@ -72,6 +72,7 @@ accompanist-uicontroller = { group = "com.google.accompanist", name = "accompani
 accompanist-drawablepainter = { group = "com.google.accompanist", name = "accompanist-drawablepainter", version.ref = "accompanist" }
 accompanist-placeholder = { group = "com.google.accompanist", name = "accompanist-placeholder", version.ref = "accompanist" }
 accompanist-flowlayout = { group = "com.google.accompanist", name = "accompanist-flowlayout", version.ref = "accompanist" }
+accompanist-webview = { group = "com.google.accompanist", name = "accompanist-webview", version.ref = "accompanist" }
 
 #https://developer.android.com/jetpack/androidx/releases/activity
 activity-core = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity" }

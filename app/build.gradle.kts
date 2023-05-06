@@ -43,6 +43,7 @@ dependencies {
     implementation(libs.accompanist.placeholder)
     implementation(libs.accompanist.uicontroller)
     implementation(libs.accompanist.flowlayout)
+    implementation(libs.accompanist.webview)
 
     implementation(libs.activity.core)
     implementation(libs.activity.compose)
@@ -152,6 +153,4 @@ dependencies {
     implementation(libs.update)
 
     implementation(libs.wechat)
-
-    implementation(libs.weibo)
 }
