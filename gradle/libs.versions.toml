@@ -17,7 +17,7 @@ lifecycle = "2.6.1"
 #https://developer.android.com/jetpack/androidx/releases/compose
 compose = "1.4.3"
 #https://github.com/Kotlin/kotlinx.coroutines
-coroutines = "1.6.4"
+coroutines = "1.7.0"
 #https://github.com/square/okhttp
 okhttp = "4.11.0"
 #https://github.com/orbit-mvi/orbit-mvi
@@ -39,7 +39,7 @@ room = "2.5.1"
 #https://github.com/facebook/stetho
 stetho = "1.6.0"
 #https://github.com/skydoves/landscapist
-landscapist = "2.1.12"
+landscapist = "2.1.13"
 #https://github.com/airbnb/lottie-android
 lottie = "6.0.0"
 #https://github.com/LuckSiege/PictureSelector
@@ -87,7 +87,7 @@ appcompat-resources = { group = "androidx.appcompat", name = "appcompat-resource
 
 #https://developer.android.com/jetpack/androidx/releases/core
 core = "androidx.core:core-ktx:1.9.0"
-core-splash = "androidx.core:core-splashscreen:1.0.0"
+core-splash = "androidx.core:core-splashscreen:1.0.1"
 
 #https://developer.android.com/jetpack/androidx/releases/lifecycle
 lifecycle-runtime = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle" }
@@ -118,14 +118,14 @@ coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutin
 coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines" }
 
 #https://github.com/JetBrains/kotlin
-kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib" }
-kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test-junit" }
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin" }
 
 #https://github.com/pinterest/ktlint
 ktlint = "com.pinterest.ktlint:ktlint-core:0.49.0"
 
 #https://github.com/material-components/material-components-android
-material = "com.google.android.material:material:1.8.0"
+material = "com.google.android.material:material:1.9.0"
 
 #https://github.com/square/okhttp
 okhttp-core = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
