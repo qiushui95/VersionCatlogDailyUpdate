@@ -63,6 +63,7 @@ dependencies {
     implementation(libs.lifecycle.process)
     implementation(libs.lifecycle.service)
 
+    implementation(libs.compose.runtime)
     implementation(libs.compose.material)
     implementation(libs.compose.foundation)
     implementation(libs.compose.preview)
