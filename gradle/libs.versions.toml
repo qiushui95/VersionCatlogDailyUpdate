@@ -17,7 +17,7 @@ lifecycle = "2.6.1"
 #https://developer.android.com/jetpack/androidx/releases/compose
 compose = "1.4.3"
 #https://github.com/Kotlin/kotlinx.coroutines
-coroutines = "1.7.0"
+coroutines = "1.7.1"
 #https://github.com/square/okhttp
 okhttp = "4.11.0"
 #https://github.com/orbit-mvi/orbit-mvi
