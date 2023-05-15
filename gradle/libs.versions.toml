@@ -31,7 +31,7 @@ glide = "4.15.1"
 #https://github.com/wasabeef/transformers
 transformers = "1.0.6"
 #https://github.com/square/moshi
-moshi = "1.14.0"
+moshi = "1.15.0"
 #https://github.com/square/retrofit
 retrofit = "2.9.0"
 #https://developer.android.com/jetpack/androidx/releases/room
