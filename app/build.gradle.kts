@@ -154,4 +154,6 @@ dependencies {
     implementation(libs.update)
 
     implementation(libs.wechat)
+
+    implementation(libs.alipay)
 }
