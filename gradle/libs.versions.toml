@@ -21,7 +21,7 @@ coroutines = "1.7.1"
 #https://github.com/square/okhttp
 okhttp = "4.11.0"
 #https://github.com/orbit-mvi/orbit-mvi
-mvi = "4.6.1"
+mvi = "5.0.0"
 #https://github.com/InsertKoinIO/koin
 koinCore = "3.4.0"
 koinAndroid = "3.4.0"
@@ -151,7 +151,7 @@ initializer = "com.github.qiushui95:AndroidInitializer:1.0.16"
 jodatime = "joda-time:joda-time:2.12.5"
 
 #https://square.github.io/leakcanary/getting_started/
-leakcanary = "com.squareup.leakcanary:leakcanary-android:2.10"
+leakcanary = "com.squareup.leakcanary:leakcanary-android:2.11"
 
 #https://github.com/Tencent/MMKV/blob/master/README_CN.md
 mmkv = "com.tencent:mmkv-static:1.2.16"
