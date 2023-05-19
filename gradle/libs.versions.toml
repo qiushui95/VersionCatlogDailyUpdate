@@ -21,7 +21,7 @@ coroutines = "1.7.1"
 #https://github.com/square/okhttp
 okhttp = "4.11.0"
 #https://github.com/orbit-mvi/orbit-mvi
-mvi = "5.0.0"
+mvi = "6.0.0"
 #https://github.com/InsertKoinIO/koin
 koinCore = "3.4.0"
 koinAndroid = "3.4.0"
@@ -39,7 +39,7 @@ room = "2.5.1"
 #https://github.com/facebook/stetho
 stetho = "1.6.0"
 #https://github.com/skydoves/landscapist
-landscapist = "2.1.13"
+landscapist = "2.2.0"
 #https://github.com/airbnb/lottie-android
 lottie = "6.0.0"
 #https://github.com/LuckSiege/PictureSelector
@@ -48,6 +48,8 @@ selector = "v3.11.1"
 fragment = "1.5.7"
 #https://github.com/ReactiveCircus/FlowBinding
 flowBinding = "1.2.0"
+#https://github.com/saket/telephoto
+telephoto = "0.3.0"
 
 [plugins]
 #https://github.com/diffplug/spotless
@@ -254,3 +256,9 @@ wechat = { group = "com.tencent.mm.opensdk", name = "wechat-sdk-android", versio
 
 #https://opendocs.alipay.com/open/074rk8?pathHash=bdfba391&ref=api
 alipay = { group = "com.alipay.sdk", name = "alipaysdk-android", version = "15.8.12" }
+
+#https://github.com/saket/telephoto
+telephoto-zoomable = { group = "me.saket.telephoto", name = "zoomable", version.ref = "telephoto" }
+telephoto-coil = { group = "me.saket.telephoto", name = "zoomable-image-coil", version.ref = "telephoto" }
+telephoto-glide = { group = "me.saket.telephoto", name = "zoomable-image-glide", version.ref = "telephoto" }
+telephoto-sampling = { group = "me.saket.telephoto", name = "sub-sampling-image", version.ref = "telephoto" }

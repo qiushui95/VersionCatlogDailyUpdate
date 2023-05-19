@@ -156,4 +156,9 @@ dependencies {
     implementation(libs.wechat)
 
     implementation(libs.alipay)
+
+    implementation(libs.telephoto.zoomable)
+    implementation(libs.telephoto.coil)
+    implementation(libs.telephoto.glide)
+    implementation(libs.telephoto.sampling)
 }
