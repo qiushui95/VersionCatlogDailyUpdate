@@ -50,6 +50,8 @@ fragment = "1.5.7"
 flowBinding = "1.2.0"
 #https://github.com/saket/telephoto
 telephoto = "0.3.0"
+#https://github.com/diffplug/spotless
+spotless = "6.18.0"
 
 [plugins]
 #https://github.com/diffplug/spotless
@@ -65,6 +67,8 @@ gradlePlugin-kotlin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-pl
 #https://github.com/vanniktech/gradle-maven-publish-plugin
 gradlePlugin-mavenPublish = "com.vanniktech:gradle-maven-publish-plugin:0.25.2"
 gradlePlugin-ksp = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
+#https://github.com/diffplug/spotless
+gradlePlugin-spotless = { group = "com.diffplug.spotless", name = "spotless-plugin-gradle", version.ref = "spotless" }
 
 #https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
 android-utils = "com.blankj:utilcodex:1.31.1"
