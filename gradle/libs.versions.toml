@@ -51,7 +51,7 @@ flowBinding = "1.2.0"
 #https://github.com/saket/telephoto
 telephoto = "0.3.0"
 #https://github.com/diffplug/spotless
-spotless = "6.18.0"
+spotless = "6.19.0"
 
 [plugins]
 #https://github.com/diffplug/spotless
