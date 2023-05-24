@@ -259,7 +259,7 @@ update = { group = "io.github.azhon", name = "appupdate", version = "4.2.8" }
 wechat = { group = "com.tencent.mm.opensdk", name = "wechat-sdk-android", version = "6.8.24" }
 
 #https://opendocs.alipay.com/open/074rk8?pathHash=bdfba391&ref=api
-alipay = { group = "com.alipay.sdk", name = "alipaysdk-android", version = "15.8.12" }
+alipay = { group = "com.alipay.sdk", name = "alipaysdk-android", version = "15.8.14" }
 
 #https://github.com/saket/telephoto
 telephoto-zoomable = { group = "me.saket.telephoto", name = "zoomable", version.ref = "telephoto" }
