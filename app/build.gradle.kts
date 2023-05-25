@@ -161,4 +161,6 @@ dependencies {
     implementation(libs.telephoto.coil)
     implementation(libs.telephoto.glide)
     implementation(libs.telephoto.sampling)
+
+    implementation(libs.slider)
 }

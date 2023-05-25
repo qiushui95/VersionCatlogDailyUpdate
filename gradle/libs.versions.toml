@@ -253,7 +253,7 @@ flow-binding-viewpager2 = { group = "io.github.reactivecircus.flowbinding", name
 immutable-collections = { group = "org.jetbrains.kotlinx", name = "kotlinx-collections-immutable-jvm", version = "0.3.5" }
 
 #https://github.com/azhon/AppUpdate
-update = { group = "io.github.azhon", name = "appupdate", version = "4.2.8" }
+update = { group = "io.github.azhon", name = "appupdate", version = "4.2.9" }
 
 #https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html#jump2
 wechat = { group = "com.tencent.mm.opensdk", name = "wechat-sdk-android", version = "6.8.24" }
@@ -266,3 +266,6 @@ telephoto-zoomable = { group = "me.saket.telephoto", name = "zoomable", version.
 telephoto-coil = { group = "me.saket.telephoto", name = "zoomable-image-coil", version.ref = "telephoto" }
 telephoto-glide = { group = "me.saket.telephoto", name = "zoomable-image-glide", version.ref = "telephoto" }
 telephoto-sampling = { group = "me.saket.telephoto", name = "sub-sampling-image", version.ref = "telephoto" }
+
+#https://github.com/SmartToolFactory/Compose-Colorful-Sliders
+slider = { group = "com.github.SmartToolFactory", name = "Compose-Colorful-Sliders", version = "1.2.0" }
