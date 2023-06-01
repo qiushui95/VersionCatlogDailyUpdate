@@ -23,7 +23,7 @@ okhttp = "4.11.0"
 #https://github.com/orbit-mvi/orbit-mvi
 mvi = "6.0.0"
 #https://github.com/InsertKoinIO/koin
-koinCore = "3.4.0"
+koinCore = "3.4.1"
 koinAndroid = "3.4.0"
 koinCompose = "3.4.4"
 #https://github.com/bumptech/glide
