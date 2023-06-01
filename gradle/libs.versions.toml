@@ -25,7 +25,7 @@ mvi = "6.0.0"
 #https://github.com/InsertKoinIO/koin
 koinCore = "3.4.0"
 koinAndroid = "3.4.0"
-koinCompose = "3.4.4"
+koinCompose = "3.4.5"
 #https://github.com/bumptech/glide
 glide = "4.15.1"
 #https://github.com/wasabeef/transformers
