@@ -57,7 +57,7 @@ spotless = "6.19.0"
 #https://github.com/diffplug/spotless
 spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
-validator = "org.jetbrains.kotlinx.binary-compatibility-validator:0.13.1"
+validator = "org.jetbrains.kotlinx.binary-compatibility-validator:0.13.2"
 library = { id = "com.android.library", version.ref = "agp" }
 kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 
