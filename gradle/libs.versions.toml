@@ -49,7 +49,7 @@ fragment = "1.5.7"
 #https://github.com/ReactiveCircus/FlowBinding
 flowBinding = "1.2.0"
 #https://github.com/saket/telephoto
-telephoto = "0.3.0"
+telephoto = "0.4.0"
 #https://github.com/diffplug/spotless
 spotless = "6.19.0"
 
