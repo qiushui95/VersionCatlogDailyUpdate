@@ -41,7 +41,7 @@ stetho = "1.6.0"
 #https://github.com/skydoves/landscapist
 landscapist = "2.2.1"
 #https://github.com/airbnb/lottie-android
-lottie = "6.0.0"
+lottie = "6.0.1"
 #https://github.com/LuckSiege/PictureSelector
 selector = "v3.11.1"
 #https://developer.android.com/jetpack/androidx/releases/fragment
