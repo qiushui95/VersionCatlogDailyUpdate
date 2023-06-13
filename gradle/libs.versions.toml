@@ -23,6 +23,9 @@ coroutines = "1.7.1"
 #https://github.com/ReactiveCircus/FlowBinding
 flowBinding = "1.2.0"
 
+#https://github.com/respawn-app/FlowMVI
+flowmvi = "1.1.4"
+
 #https://developer.android.com/jetpack/androidx/releases/fragment
 fragment = "1.5.7"
 
@@ -156,6 +159,12 @@ flow-binding-recyclerview = { group = "io.github.reactivecircus.flowbinding", na
 flow-binding-swiperefreshlayout = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-swiperefreshlayout", version.ref = "flowBinding" }
 flow-binding-viewpager = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-viewpager", version.ref = "flowBinding" }
 flow-binding-viewpager2 = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-viewpager2", version.ref = "flowBinding" }
+
+#https://github.com/respawn-app/FlowMVI
+flowmvi-android = { module = "pro.respawn.flowmvi:android", version.ref = "flowmvi" }
+flowmvi-compose = { module = "pro.respawn.flowmvi:android-compose", version.ref = "flowmvi" }
+flowmvi-core = { module = "pro.respawn.flowmvi:core", version.ref = "flowmvi" }
+flowmvi-view = { module = "pro.respawn.flowmvi:android-view", version.ref = "flowmvi" }
 
 #https://developer.android.com/jetpack/androidx/releases/fragment
 fragment-core = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragment" }
