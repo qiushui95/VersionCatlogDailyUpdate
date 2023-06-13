@@ -41,7 +41,7 @@ koinCore = "3.4.2"
 kotlin = "1.8.21"
 
 #https://github.com/google/ksp
-ksp = "1.8.21-1.0.11"
+ksp = "1.8.22-1.0.11"
 
 #https://github.com/skydoves/landscapist
 landscapist = "2.2.1"
