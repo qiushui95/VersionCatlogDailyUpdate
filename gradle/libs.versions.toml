@@ -1,94 +1,113 @@
 [versions]
-#TODO
-agp = "8.0.2"
-#https://developer.android.com/jetpack/androidx/releases/compose-compiler
-composeCompiler = "1.4.7"
-#https://github.com/google/ksp
-ksp = "1.8.21-1.0.11"
-#https://github.com/JetBrains/kotlin
-kotlin = "1.8.21"
 #https://github.com/google/accompanist
 accompanist = "0.30.1"
+
 #https://developer.android.com/jetpack/androidx/releases/activity
 activity = "1.7.2"
+
+#TODO
+agp = "8.0.2"
+
 #https://developer.android.com/jetpack/androidx/releases/appcompat
 appcompat = "1.6.1"
-#https://developer.android.com/jetpack/androidx/releases/lifecycle
-lifecycle = "2.6.1"
+
 #https://developer.android.com/jetpack/androidx/releases/compose
 compose = "1.4.3"
+
+#https://developer.android.com/jetpack/androidx/releases/compose-compiler
+composeCompiler = "1.4.7"
+
 #https://github.com/Kotlin/kotlinx.coroutines
 coroutines = "1.7.1"
-#https://github.com/square/okhttp
-okhttp = "4.11.0"
-#https://github.com/orbit-mvi/orbit-mvi
-mvi = "6.0.0"
-#https://github.com/InsertKoinIO/koin
-koinCore = "3.4.2"
-koinAndroid = "3.4.2"
-koinCompose = "3.4.5"
-#https://github.com/bumptech/glide
-glide = "4.15.1"
-#https://github.com/wasabeef/transformers
-transformers = "1.0.6"
-#https://github.com/square/moshi
-moshi = "1.15.0"
-#https://github.com/square/retrofit
-retrofit = "2.9.0"
-#https://developer.android.com/jetpack/androidx/releases/room
-room = "2.5.1"
-#https://github.com/facebook/stetho
-stetho = "1.6.0"
-#https://github.com/skydoves/landscapist
-landscapist = "2.2.1"
-#https://github.com/airbnb/lottie-android
-lottie = "6.0.1"
-#https://github.com/LuckSiege/PictureSelector
-selector = "v3.11.1"
-#https://developer.android.com/jetpack/androidx/releases/fragment
-fragment = "1.5.7"
+
 #https://github.com/ReactiveCircus/FlowBinding
 flowBinding = "1.2.0"
-#https://github.com/saket/telephoto
-telephoto = "0.4.0"
-#https://github.com/diffplug/spotless
-spotless = "6.19.0"
+
+#https://developer.android.com/jetpack/androidx/releases/fragment
+fragment = "1.5.7"
+
+#https://github.com/bumptech/glide
+glide = "4.15.1"
+
 #https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
 junit = "5.9.3"
 
+#https://github.com/InsertKoinIO/koin
+koinAndroid = "3.4.2"
+koinCompose = "3.4.5"
+koinCore = "3.4.2"
+
+#https://github.com/JetBrains/kotlin
+kotlin = "1.8.21"
+
+#https://github.com/google/ksp
+ksp = "1.8.21-1.0.11"
+
+#https://github.com/skydoves/landscapist
+landscapist = "2.2.1"
+
+#https://developer.android.com/jetpack/androidx/releases/lifecycle
+lifecycle = "2.6.1"
+
+#https://github.com/airbnb/lottie-android
+lottie = "6.0.1"
+
+#https://github.com/square/moshi
+moshi = "1.15.0"
+
+#https://github.com/orbit-mvi/orbit-mvi
+mvi = "6.0.0"
+
+#https://github.com/square/okhttp
+okhttp = "4.11.0"
+
+#https://github.com/square/retrofit
+retrofit = "2.9.0"
+
+#https://developer.android.com/jetpack/androidx/releases/room
+room = "2.5.1"
+
+#https://github.com/LuckSiege/PictureSelector
+selector = "v3.11.1"
+
+#https://github.com/diffplug/spotless
+spotless = "6.19.0"
+
+#https://github.com/facebook/stetho
+stetho = "1.6.0"
+
+#https://github.com/saket/telephoto
+telephoto = "0.4.0"
+
+#https://github.com/wasabeef/transformers
+transformers = "1.0.6"
+
 [plugins]
-spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
+kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 library = { id = "com.android.library", version.ref = "agp" }
-kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
 
 [libraries]
-#TODO
-gradlePlugin-android = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
-#https://github.com/JetBrains/kotlin
-gradlePlugin-kotlin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
-#https://github.com/vanniktech/gradle-maven-publish-plugin
-gradlePlugin-mavenPublish = "com.vanniktech:gradle-maven-publish-plugin:0.25.2"
-#https://github.com/google/ksp
-gradlePlugin-ksp = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
-#https://github.com/diffplug/spotless
-gradlePlugin-spotless = { group = "com.diffplug.spotless", name = "spotless-plugin-gradle", version.ref = "spotless" }
-#https://github.com/mannodermaus/android-junit5
-gradlePlugin-junit5 = { group = "de.mannodermaus.gradle.plugins", name = "android-junit5", version = "1.9.3.0" }
-
-#https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
-android-utils = "com.blankj:utilcodex:1.31.1"
-
 #https://github.com/google/accompanist
-accompanist-uicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version.ref = "accompanist" }
 accompanist-drawablepainter = { group = "com.google.accompanist", name = "accompanist-drawablepainter", version.ref = "accompanist" }
-accompanist-placeholder = { group = "com.google.accompanist", name = "accompanist-placeholder", version.ref = "accompanist" }
 accompanist-flowlayout = { group = "com.google.accompanist", name = "accompanist-flowlayout", version.ref = "accompanist" }
+accompanist-placeholder = { group = "com.google.accompanist", name = "accompanist-placeholder", version.ref = "accompanist" }
+accompanist-uicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version.ref = "accompanist" }
 accompanist-webview = { group = "com.google.accompanist", name = "accompanist-webview", version.ref = "accompanist" }
 
 #https://developer.android.com/jetpack/androidx/releases/activity
-activity-core = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity" }
 activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity" }
+activity-core = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity" }
+
+#https://help.aliyun.com/document_detail/32043.html?spm=a2c4g.32041.0.0.5c6b3c6bC8T5kQ
+alioss = { group = "com.aliyun.dpa", name = "oss-android-sdk", version = "2.9.13" }
+
+#https://opendocs.alipay.com/open/074rk8?pathHash=bdfba391&ref=api
+alipay = { group = "com.alipay.sdk", name = "alipaysdk-android", version = "15.8.14" }
+
+#https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
+android-utils = "com.blankj:utilcodex:1.31.1"
 
 #https://developer.android.com/jetpack/androidx/releases/annotation
 annotation = "androidx.annotation:annotation:1.6.0"
@@ -97,138 +116,8 @@ annotation = "androidx.annotation:annotation:1.6.0"
 appcompat-core = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 appcompat-resources = { group = "androidx.appcompat", name = "appcompat-resources", version.ref = "appcompat" }
 
-#https://developer.android.com/jetpack/androidx/releases/core
-core = "androidx.core:core-ktx:1.9.0"
-core-splash = "androidx.core:core-splashscreen:1.0.1"
-
-#https://developer.android.com/jetpack/androidx/releases/lifecycle
-lifecycle-runtime = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle" }
-lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
-lifecycle-viewmodel-savedstate = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-savedstate", version.ref = "lifecycle" }
-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycle" }
-lifecycle-process = { group = "androidx.lifecycle", name = "lifecycle-process", version.ref = "lifecycle" }
-lifecycle-service = { group = "androidx.lifecycle", name = "lifecycle-service", version.ref = "lifecycle" }
-
-#https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
-test-junit-api = { group = "org.junit.jupiter", name = "junit-jupiter-api", version.ref = "junit" }
-test-junit-engine = { group = "org.junit.jupiter", name = "junit-jupiter-engine", version.ref = "junit" }
-test-junit-params = { group = "org.junit.jupiter", name = "junit-jupiter-params", version.ref = "junit" }
-#https://mvnrepository.com/artifact/androidx.test/core-ktx
-test-core = "androidx.test:core-ktx:1.5.0"
-#https://mvnrepository.com/artifact/androidx.test.espresso/espresso-core
-test-espresso = "androidx.test.espresso:espresso-core:3.5.1"
-#https://mvnrepository.com/artifact/androidx.test.ext/junit-ktx
-test-junit-ext = "androidx.test.ext:junit-ktx:1.1.5"
-#https://mvnrepository.com/artifact/androidx.test/rules
-test-rules = "androidx.test:rules:1.5.0"
-#https://mvnrepository.com/artifact/androidx.test/runner
-test-runner = "androidx.test:runner:1.5.2"
-#https://mvnrepository.com/artifact/androidx.test.uiautomator/uiautomator
-test-uiautomator = "androidx.test.uiautomator:uiautomator:2.2.0"
-
-#https://developer.android.com/jetpack/androidx/releases/compose
-compose-runtime = { group = "androidx.compose.runtime", name = "runtime", version.ref = "compose" }
-compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "compose" }
-compose-material = { group = "androidx.compose.material", name = "material", version.ref = "compose" }
-compose-tooling = { group = "androidx.compose.ui", name = "ui-tooling", version.ref = "compose" }
-compose-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview", version.ref = "compose" }
-compose-ui-test = { group = "androidx.compose.ui", name = "ui-test-junit4", version.ref = "compose" }
-
-#https://github.com/Kotlin/kotlinx.coroutines
-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines" }
-
-#https://github.com/JetBrains/kotlin
-kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
-kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin" }
-
-#https://github.com/pinterest/ktlint
-ktlint = "com.pinterest.ktlint:ktlint-core:0.49.1"
-
-#https://github.com/material-components/material-components-android
-material = "com.google.android.material:material:1.9.0"
-
-#https://github.com/square/okhttp
-okhttp-core = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
-okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
-okhttp-mockwebserver = { group = "com.squareup.okhttp3", name = "mockwebserver", version.ref = "okhttp" }
-
-#https://github.com/orbit-mvi/orbit-mvi
-mvi-core = { group = "org.orbit-mvi", name = "orbit-core", version.ref = "mvi" }
-mvi-vm = { group = "org.orbit-mvi", name = "orbit-viewmodel", version.ref = "mvi" }
-mvi-compose = { group = "org.orbit-mvi", name = "orbit-compose", version.ref = "mvi" }
-mvi-test = { group = "org.orbit-mvi", name = "orbit-test", version.ref = "mvi" }
-
-#https://github.com/InsertKoinIO/koin
-koin-core = { group = "io.insert-koin", name = "koin-core", version.ref = "koinCore" }
-koin-android = { group = "io.insert-koin", name = "koin-android", version.ref = "koinAndroid" }
-koin-compose = { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koinCompose" }
-
-#https://github.com/qiushui95/AndroidInitializer
-initializer = "com.github.qiushui95:AndroidInitializer:1.0.16"
-
-#https://github.com/JodaOrg/joda-time
-jodatime = "joda-time:joda-time:2.12.5"
-
-#https://square.github.io/leakcanary/getting_started/
-leakcanary = "com.squareup.leakcanary:leakcanary-android:2.11"
-
-#https://github.com/Tencent/MMKV/blob/master/README_CN.md
-mmkv = "com.tencent:mmkv-static:1.2.16"
-
-#https://github.com/iqiyi/xCrash/blob/master/README.zh-CN.md
-xcrash = "com.iqiyi.xcrash:xcrash-android-lib:3.1.0"
-
-#https://github.com/li-xiaojun/XPopup
-xpopup = "com.github.li-xiaojun:XPopup:2.9.19"
-
-#https://github.com/getActivity/XXPermissions
-permission = "com.github.getActivity:XXPermissions:18.0"
-
-#https://github.com/srikanth-lingala/zip4j
-zip4j = "net.lingala.zip4j:zip4j:2.11.5"
-
 #https://bugly.qq.com/docs/user-guide/instruction-manual-android/?v=1.0.0
 bugly = "com.tencent.bugly:crashreport:4.1.9.2"
-
-#https://github.com/bumptech/glide
-glide-core = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
-glide-ksp = { group = "com.github.bumptech.glide", name = "ksp", version.ref = "glide" }
-glide-okhttp = { group = "com.github.bumptech.glide", name = "okhttp3-integration", version.ref = "glide" }
-
-#https://github.com/wasabeef/transformers
-transformers-core = { group = "jp.wasabeef.transformers", name = "core", version.ref = "transformers" }
-transformers-glide = { group = "jp.wasabeef.transformers", name = "glide", version.ref = "transformers" }
-transformers-gpu = { group = "jp.wasabeef.transformers", name = "glide-gpu", version.ref = "transformers" }
-
-#https://github.com/square/moshi
-moshi-core = { group = "com.squareup.moshi", name = "moshi", version.ref = "moshi" }
-moshi-ksp = { group = "com.squareup.moshi", name = "moshi-kotlin-codegen", version.ref = "moshi" }
-
-#https://github.com/square/retrofit
-retrofit-core = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
-retrofit-moshi = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofit" }
-retrofit-scalars = { group = "com.squareup.retrofit2", name = "converter-scalars", version.ref = "retrofit" }
-
-#https://developer.android.com/jetpack/androidx/releases/room
-room-core = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
-room-ksp = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
-
-#https://github.com/facebook/stetho
-stetho-core = { group = "com.facebook.stetho", name = "stetho", version.ref = "stetho" }
-stetho-okhttp = { group = "com.facebook.stetho", name = "stetho-okhttp3", version.ref = "stetho" }
-
-#https://github.com/skydoves/landscapist
-landscapist-glide = { group = "com.github.skydoves", name = "landscapist-glide", version.ref = "landscapist" }
-landscapist-placeholder = { group = "com.github.skydoves", name = "landscapist-placeholder", version.ref = "landscapist" }
-landscapist-animation = { group = "com.github.skydoves", name = "landscapist-animation", version.ref = "landscapist" }
-landscapist-transformation = { group = "com.github.skydoves", name = "landscapist-transformation", version.ref = "landscapist" }
-landscapist-palette = { group = "com.github.skydoves", name = "landscapist-palette", version.ref = "landscapist" }
-
-#https://github.com/airbnb/lottie-android
-lottie-view = { group = "com.airbnb.android", name = "lottie", version.ref = "lottie" }
-lottie-compose = { group = "com.airbnb.android", name = "lottie-compose", version.ref = "lottie" }
 
 #https://github.com/ChuckerTeam/chucker
 chucker = "com.github.chuckerteam.chucker:library:3.5.2"
@@ -236,24 +125,28 @@ chucker = "com.github.chuckerteam.chucker:library:3.5.2"
 #https://developer.android.com/jetpack/androidx/releases/constraintlayout
 compose-constraint = "androidx.constraintlayout:constraintlayout-compose:1.0.1"
 
-#https://github.com/LuckSiege/PictureSelector
-selector-core = { group = "io.github.lucksiege", name = "pictureselector", version.ref = "selector" }
-selector-compress = { group = "io.github.lucksiege", name = "compress", version.ref = "selector" }
-selector-crop = { group = "io.github.lucksiege", name = "ucrop", version.ref = "selector" }
-selector-camerax = { group = "io.github.lucksiege", name = "camerax", version.ref = "selector" }
+#https://developer.android.com/jetpack/androidx/releases/compose
+compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "compose" }
+compose-material = { group = "androidx.compose.material", name = "material", version.ref = "compose" }
+compose-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview", version.ref = "compose" }
+compose-runtime = { group = "androidx.compose.runtime", name = "runtime", version.ref = "compose" }
+compose-tooling = { group = "androidx.compose.ui", name = "ui-tooling", version.ref = "compose" }
+compose-ui-test = { group = "androidx.compose.ui", name = "ui-test-junit4", version.ref = "compose" }
 
-#https://help.aliyun.com/document_detail/32043.html?spm=a2c4g.32041.0.0.5c6b3c6bC8T5kQ
-alioss = { group = "com.aliyun.dpa", name = "oss-android-sdk", version = "2.9.13" }
+#https://developer.android.com/jetpack/androidx/releases/core
+core = "androidx.core:core-ktx:1.9.0"
+core-splash = "androidx.core:core-splashscreen:1.0.1"
 
-#https://developer.android.com/jetpack/androidx/releases/fragment
-fragment-core = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragment" }
-fragment-test = { group = "androidx.fragment", name = "fragment-testing", version.ref = "fragment" }
+#https://github.com/Kotlin/kotlinx.coroutines
+coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
+coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines" }
 
 #https://github.com/ReactiveCircus/FlowBinding
-flow-binding-core = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-core", version.ref = "flowBinding" }
 flow-binding-activity = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-activity", version.ref = "flowBinding" }
 flow-binding-android = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-android", version.ref = "flowBinding" }
 flow-binding-appcompat = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-appcompat", version.ref = "flowBinding" }
+flow-binding-core = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-core", version.ref = "flowBinding" }
 flow-binding-drawerlayout = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-drawerlayout", version.ref = "flowBinding" }
 flow-binding-lifecycle = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-lifecycle", version.ref = "flowBinding" }
 flow-binding-material = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-material", version.ref = "flowBinding" }
@@ -264,8 +157,155 @@ flow-binding-swiperefreshlayout = { group = "io.github.reactivecircus.flowbindin
 flow-binding-viewpager = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-viewpager", version.ref = "flowBinding" }
 flow-binding-viewpager2 = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-viewpager2", version.ref = "flowBinding" }
 
+#https://developer.android.com/jetpack/androidx/releases/fragment
+fragment-core = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragment" }
+fragment-test = { group = "androidx.fragment", name = "fragment-testing", version.ref = "fragment" }
+
+#https://github.com/bumptech/glide
+glide-core = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+glide-ksp = { group = "com.github.bumptech.glide", name = "ksp", version.ref = "glide" }
+glide-okhttp = { group = "com.github.bumptech.glide", name = "okhttp3-integration", version.ref = "glide" }
+
+#TODO
+gradlePlugin-android = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
+
+#https://github.com/mannodermaus/android-junit5
+gradlePlugin-junit5 = { group = "de.mannodermaus.gradle.plugins", name = "android-junit5", version = "1.9.3.0" }
+
+#https://github.com/JetBrains/kotlin
+gradlePlugin-kotlin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+
+#https://github.com/google/ksp
+gradlePlugin-ksp = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
+
+#https://github.com/vanniktech/gradle-maven-publish-plugin
+gradlePlugin-mavenPublish = "com.vanniktech:gradle-maven-publish-plugin:0.25.2"
+
+#https://github.com/diffplug/spotless
+gradlePlugin-spotless = { group = "com.diffplug.spotless", name = "spotless-plugin-gradle", version.ref = "spotless" }
+
 #https://github.com/Kotlin/kotlinx.collections.immutable
 immutable-collections = { group = "org.jetbrains.kotlinx", name = "kotlinx-collections-immutable-jvm", version = "0.3.5" }
+
+#https://github.com/qiushui95/AndroidInitializer
+initializer = "com.github.qiushui95:AndroidInitializer:1.0.16"
+
+#https://github.com/JodaOrg/joda-time
+jodatime = "joda-time:joda-time:2.12.5"
+
+#https://github.com/InsertKoinIO/koin
+koin-android = { group = "io.insert-koin", name = "koin-android", version.ref = "koinAndroid" }
+koin-compose = { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koinCompose" }
+koin-core = { group = "io.insert-koin", name = "koin-core", version.ref = "koinCore" }
+
+#https://github.com/JetBrains/kotlin
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin" }
+
+#https://github.com/pinterest/ktlint
+ktlint = "com.pinterest.ktlint:ktlint-core:0.49.1"
+
+#https://github.com/skydoves/landscapist
+landscapist-animation = { group = "com.github.skydoves", name = "landscapist-animation", version.ref = "landscapist" }
+landscapist-glide = { group = "com.github.skydoves", name = "landscapist-glide", version.ref = "landscapist" }
+landscapist-palette = { group = "com.github.skydoves", name = "landscapist-palette", version.ref = "landscapist" }
+landscapist-placeholder = { group = "com.github.skydoves", name = "landscapist-placeholder", version.ref = "landscapist" }
+landscapist-transformation = { group = "com.github.skydoves", name = "landscapist-transformation", version.ref = "landscapist" }
+
+#https://square.github.io/leakcanary/getting_started/
+leakcanary = "com.squareup.leakcanary:leakcanary-android:2.11"
+
+#https://developer.android.com/jetpack/androidx/releases/lifecycle
+lifecycle-process = { group = "androidx.lifecycle", name = "lifecycle-process", version.ref = "lifecycle" }
+lifecycle-runtime = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle" }
+lifecycle-service = { group = "androidx.lifecycle", name = "lifecycle-service", version.ref = "lifecycle" }
+lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycle" }
+lifecycle-viewmodel-savedstate = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-savedstate", version.ref = "lifecycle" }
+
+#https://github.com/airbnb/lottie-android
+lottie-compose = { group = "com.airbnb.android", name = "lottie-compose", version.ref = "lottie" }
+lottie-view = { group = "com.airbnb.android", name = "lottie", version.ref = "lottie" }
+
+#https://github.com/material-components/material-components-android
+material = "com.google.android.material:material:1.9.0"
+
+#https://github.com/Tencent/MMKV/blob/master/README_CN.md
+mmkv = "com.tencent:mmkv-static:1.2.16"
+
+#https://github.com/square/moshi
+moshi-core = { group = "com.squareup.moshi", name = "moshi", version.ref = "moshi" }
+moshi-ksp = { group = "com.squareup.moshi", name = "moshi-kotlin-codegen", version.ref = "moshi" }
+
+#https://github.com/orbit-mvi/orbit-mvi
+mvi-compose = { group = "org.orbit-mvi", name = "orbit-compose", version.ref = "mvi" }
+mvi-core = { group = "org.orbit-mvi", name = "orbit-core", version.ref = "mvi" }
+mvi-test = { group = "org.orbit-mvi", name = "orbit-test", version.ref = "mvi" }
+mvi-vm = { group = "org.orbit-mvi", name = "orbit-viewmodel", version.ref = "mvi" }
+
+#https://github.com/square/okhttp
+okhttp-core = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+okhttp-mockwebserver = { group = "com.squareup.okhttp3", name = "mockwebserver", version.ref = "okhttp" }
+
+#https://github.com/getActivity/XXPermissions
+permission = "com.github.getActivity:XXPermissions:18.0"
+
+#https://github.com/square/retrofit
+retrofit-core = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofit-moshi = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofit" }
+retrofit-scalars = { group = "com.squareup.retrofit2", name = "converter-scalars", version.ref = "retrofit" }
+
+#https://developer.android.com/jetpack/androidx/releases/room
+room-core = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+room-ksp = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+
+#https://github.com/LuckSiege/PictureSelector
+selector-camerax = { group = "io.github.lucksiege", name = "camerax", version.ref = "selector" }
+selector-compress = { group = "io.github.lucksiege", name = "compress", version.ref = "selector" }
+selector-core = { group = "io.github.lucksiege", name = "pictureselector", version.ref = "selector" }
+selector-crop = { group = "io.github.lucksiege", name = "ucrop", version.ref = "selector" }
+
+#https://github.com/SmartToolFactory/Compose-Colorful-Sliders
+slider = { group = "com.github.SmartToolFactory", name = "Compose-Colorful-Sliders", version = "1.2.0" }
+
+#https://github.com/facebook/stetho
+stetho-core = { group = "com.facebook.stetho", name = "stetho", version.ref = "stetho" }
+stetho-okhttp = { group = "com.facebook.stetho", name = "stetho-okhttp3", version.ref = "stetho" }
+
+#https://github.com/saket/telephoto
+telephoto-coil = { group = "me.saket.telephoto", name = "zoomable-image-coil", version.ref = "telephoto" }
+telephoto-glide = { group = "me.saket.telephoto", name = "zoomable-image-glide", version.ref = "telephoto" }
+telephoto-sampling = { group = "me.saket.telephoto", name = "sub-sampling-image", version.ref = "telephoto" }
+telephoto-zoomable = { group = "me.saket.telephoto", name = "zoomable", version.ref = "telephoto" }
+
+#https://mvnrepository.com/artifact/androidx.test/core-ktx
+test-core = "androidx.test:core-ktx:1.5.0"
+
+#https://mvnrepository.com/artifact/androidx.test.espresso/espresso-core
+test-espresso = "androidx.test.espresso:espresso-core:3.5.1"
+
+#https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
+test-junit-api = { group = "org.junit.jupiter", name = "junit-jupiter-api", version.ref = "junit" }
+test-junit-engine = { group = "org.junit.jupiter", name = "junit-jupiter-engine", version.ref = "junit" }
+test-junit-params = { group = "org.junit.jupiter", name = "junit-jupiter-params", version.ref = "junit" }
+
+#https://mvnrepository.com/artifact/androidx.test.ext/junit-ktx
+test-junit-ext = "androidx.test.ext:junit-ktx:1.1.5"
+
+#https://mvnrepository.com/artifact/androidx.test/rules
+test-rules = "androidx.test:rules:1.5.0"
+
+#https://mvnrepository.com/artifact/androidx.test/runner
+test-runner = "androidx.test:runner:1.5.2"
+
+#https://mvnrepository.com/artifact/androidx.test.uiautomator/uiautomator
+test-uiautomator = "androidx.test.uiautomator:uiautomator:2.2.0"
+
+#https://github.com/wasabeef/transformers
+transformers-core = { group = "jp.wasabeef.transformers", name = "core", version.ref = "transformers" }
+transformers-glide = { group = "jp.wasabeef.transformers", name = "glide", version.ref = "transformers" }
+transformers-gpu = { group = "jp.wasabeef.transformers", name = "glide-gpu", version.ref = "transformers" }
 
 #https://github.com/azhon/AppUpdate
 update = { group = "io.github.azhon", name = "appupdate", version = "4.2.9" }
@@ -273,14 +313,11 @@ update = { group = "io.github.azhon", name = "appupdate", version = "4.2.9" }
 #https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html#jump2
 wechat = { group = "com.tencent.mm.opensdk", name = "wechat-sdk-android", version = "6.8.24" }
 
-#https://opendocs.alipay.com/open/074rk8?pathHash=bdfba391&ref=api
-alipay = { group = "com.alipay.sdk", name = "alipaysdk-android", version = "15.8.14" }
+#https://github.com/iqiyi/xCrash/blob/master/README.zh-CN.md
+xcrash = "com.iqiyi.xcrash:xcrash-android-lib:3.1.0"
 
-#https://github.com/saket/telephoto
-telephoto-zoomable = { group = "me.saket.telephoto", name = "zoomable", version.ref = "telephoto" }
-telephoto-coil = { group = "me.saket.telephoto", name = "zoomable-image-coil", version.ref = "telephoto" }
-telephoto-glide = { group = "me.saket.telephoto", name = "zoomable-image-glide", version.ref = "telephoto" }
-telephoto-sampling = { group = "me.saket.telephoto", name = "sub-sampling-image", version.ref = "telephoto" }
+#https://github.com/li-xiaojun/XPopup
+xpopup = "com.github.li-xiaojun:XPopup:2.9.19"
 
-#https://github.com/SmartToolFactory/Compose-Colorful-Sliders
-slider = { group = "com.github.SmartToolFactory", name = "Compose-Colorful-Sliders", version = "1.2.0" }
+#https://github.com/srikanth-lingala/zip4j
+zip4j = "net.lingala.zip4j:zip4j:2.11.5"
