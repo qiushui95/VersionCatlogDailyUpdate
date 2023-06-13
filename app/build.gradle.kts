@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("de.mannodermaus.android-junit5")
     alias(libs.plugins.ksp)
 }
 
@@ -26,18 +27,28 @@ android {
             )
         }
     }
-
-
+    
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
+
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "17"
     }
 }
 
 dependencies {
+
+    testImplementation(libs.test.junit.api)
+    testRuntimeOnly(libs.test.junit.engine)
+    testImplementation(libs.test.junit.params)
+    androidTestImplementation(libs.test.core)
+    androidTestImplementation(libs.test.espresso)
+    androidTestImplementation(libs.test.junit.ext)
+    androidTestImplementation(libs.test.rules)
+    androidTestImplementation(libs.test.runner)
+    androidTestImplementation(libs.test.uiautomator)
 
     implementation(libs.accompanist.drawablepainter)
     implementation(libs.accompanist.placeholder)
