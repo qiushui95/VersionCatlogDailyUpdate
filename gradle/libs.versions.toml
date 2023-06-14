@@ -9,7 +9,7 @@ activity = "1.7.2"
 agp = "8.0.2"
 
 #https://help.aliyun.com/document_detail/32043.html?spm=a2c4g.32041.0.0.5c6b3c6bC8T5kQ
-alioss = "2.9.13"
+alioss = "2.9.14"
 
 #https://opendocs.alipay.com/open/074rk8?pathHash=bdfba391&ref=api
 alipay = "15.8.14"
