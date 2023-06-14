@@ -149,11 +149,17 @@ class ExampleUnitTest {
             }
         }
 
-        resultList.addLine()
+        repeat(5) {
+            resultList.addLine()
+        }
+
         resultList.add("[plugins]")
         pluginList.map { it.line }.forEach(resultList::add)
 
-        resultList.addLine()
+        repeat(5) {
+            resultList.addLine()
+        }
+
         resultList.add("[libraries]")
 
         libraryList.forEachIndexed { index, group ->

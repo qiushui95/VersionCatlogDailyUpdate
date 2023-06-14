@@ -8,14 +8,41 @@ activity = "1.7.2"
 #TODO
 agp = "8.0.2"
 
+#https://help.aliyun.com/document_detail/32043.html?spm=a2c4g.32041.0.0.5c6b3c6bC8T5kQ
+alioss = "2.9.13"
+
+#https://opendocs.alipay.com/open/074rk8?pathHash=bdfba391&ref=api
+alipay = "15.8.14"
+
+#https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
+androidutils = "1.31.1"
+
+#https://developer.android.com/jetpack/androidx/releases/annotation
+annotation = "1.6.0"
+
 #https://developer.android.com/jetpack/androidx/releases/appcompat
 appcompat = "1.6.1"
+
+#https://bugly.qq.com/docs/user-guide/instruction-manual-android/?v=1.0.0
+bugly = "4.1.9.2"
+
+#https://github.com/ChuckerTeam/chucker
+chucker = "3.5.2"
 
 #https://developer.android.com/jetpack/androidx/releases/compose
 compose = "1.4.3"
 
 #https://developer.android.com/jetpack/androidx/releases/compose-compiler
 composeCompiler = "1.4.7"
+
+#https://developer.android.com/jetpack/androidx/releases/constraintlayout
+composeconstraint = "1.0.1"
+
+#https://developer.android.com/jetpack/androidx/releases/core
+corektx = "1.9.0"
+
+#https://developer.android.com/jetpack/androidx/releases/core
+coresplash = "1.0.1"
 
 #https://github.com/Kotlin/kotlinx.coroutines
 coroutines = "1.7.1"
@@ -32,8 +59,20 @@ fragment = "1.5.7"
 #https://github.com/bumptech/glide
 glide = "4.15.1"
 
+#https://github.com/Kotlin/kotlinx.collections.immutable
+immutablecollections = "0.3.5"
+
+#https://github.com/qiushui95/AndroidInitializer
+initializer = "1.0.16"
+
+#https://github.com/JodaOrg/joda-time
+jodatime = "2.12.5"
+
 #https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
 junit = "5.9.3"
+
+#https://github.com/mannodermaus/android-junit5
+junit5 = "1.9.3.0"
 
 #https://github.com/InsertKoinIO/koin
 koinAndroid = "3.4.2"
@@ -46,14 +85,29 @@ kotlin = "1.8.21"
 #https://github.com/google/ksp
 ksp = "1.8.21-1.0.11"
 
+#https://github.com/pinterest/ktlint
+ktlint = "0.49.1"
+
 #https://github.com/skydoves/landscapist
 landscapist = "2.2.1"
+
+#https://square.github.io/leakcanary/getting_started/
+leakcanary = "2.11"
 
 #https://developer.android.com/jetpack/androidx/releases/lifecycle
 lifecycle = "2.6.1"
 
 #https://github.com/airbnb/lottie-android
 lottie = "6.0.1"
+
+#https://github.com/material-components/material-components-android
+material = "1.9.0"
+
+#https://github.com/vanniktech/gradle-maven-publish-plugin
+mavenpublish = "0.25.2"
+
+#https://github.com/Tencent/MMKV/blob/master/README_CN.md
+mmkv = "1.2.16"
 
 #https://github.com/square/moshi
 moshi = "1.15.0"
@@ -64,6 +118,9 @@ mvi = "6.0.0"
 #https://github.com/square/okhttp
 okhttp = "4.11.0"
 
+#https://github.com/getActivity/XXPermissions
+permission = "18.0"
+
 #https://github.com/square/retrofit
 retrofit = "2.9.0"
 
@@ -72,6 +129,9 @@ room = "2.5.1"
 
 #https://github.com/LuckSiege/PictureSelector
 selector = "v3.11.1"
+
+#https://github.com/SmartToolFactory/Compose-Colorful-Sliders
+slider = "1.2.0"
 
 #https://github.com/diffplug/spotless
 spotless = "6.19.0"
@@ -85,11 +145,33 @@ telephoto = "0.4.0"
 #https://github.com/wasabeef/transformers
 transformers = "1.0.6"
 
+#https://github.com/azhon/AppUpdate
+update = "4.2.9"
+
+#https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html#jump2
+wechat = "6.8.24"
+
+#https://github.com/iqiyi/xCrash/blob/master/README.zh-CN.md
+xcrash = "3.1.0"
+
+#https://github.com/li-xiaojun/XPopup
+xpopup = "2.9.19"
+
+
+
+
+
 [plugins]
+application = { id = "com.android.application", version.ref = "agp" }
+junit5 = { id = "de.mannodermaus.android-junit5", version.ref = "junit5" }
 kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 library = { id = "com.android.library", version.ref = "agp" }
 spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
+
+
+
+
 
 [libraries]
 #https://github.com/google/accompanist
@@ -104,29 +186,29 @@ activity-compose = { group = "androidx.activity", name = "activity-compose", ver
 activity-core = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity" }
 
 #https://help.aliyun.com/document_detail/32043.html?spm=a2c4g.32041.0.0.5c6b3c6bC8T5kQ
-alioss = { group = "com.aliyun.dpa", name = "oss-android-sdk", version = "2.9.13" }
+alioss = { group = "com.aliyun.dpa", name = "oss-android-sdk", version.ref = "alioss" }
 
 #https://opendocs.alipay.com/open/074rk8?pathHash=bdfba391&ref=api
-alipay = { group = "com.alipay.sdk", name = "alipaysdk-android", version = "15.8.14" }
+alipay = { group = "com.alipay.sdk", name = "alipaysdk-android", version.ref = "alipay" }
 
 #https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
-android-utils = "com.blankj:utilcodex:1.31.1"
+android-utils = { group = "com.blankj", name = "utilcodex", version.ref = "androidutils" }
 
 #https://developer.android.com/jetpack/androidx/releases/annotation
-annotation = "androidx.annotation:annotation:1.6.0"
+annotation = { group = "androidx.annotation", name = "annotation", version.ref = "annotation" }
 
 #https://developer.android.com/jetpack/androidx/releases/appcompat
 appcompat-core = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 appcompat-resources = { group = "androidx.appcompat", name = "appcompat-resources", version.ref = "appcompat" }
 
 #https://bugly.qq.com/docs/user-guide/instruction-manual-android/?v=1.0.0
-bugly = "com.tencent.bugly:crashreport:4.1.9.2"
+bugly = { group = "com.tencent.bugly", name = "crashreport", version.ref = "bugly" }
 
 #https://github.com/ChuckerTeam/chucker
-chucker = "com.github.chuckerteam.chucker:library:3.5.2"
+chucker = { group = "com.github.chuckerteam.chucker", name = "library", version.ref = "chucker" }
 
 #https://developer.android.com/jetpack/androidx/releases/constraintlayout
-compose-constraint = "androidx.constraintlayout:constraintlayout-compose:1.0.1"
+compose-constraint = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "composeconstraint" }
 
 #https://developer.android.com/jetpack/androidx/releases/compose
 compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "compose" }
@@ -137,8 +219,8 @@ compose-tooling = { group = "androidx.compose.ui", name = "ui-tooling", version.
 compose-ui-test = { group = "androidx.compose.ui", name = "ui-test-junit4", version.ref = "compose" }
 
 #https://developer.android.com/jetpack/androidx/releases/core
-core = "androidx.core:core-ktx:1.9.0"
-core-splash = "androidx.core:core-splashscreen:1.0.1"
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "corektx" }
+core-splash = { group = "androidx.core", name = "core-splashscreen", version.ref = "coresplash" }
 
 #https://github.com/Kotlin/kotlinx.coroutines
 coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
@@ -179,7 +261,7 @@ glide-okhttp = { group = "com.github.bumptech.glide", name = "okhttp3-integratio
 gradlePlugin-android = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
 
 #https://github.com/mannodermaus/android-junit5
-gradlePlugin-junit5 = { group = "de.mannodermaus.gradle.plugins", name = "android-junit5", version = "1.9.3.0" }
+gradlePlugin-junit5 = { group = "de.mannodermaus.gradle.plugins", name = "android-junit5", version.ref = "junit5" }
 
 #https://github.com/JetBrains/kotlin
 gradlePlugin-kotlin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
@@ -188,19 +270,19 @@ gradlePlugin-kotlin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-pl
 gradlePlugin-ksp = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
 
 #https://github.com/vanniktech/gradle-maven-publish-plugin
-gradlePlugin-mavenPublish = "com.vanniktech:gradle-maven-publish-plugin:0.25.2"
+gradlePlugin-mavenPublish = { group = "com.vanniktech", name = "gradle-maven-publish-plugin", version.ref = "mavenpublish" }
 
 #https://github.com/diffplug/spotless
 gradlePlugin-spotless = { group = "com.diffplug.spotless", name = "spotless-plugin-gradle", version.ref = "spotless" }
 
 #https://github.com/Kotlin/kotlinx.collections.immutable
-immutable-collections = { group = "org.jetbrains.kotlinx", name = "kotlinx-collections-immutable-jvm", version = "0.3.5" }
+immutable-collections = { group = "org.jetbrains.kotlinx", name = "kotlinx-collections-immutable-jvm", version.ref = "immutablecollections" }
 
 #https://github.com/qiushui95/AndroidInitializer
-initializer = "com.github.qiushui95:AndroidInitializer:1.0.16"
+initializer = { group = "com.github.qiushui95", name = "AndroidInitializer", version.ref = "initializer" }
 
 #https://github.com/JodaOrg/joda-time
-jodatime = "joda-time:joda-time:2.12.5"
+jodatime = { group = "joda-time", name = "joda-time", version.ref = "jodatime" }
 
 #https://github.com/InsertKoinIO/koin
 koin-android = { group = "io.insert-koin", name = "koin-android", version.ref = "koinAndroid" }
@@ -208,11 +290,11 @@ koin-compose = { group = "io.insert-koin", name = "koin-androidx-compose", versi
 koin-core = { group = "io.insert-koin", name = "koin-core", version.ref = "koinCore" }
 
 #https://github.com/JetBrains/kotlin
-kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
-kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin" }
+kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib", version.ref = "kotlin" }
+kotlin-test = { group = "org.jetbrains.kotlin", name = "kotlin-test-junit", version.ref = "kotlin" }
 
 #https://github.com/pinterest/ktlint
-ktlint = "com.pinterest.ktlint:ktlint-core:0.49.1"
+ktlint = { group = "com.pinterest.ktlint", name = "ktlint-core", version.ref = "ktlint" }
 
 #https://github.com/skydoves/landscapist
 landscapist-animation = { group = "com.github.skydoves", name = "landscapist-animation", version.ref = "landscapist" }
@@ -222,7 +304,7 @@ landscapist-placeholder = { group = "com.github.skydoves", name = "landscapist-p
 landscapist-transformation = { group = "com.github.skydoves", name = "landscapist-transformation", version.ref = "landscapist" }
 
 #https://square.github.io/leakcanary/getting_started/
-leakcanary = "com.squareup.leakcanary:leakcanary-android:2.11"
+leakcanary = { group = "com.squareup.leakcanary", name = "leakcanary-android", version.ref = "leakcanary" }
 
 #https://developer.android.com/jetpack/androidx/releases/lifecycle
 lifecycle-process = { group = "androidx.lifecycle", name = "lifecycle-process", version.ref = "lifecycle" }
@@ -237,10 +319,10 @@ lottie-compose = { group = "com.airbnb.android", name = "lottie-compose", versio
 lottie-view = { group = "com.airbnb.android", name = "lottie", version.ref = "lottie" }
 
 #https://github.com/material-components/material-components-android
-material = "com.google.android.material:material:1.9.0"
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 
 #https://github.com/Tencent/MMKV/blob/master/README_CN.md
-mmkv = "com.tencent:mmkv-static:1.2.16"
+mmkv = { group = "com.tencent", name = "mmkv-static", version.ref = "mmkv" }
 
 #https://github.com/square/moshi
 moshi-core = { group = "com.squareup.moshi", name = "moshi", version.ref = "moshi" }
@@ -258,7 +340,7 @@ okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor",
 okhttp-mockwebserver = { group = "com.squareup.okhttp3", name = "mockwebserver", version.ref = "okhttp" }
 
 #https://github.com/getActivity/XXPermissions
-permission = "com.github.getActivity:XXPermissions:18.0"
+permission = { group = "com.github.getActivity", name = "XXPermissions", version.ref = "permission" }
 
 #https://github.com/square/retrofit
 retrofit-core = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
@@ -276,7 +358,7 @@ selector-core = { group = "io.github.lucksiege", name = "pictureselector", versi
 selector-crop = { group = "io.github.lucksiege", name = "ucrop", version.ref = "selector" }
 
 #https://github.com/SmartToolFactory/Compose-Colorful-Sliders
-slider = { group = "com.github.SmartToolFactory", name = "Compose-Colorful-Sliders", version = "1.2.0" }
+slider = { group = "com.github.SmartToolFactory", name = "Compose-Colorful-Sliders", version.ref = "slider" }
 
 #https://github.com/facebook/stetho
 stetho-core = { group = "com.facebook.stetho", name = "stetho", version.ref = "stetho" }
@@ -317,16 +399,13 @@ transformers-glide = { group = "jp.wasabeef.transformers", name = "glide", versi
 transformers-gpu = { group = "jp.wasabeef.transformers", name = "glide-gpu", version.ref = "transformers" }
 
 #https://github.com/azhon/AppUpdate
-update = { group = "io.github.azhon", name = "appupdate", version = "4.2.9" }
+update = { group = "io.github.azhon", name = "appupdate", version.ref = "update" }
 
 #https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html#jump2
-wechat = { group = "com.tencent.mm.opensdk", name = "wechat-sdk-android", version = "6.8.24" }
+wechat = { group = "com.tencent.mm.opensdk", name = "wechat-sdk-android", version.ref = "wechat" }
 
 #https://github.com/iqiyi/xCrash/blob/master/README.zh-CN.md
-xcrash = "com.iqiyi.xcrash:xcrash-android-lib:3.1.0"
+xcrash = { group = "com.iqiyi.xcrash", name = "xcrash-android-lib", version.ref = "xcrash" }
 
 #https://github.com/li-xiaojun/XPopup
-xpopup = "com.github.li-xiaojun:XPopup:2.9.19"
-
-#https://github.com/srikanth-lingala/zip4j
-zip4j = "net.lingala.zip4j:zip4j:2.11.5"
+xpopup = { group = "com.github.li-xiaojun", name = "XPopup", version.ref = "xpopup" }

@@ -1,8 +1,8 @@
 plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
-    id("de.mannodermaus.android-junit5")
+    alias(libs.plugins.application)
+    alias(libs.plugins.kotlin)
     alias(libs.plugins.ksp)
+    alias(libs.plugins.junit5)
 }
 
 android {
@@ -64,7 +64,7 @@ dependencies {
     implementation(libs.appcompat.core)
     implementation(libs.appcompat.resources)
 
-    implementation(libs.core)
+    implementation(libs.core.ktx)
     implementation(libs.core.splash)
 
     implementation(libs.lifecycle.runtime)
@@ -110,8 +110,6 @@ dependencies {
     implementation(libs.xpopup)
 
     implementation(libs.permission)
-
-    implementation(libs.zip4j)
 
     implementation(libs.bugly)
 
