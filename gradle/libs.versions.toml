@@ -9,7 +9,7 @@ activity = "1.7.2"
 agp = "8.0.2"
 
 #https://github.com/aliyun/aliyun-oss-android-sdk/blob/master/changelog.txt
-alioss = "2.9.14"
+alioss = "2.9.15"
 
 #https://opendocs.alipay.com/open/074rk8?pathHash=bdfba391&ref=api
 alipay = "15.8.14"
