@@ -125,7 +125,7 @@ permission = "18.2"
 retrofit = "2.9.0"
 
 #https://developer.android.com/jetpack/androidx/releases/room
-room = "2.5.1"
+room = "2.5.2"
 
 #https://github.com/LuckSiege/PictureSelector
 selector = "v3.11.1"
