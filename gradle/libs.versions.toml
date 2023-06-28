@@ -124,6 +124,9 @@ permission = "18.2"
 #https://github.com/square/retrofit
 retrofit = "2.9.0"
 
+#https://github.com/MohamedRejeb/Compose-Rich-Editor
+richtext = "0.2.0"
+
 #https://developer.android.com/jetpack/androidx/releases/room
 room = "2.5.2"
 
@@ -346,6 +349,9 @@ permission = { group = "com.github.getActivity", name = "XXPermissions", version
 retrofit-core = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
 retrofit-moshi = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofit" }
 retrofit-scalars = { group = "com.squareup.retrofit2", name = "converter-scalars", version.ref = "retrofit" }
+
+#https://github.com/MohamedRejeb/Compose-Rich-Editor
+richtext = { group = "com.mohamedrejeb.richeditor", name = "richeditor-compose", version.ref = "richtext" }
 
 #https://developer.android.com/jetpack/androidx/releases/room
 room-core = { group = "androidx.room", name = "room-ktx", version.ref = "room" }

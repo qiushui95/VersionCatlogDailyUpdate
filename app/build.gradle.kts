@@ -172,4 +172,6 @@ dependencies {
     implementation(libs.telephoto.sampling)
 
     implementation(libs.slider)
+
+    implementation(libs.richtext)
 }
