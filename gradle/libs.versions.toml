@@ -134,7 +134,7 @@ selector = "v3.11.1"
 slider = "1.2.0"
 
 #https://github.com/diffplug/spotless
-spotless = "6.19.0"
+spotless = "6.20.0"
 
 #https://github.com/facebook/stetho
 stetho = "1.6.0"
