@@ -69,7 +69,7 @@ initializer = "1.0.16"
 jodatime = "2.12.5"
 
 #https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
-junit = "5.9.3"
+junit = "5.10.0"
 
 #https://github.com/mannodermaus/android-junit5
 junit5 = "1.9.3.0"
