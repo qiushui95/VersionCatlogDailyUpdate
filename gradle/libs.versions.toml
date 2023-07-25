@@ -33,7 +33,7 @@ chucker = "4.0.0"
 compose = "1.4.3"
 
 #https://developer.android.com/jetpack/androidx/releases/compose-compiler
-composeCompiler = "1.4.7"
+composeCompiler = "1.5.0"
 
 #https://developer.android.com/jetpack/androidx/releases/constraintlayout
 composeconstraint = "1.0.1"
@@ -54,7 +54,7 @@ flowBinding = "1.2.0"
 flowmvi = "1.1.4"
 
 #https://developer.android.com/jetpack/androidx/releases/fragment
-fragment = "1.5.7"
+fragment = "1.6.0"
 
 #https://github.com/bumptech/glide
 glide = "4.15.1"
@@ -80,7 +80,7 @@ koinCompose = "3.4.5"
 koinCore = "3.4.2"
 
 #https://github.com/JetBrains/kotlin
-kotlin = "1.8.21"
+kotlin = "1.9.0"
 
 #https://github.com/google/ksp
 ksp = "1.8.21-1.0.11"
