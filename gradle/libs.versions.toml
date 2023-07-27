@@ -6,7 +6,7 @@ accompanist = "0.30.1"
 activity = "1.7.2"
 
 #TODO
-agp = "8.0.2"
+agp = "8.1.0"
 
 #https://github.com/aliyun/aliyun-oss-android-sdk/blob/master/changelog.txt
 alioss = "2.9.15"
@@ -33,7 +33,7 @@ chucker = "4.0.0"
 compose = "1.4.3"
 
 #https://developer.android.com/jetpack/androidx/releases/compose-compiler
-composeCompiler = "1.5.0"
+composeCompiler = "1.5.1"
 
 #https://developer.android.com/jetpack/androidx/releases/constraintlayout
 composeconstraint = "1.0.1"
@@ -54,7 +54,7 @@ flowBinding = "1.2.0"
 flowmvi = "1.1.4"
 
 #https://developer.android.com/jetpack/androidx/releases/fragment
-fragment = "1.6.0"
+fragment = "1.6.1"
 
 #https://github.com/bumptech/glide
 glide = "4.15.1"
