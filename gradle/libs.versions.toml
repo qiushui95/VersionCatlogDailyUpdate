@@ -12,7 +12,7 @@ agp = "8.1.0"
 alioss = "2.9.15"
 
 #https://opendocs.alipay.com/open/074rk8?pathHash=bdfba391&ref=api
-alipay = "15.8.15"
+alipay = "15.8.16"
 
 #https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
 androidutils = "1.31.1"
