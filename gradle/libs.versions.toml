@@ -47,6 +47,9 @@ coresplash = "1.0.1"
 #https://github.com/Kotlin/kotlinx.coroutines
 coroutines = "1.7.3"
 
+#https://developer.android.com/jetpack/androidx/releases/exifinterface
+exif = "1.3.6"
+
 #https://github.com/ReactiveCircus/FlowBinding
 flowBinding = "1.2.0"
 
@@ -229,6 +232,9 @@ core-splash = { group = "androidx.core", name = "core-splashscreen", version.ref
 coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
 coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
 coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines" }
+
+#https://developer.android.com/jetpack/androidx/releases/exifinterface
+exif = { group = "androidx.exifinterface", name = "exifinterface", version.ref = "exif" }
 
 #https://github.com/ReactiveCircus/FlowBinding
 flow-binding-activity = { group = "io.github.reactivecircus.flowbinding", name = "flowbinding-activity", version.ref = "flowBinding" }
