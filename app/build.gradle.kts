@@ -176,4 +176,6 @@ dependencies {
     implementation(libs.richtext)
 
     implementation(libs.exif)
+
+    implementation(libs.collapsing)
 }
