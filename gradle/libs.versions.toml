@@ -60,7 +60,7 @@ flowmvi = "1.1.4"
 fragment = "1.6.1"
 
 #https://github.com/bumptech/glide
-glide = "4.15.1"
+glide = "4.16.0"
 
 #https://github.com/Kotlin/kotlinx.collections.immutable
 immutablecollections = "0.3.5"
