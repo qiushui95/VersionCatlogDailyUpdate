@@ -36,7 +36,7 @@ collapsing="2.3.5"
 compose = "1.5.0"
 
 #https://developer.android.com/jetpack/androidx/releases/compose-compiler
-composeCompiler = "1.5.1"
+composeCompiler = "1.5.2"
 
 #https://developer.android.com/jetpack/androidx/releases/constraintlayout
 composeconstraint = "1.0.1"
