@@ -30,7 +30,7 @@ bugly = "4.1.9.2"
 chucker = "4.0.0"
 
 #https://github.com/onebone/compose-collapsing-toolbar
-collapsing="2.3.5"
+collapsing="1.0.8"
 
 #https://developer.android.com/jetpack/androidx/releases/compose
 compose = "1.5.0"
@@ -217,7 +217,7 @@ bugly = { group = "com.tencent.bugly", name = "crashreport", version.ref = "bugl
 chucker = { group = "com.github.chuckerteam.chucker", name = "library", version.ref = "chucker" }
 
 #https://github.com/onebone/compose-collapsing-toolbar
-collapsing={ group = "me.onebone", name = "toolbar-compose", version.ref = "collapsing" }
+collapsing={ group = "com.github.GIGAMOLE", name = "ComposeCollapsingToolbar", version.ref = "collapsing" }
 
 #https://developer.android.com/jetpack/androidx/releases/constraintlayout
 compose-constraint = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "composeconstraint" }
