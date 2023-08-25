@@ -217,7 +217,7 @@ bugly = { group = "com.tencent.bugly", name = "crashreport", version.ref = "bugl
 chucker = { group = "com.github.chuckerteam.chucker", name = "library", version.ref = "chucker" }
 
 #https://github.com/onebone/compose-collapsing-toolbar
-collapsing={ group = "com.github.GIGAMOLE", name = "ComposeCollapsingToolbar", version.ref = "collapsing" }
+collapsing={ group = "com.github.GIGAMOLE.fix", name = "ComposeCollapsingToolbar", version.ref = "collapsing" }
 
 #https://developer.android.com/jetpack/androidx/releases/constraintlayout
 compose-constraint = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "composeconstraint" }

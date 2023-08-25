@@ -11,6 +11,13 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         maven { url = "https://jitpack.io" }
+        maven {
+            url = System.getenv("HERO_NEXUS_URL")
+            credentials {
+                username = System.getenv("HERO_NEXUS_USERNAME")
+                password = System.getenv("HERO_NEXUS_PASSWORD")
+            }
+        }
     }
 }
 rootProject.name = "VersionCatlogDailyUpdate"
