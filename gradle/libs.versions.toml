@@ -146,7 +146,7 @@ shadows = "1.0.2"
 slider = "1.2.0"
 
 #https://github.com/diffplug/spotless
-spotless = "6.20.0"
+spotless = "6.21.0"
 
 #https://github.com/facebook/stetho
 stetho = "1.6.0"
