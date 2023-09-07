@@ -1,6 +1,6 @@
 plugins {
-    alias(libs.plugins.application)
-    alias(libs.plugins.kotlin)
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
     alias(libs.plugins.ksp)
     alias(libs.plugins.junit5)
 }
@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.versioncatlogdailyupdate"
-        minSdk = 24
+        minSdk = 30
         targetSdk = 34
         versionCode = 1
         versionName = "1.0.0"
@@ -25,6 +25,14 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+        }
+    }
+
+    packaging {
+
+        resources {
+            excludes.add("/META-INF/{AL2.0,LGPL2.1}")
+            excludes.add("kotlin/reflect/reflect.kotlin_builtins")
         }
     }
 
@@ -86,20 +94,26 @@ dependencies {
     implementation(libs.compose.material)
     implementation(libs.compose.foundation)
     implementation(libs.compose.preview)
+    implementation(libs.compose.ui.test)
     debugImplementation(libs.compose.tooling)
 
     implementation(libs.coroutines.android)
+    implementation(libs.coroutines.core)
+    implementation(libs.coroutines.test)
 
     implementation(libs.kotlin.stdlib)
+    implementation(libs.kotlin.test)
+
+    implementation(libs.ktlint)
+
+    implementation(libs.lottie.compose )
+    implementation(libs.lottie.view )
 
     implementation(libs.material)
 
     implementation(libs.okhttp.core)
     implementation(libs.okhttp.logging)
-
-    implementation(libs.mvi.core)
-    implementation(libs.mvi.vm)
-    implementation(libs.mvi.compose)
+    implementation(libs.okhttp.mockwebserver)
 
     implementation(libs.koin.core)
     implementation(libs.koin.android)
@@ -125,6 +139,7 @@ dependencies {
     implementation(libs.glide.okhttp)
     ksp(libs.glide.ksp)
 
+    implementation(libs.transformers.core)
     implementation(libs.transformers.glide)
     implementation(libs.transformers.gpu)
 
@@ -188,4 +203,20 @@ dependencies {
     implementation(libs.collapsing)
 
     implementation(libs.shadows)
+
+    implementation(libs.flowmvi.core)
+    implementation(libs.flowmvi.compose)
+    implementation(libs.flowmvi.android)
+    implementation(libs.flowmvi.view)
+
+    implementation(libs.fragment.core)
+    implementation(libs.fragment.test)
+
+    implementation(libs.alioss)
+
+    implementation(libs.android.utils)
+
+    implementation(libs.chucker)
+
+    implementation(libs.compose.constraint)
 }
