@@ -219,4 +219,10 @@ dependencies {
     implementation(libs.chucker)
 
     implementation(libs.compose.constraint)
+
+    implementation(libs.sampling.image)
+
+    implementation(libs.work.core)
+    implementation(libs.work.ktx)
+    implementation(libs.work.process)
 }
