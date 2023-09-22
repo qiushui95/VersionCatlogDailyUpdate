@@ -225,4 +225,9 @@ dependencies {
     implementation(libs.work.core)
     implementation(libs.work.ktx)
     implementation(libs.work.process)
+
+    implementation(libs.player.video.core)
+    implementation(libs.player.video.exo)
+    implementation(libs.player.video.arm64)
+    implementation(libs.player.video.armv7a)
 }

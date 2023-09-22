@@ -124,6 +124,9 @@ okhttp = "4.11.0"
 #https://github.com/getActivity/XXPermissions
 permission = "18.2"
 
+#https://github.com/CarGuo/GSYVideoPlayer
+player-video = "v8.4.0-release-jitpack"
+
 #https://github.com/square/retrofit
 retrofit = "2.9.0"
 
@@ -356,6 +359,12 @@ okhttp-mockwebserver = { group = "com.squareup.okhttp3", name = "mockwebserver",
 
 #https://github.com/getActivity/XXPermissions
 permission = { group = "com.github.getActivity", name = "XXPermissions", version.ref = "permission" }
+
+#https://github.com/CarGuo/GSYVideoPlayer
+player-video-arm64 = { group = "com.github.CarGuo.GSYVideoPlayer", name = "gsyVideoPlayer-arm64", version.ref = "player-video" }
+player-video-armv7a = { group = "com.github.CarGuo.GSYVideoPlayer", name = "gsyVideoPlayer-armv7a", version.ref = "player-video" }
+player-video-core = { group = "com.github.CarGuo.GSYVideoPlayer", name = "gsyVideoPlayer-java", version.ref = "player-video" }
+player-video-exo = { group = "com.github.CarGuo.GSYVideoPlayer", name = "GSYVideoPlayer-exo2", version.ref = "player-video" }
 
 #https://github.com/square/retrofit
 retrofit-core = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
