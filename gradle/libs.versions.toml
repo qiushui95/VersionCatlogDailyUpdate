@@ -5,7 +5,7 @@ accompanist = "0.32.0"
 #https://developer.android.com/jetpack/androidx/releases/activity
 activity = "1.7.2"
 
-#TODO
+#Nothing
 agp = "8.1.1"
 
 #https://github.com/aliyun/aliyun-oss-android-sdk/blob/master/changelog.txt
@@ -23,7 +23,7 @@ annotation = "1.7.0"
 #https://developer.android.com/jetpack/androidx/releases/appcompat
 appcompat = "1.6.1"
 
-#https://bugly.qq.com/docs/user-guide/instruction-manual-android/?v=1.0.0
+#https://bugly.qq.com/docs/release-notes/release-android-bugly/?v=1.0.0
 bugly = "4.1.9.2"
 
 #https://github.com/ChuckerTeam/chucker
@@ -92,10 +92,10 @@ kotlin = "1.9.10"
 ksp = "1.9.10-1.0.13"
 
 #https://github.com/pinterest/ktlint
-ktlint = "0.49.1"
+ktlint = "1.0.0"
 
 #https://github.com/skydoves/landscapist
-landscapist = "2.2.8"
+landscapist = "2.2.9"
 
 #https://square.github.io/leakcanary/getting_started/
 leakcanary = "2.12"
@@ -122,7 +122,7 @@ moshi = "1.15.0"
 okhttp = "4.11.0"
 
 #https://github.com/getActivity/XXPermissions
-permission = "18.2"
+permission = "18.3"
 
 #https://github.com/CarGuo/GSYVideoPlayer
 player-video = "v8.4.0-release-jitpack"
@@ -155,7 +155,7 @@ spotless = "6.21.0"
 stetho = "1.6.0"
 
 #https://github.com/saket/telephoto
-telephoto = "0.6.0"
+telephoto = "0.6.1"
 
 #https://github.com/wasabeef/transformers
 transformers = "1.0.6"
@@ -281,7 +281,7 @@ glide-core = { group = "com.github.bumptech.glide", name = "glide", version.ref 
 glide-ksp = { group = "com.github.bumptech.glide", name = "ksp", version.ref = "glide" }
 glide-okhttp = { group = "com.github.bumptech.glide", name = "okhttp3-integration", version.ref = "glide" }
 
-#TODO
+#Nothing
 gradlePlugin-android = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
 
 #https://github.com/mannodermaus/android-junit5
