@@ -3,10 +3,10 @@
 accompanist = "0.32.0"
 
 #https://developer.android.com/jetpack/androidx/releases/activity
-activity = "1.7.2"
+activity = "1.8.0"
 
 #Nothing
-agp = "8.1.1"
+agp = "8.1.2"
 
 #https://github.com/aliyun/aliyun-oss-android-sdk/blob/master/changelog.txt
 alioss = "2.9.15"
@@ -33,7 +33,7 @@ chucker = "4.0.0"
 collapsing = "1.0.8"
 
 #https://developer.android.com/jetpack/androidx/releases/compose
-compose = "1.5.2"
+compose = "1.5.3"
 
 #https://developer.android.com/jetpack/androidx/releases/compose-compiler
 composeCompiler = "1.5.3"
@@ -107,7 +107,7 @@ lifecycle = "2.6.2"
 lottie = "6.1.0"
 
 #https://github.com/material-components/material-components-android
-material = "1.9.0"
+material = "1.10.0"
 
 #https://github.com/vanniktech/gradle-maven-publish-plugin
 mavenpublish = "0.25.3"
@@ -146,7 +146,7 @@ selector = "v3.11.1"
 shadows = "1.0.2"
 
 #https://github.com/SmartToolFactory/Compose-Colorful-Sliders
-slider = "1.2.0"
+slider = "1.2.1"
 
 #https://github.com/diffplug/spotless
 spotless = "6.22.0"
