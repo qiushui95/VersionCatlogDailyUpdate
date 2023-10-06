@@ -66,7 +66,7 @@ fragment = "1.6.1"
 glide = "4.16.0"
 
 #https://github.com/Kotlin/kotlinx.collections.immutable
-immutablecollections = "0.3.5"
+immutablecollections = "0.3.6"
 
 #https://github.com/qiushui95/AndroidInitializer
 initializer = "1.0.16"
