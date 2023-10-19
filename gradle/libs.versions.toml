@@ -33,7 +33,7 @@ chucker = "4.0.0"
 collapsing = "1.0.8"
 
 #https://developer.android.com/jetpack/androidx/releases/compose
-compose = "1.5.3"
+compose = "1.5.4"
 
 #https://developer.android.com/jetpack/androidx/releases/compose-compiler
 composeCompiler = "1.5.3"
@@ -134,7 +134,7 @@ retrofit = "2.9.0"
 richtext = "0.2.0"
 
 #https://developer.android.com/jetpack/androidx/releases/room
-room = "2.5.2"
+room = "2.6.0"
 
 #https://github.com/davemorrissey/subsampling-scale-image-view
 sampling_image = "3.10.0"
