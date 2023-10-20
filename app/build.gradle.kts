@@ -226,6 +226,8 @@ dependencies {
     implementation(libs.work.ktx)
     implementation(libs.work.process)
 
+    implementation(libs.dolly)
+
     implementation(libs.player.video.core)
     implementation(libs.player.video.exo)
     implementation(libs.player.video.arm64)
