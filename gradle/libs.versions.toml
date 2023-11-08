@@ -9,7 +9,7 @@ activity = "1.8.0"
 agp = "8.1.2"
 
 #https://github.com/aliyun/aliyun-oss-android-sdk/blob/master/changelog.txt
-alioss = "2.9.15"
+alioss = "2.9.16"
 
 #https://opendocs.alipay.com/open/074rk8?pathHash=bdfba391&ref=api
 alipay = "15.8.17"
@@ -36,7 +36,7 @@ collapsing = "1.0.8"
 compose = "1.5.4"
 
 #https://developer.android.com/jetpack/androidx/releases/compose-compiler
-composeCompiler = "1.5.3"
+composeCompiler = "1.5.4"
 
 #https://developer.android.com/jetpack/androidx/releases/constraintlayout
 composeconstraint = "1.0.1"
@@ -63,7 +63,7 @@ flowBinding = "1.2.0"
 flowmvi = "1.1.4"
 
 #https://developer.android.com/jetpack/androidx/releases/fragment
-fragment = "1.6.1"
+fragment = "1.6.2"
 
 #https://github.com/bumptech/glide
 glide = "4.16.0"
@@ -125,7 +125,7 @@ moshi = "1.15.0"
 okhttp = "4.12.0"
 
 #https://github.com/getActivity/XXPermissions
-permission = "18.3"
+permission = "18.5"
 
 #https://github.com/CarGuo/GSYVideoPlayer
 player-video = "v8.4.0-release-jitpack"
@@ -146,10 +146,10 @@ sampling_image = "3.10.0"
 selector = "v3.11.1"
 
 #https://github.com/GIGAMOLE/ComposeShadowsPlus
-shadows = "1.0.2"
+shadows = "1.0.4"
 
 #https://github.com/SmartToolFactory/Compose-Colorful-Sliders
-slider = "1.2.1"
+slider = "1.2.2"
 
 #https://github.com/diffplug/spotless
 spotless = "6.22.0"
