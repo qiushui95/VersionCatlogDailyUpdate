@@ -32,7 +32,7 @@ chucker = "4.0.0"
 #https://github.com/onebone/compose-collapsing-toolbar
 collapsing = "1.0.8"
 
-#https://developer.android.com/jetpack/androidx/releases/compose
+#https://developer.android.com/jetpack/compose/bom/bom-mapping
 compose-bom = "2023.10.01"
 
 #https://developer.android.com/jetpack/androidx/releases/compose-compiler
