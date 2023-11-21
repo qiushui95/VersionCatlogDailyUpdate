@@ -158,7 +158,7 @@ spotless = "6.22.0"
 stetho = "1.6.0"
 
 #https://github.com/saket/telephoto
-telephoto = "0.6.2"
+telephoto = "0.7.1"
 
 #https://github.com/wasabeef/transformers
 transformers = "1.0.6"
