@@ -234,7 +234,7 @@ collapsing = { group = "com.github.GIGAMOLE.fix", name = "ComposeCollapsingToolb
 
 #https://developer.android.com/jetpack/androidx/releases/constraintlayout
 constraint-compose = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "constraint-compose" }
-constraint-layout = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "constraint-layout" }
+constraint-layout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraint-layout" }
 
 #https://developer.android.com/jetpack/androidx/releases/compose
 compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "compose" }
