@@ -218,7 +218,8 @@ dependencies {
 
     implementation(libs.chucker)
 
-    implementation(libs.compose.constraint)
+    implementation(libs.constraint.compose)
+    implementation(libs.constraint.layout)
 
     implementation(libs.sampling.image)
 

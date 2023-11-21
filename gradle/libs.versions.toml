@@ -39,7 +39,8 @@ compose = "1.5.4"
 composeCompiler = "1.5.4"
 
 #https://developer.android.com/jetpack/androidx/releases/constraintlayout
-composeconstraint = "1.0.1"
+constraint-compose = "1.0.1"
+constraint-layout = "2.1.4"
 
 #https://developer.android.com/jetpack/androidx/releases/core
 corektx = "1.12.0"
@@ -232,7 +233,8 @@ chucker = { group = "com.github.chuckerteam.chucker", name = "library", version.
 collapsing = { group = "com.github.GIGAMOLE.fix", name = "ComposeCollapsingToolbar", version.ref = "collapsing" }
 
 #https://developer.android.com/jetpack/androidx/releases/constraintlayout
-compose-constraint = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "composeconstraint" }
+constraint-compose = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "constraint-compose" }
+constraint-layout = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "constraint-layout" }
 
 #https://developer.android.com/jetpack/androidx/releases/compose
 compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "compose" }
