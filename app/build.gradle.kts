@@ -43,7 +43,7 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion = libs.versions.composeCompiler.get()
     }
-    
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
@@ -90,6 +90,7 @@ dependencies {
     implementation(libs.lifecycle.process)
     implementation(libs.lifecycle.service)
 
+    implementation(platform(libs.compose.bom))
     implementation(libs.compose.runtime)
     implementation(libs.compose.material)
     implementation(libs.compose.foundation)
@@ -106,8 +107,8 @@ dependencies {
 
     implementation(libs.ktlint)
 
-    implementation(libs.lottie.compose )
-    implementation(libs.lottie.view )
+    implementation(libs.lottie.compose)
+    implementation(libs.lottie.view)
 
     implementation(libs.material)
 
