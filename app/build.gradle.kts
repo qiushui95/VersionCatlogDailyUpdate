@@ -56,15 +56,15 @@ android {
 
 dependencies {
 
-    testImplementation(libs.test.junit.api)
-    testRuntimeOnly(libs.test.junit.engine)
-    testImplementation(libs.test.junit.params)
-    androidTestImplementation(libs.test.core)
-    androidTestImplementation(libs.test.espresso)
-    androidTestImplementation(libs.test.junit.ext)
-    androidTestImplementation(libs.test.rules)
-    androidTestImplementation(libs.test.runner)
-    androidTestImplementation(libs.test.uiautomator)
+    implementation(libs.test.junit.api)
+    implementation(libs.test.junit.engine)
+    implementation(libs.test.junit.params)
+    implementation(libs.test.core)
+    implementation(libs.test.espresso)
+    implementation(libs.test.junit.ext)
+    implementation(libs.test.rules)
+    implementation(libs.test.runner)
+    implementation(libs.test.uiautomator)
 
     implementation(libs.accompanist.drawablepainter)
     implementation(libs.accompanist.placeholder)
@@ -95,8 +95,10 @@ dependencies {
     implementation(libs.compose.material)
     implementation(libs.compose.foundation)
     implementation(libs.compose.preview)
-    implementation(libs.compose.ui.test)
-    debugImplementation(libs.compose.tooling)
+    implementation(libs.compose.ui)
+    implementation(libs.compose.graphics)
+    implementation(libs.compose.test.junit4)
+    implementation(libs.compose.tooling)
 
     implementation(libs.coroutines.android)
     implementation(libs.coroutines.core)
@@ -138,21 +140,21 @@ dependencies {
 
     implementation(libs.glide.core)
     implementation(libs.glide.okhttp)
-    ksp(libs.glide.ksp)
+    implementation(libs.glide.ksp)
 
     implementation(libs.transformers.core)
     implementation(libs.transformers.glide)
     implementation(libs.transformers.gpu)
 
     implementation(libs.moshi.core)
-    ksp(libs.moshi.ksp)
+    implementation(libs.moshi.ksp)
 
     implementation(libs.retrofit.core)
     implementation(libs.retrofit.moshi)
     implementation(libs.retrofit.scalars)
 
     implementation(libs.room.core)
-    ksp(libs.room.ksp)
+    implementation(libs.room.ksp)
 
     implementation(libs.stetho.core)
     implementation(libs.stetho.okhttp)
@@ -234,4 +236,15 @@ dependencies {
     implementation(libs.player.video.exo)
     implementation(libs.player.video.arm64)
     implementation(libs.player.video.armv7a)
+
+    implementation(libs.okdownload.core)
+    implementation(libs.okdownload.sqlite)
+    implementation(libs.okdownload.okhttp)
+    implementation(libs.okdownload.ktx)
+
+    implementation(libs.fastjson)
+
+    implementation(libs.swipebox)
+
+    implementation(libs.drive.obs)
 }

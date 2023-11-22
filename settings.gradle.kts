@@ -12,7 +12,6 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        mavenLocal()
         maven(url = "https://repo1.maven.org/maven2")
         google()
         mavenCentral()
