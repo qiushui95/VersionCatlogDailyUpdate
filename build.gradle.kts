@@ -1,3 +1,9 @@
+
+plugins {
+    alias(libs.plugins.catalogUpdate)
+    alias(libs.plugins.gradleVersions)
+}
+
 buildscript {
     repositories {
         google()

@@ -26,6 +26,9 @@ appcompat = "1.6.1"
 #https://bugly.qq.com/docs/release-notes/release-android-bugly/?v=1.0.0
 bugly = "4.1.9.3"
 
+#https://github.com/littlerobots/version-catalog-update-plugin
+catalogUpdate = "0.8.1"
+
 #https://github.com/ChuckerTeam/chucker
 chucker = "4.0.0"
 
@@ -74,6 +77,9 @@ fragment = "1.6.2"
 
 #https://github.com/bumptech/glide
 glide = "4.16.0"
+
+#https://github.com/ben-manes/gradle-versions-plugin
+gradleVersions = "0.50.0"
 
 #https://github.com/Kotlin/kotlinx.collections.immutable
 immutablecollections = "0.3.6"
@@ -197,6 +203,8 @@ xpopup = "2.9.19"
 
 [plugins]
 application = { id = "com.android.application", version.ref = "agp" }
+catalogUpdate = { id = "nl.littlerobots.version-catalog-update", version.ref = "catalogUpdate" }
+gradleVersions = { id = "com.github.ben-manes.versions", version.ref = "gradleVersions" }
 junit5 = { id = "de.mannodermaus.android-junit5", version.ref = "junit5" }
 kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
