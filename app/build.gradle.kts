@@ -83,6 +83,7 @@ dependencies {
     implementation(libs.core.ktx)
     implementation(libs.core.splash)
 
+    implementation(libs.lifecycle.compose)
     implementation(libs.lifecycle.runtime)
     implementation(libs.lifecycle.viewmodel)
     implementation(libs.lifecycle.viewmodel.savedstate)
