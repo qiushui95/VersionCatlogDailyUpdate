@@ -26,4 +26,6 @@
 
 set -xe
 
+chmod 777 gradlew
+
 ./gradlew  versionCatalogUpdate
