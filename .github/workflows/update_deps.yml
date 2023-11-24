@@ -20,7 +20,9 @@ jobs:
           cache: gradle
 
       - name: Update dependencies
-        run: ./scripts/updateDeps.sh
+        run: |
+          chmod 777 scripts/updateDeps.sh
+          ./scripts/updateDeps.sh
       - name: Create pull request
         id: cpr
         uses: peter-evans/create-pull-request@v4
