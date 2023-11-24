@@ -1,0 +1,37 @@
+name: Update Dependencies
+
+on:
+  workflow_dispatch:
+    schedule:
+      - cron: '0 20 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Copy CI gradle.properties
+        run: mkdir -p ~/.gradle ; cp .github/ci-gradle.properties ~/.gradle/gradle.properties
+      - name: set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: 17
+          distribution: 'zulu'
+          cache: gradle
+
+      - name: Update dependencies
+        run: ./scripts/updateDeps.sh
+      - name: Create pull request
+        id: cpr
+        uses: peter-evans/create-pull-request@v4
+        with:
+#          token: ${{ secrets.PAT }}
+          commit-message: 🤖 Update Dependencies
+          committer: update-github-bot
+          author: update-github-bot
+          signoff: false
+          branch: bot-update-deps
+          delete-branch: true
+          title: '🤖 Update Dependencies'
+          body: Updated depedencies
+          reviewers: ${{ github.actor }}

@@ -57,7 +57,7 @@ coroutines = "1.7.3"
 #https://github.com/Tencent/VasDolly
 dolly = "3.0.6"
 
-#https://github.com/huaweicloud/huaweicloud-sdk-java-obs
+# @pin https://github.com/huaweicloud/huaweicloud-sdk-java-obs
 drive-obs = "3.22.3"
 
 #https://developer.android.com/jetpack/androidx/releases/exifinterface
