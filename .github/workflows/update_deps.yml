@@ -29,12 +29,10 @@ jobs:
           ./scripts/updateDeps.sh
       - name: Create pull request
         id: cpr
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v5
         with:
-#          token: ${{ secrets.PAT }}
+          token: ${{ secrets.PAT }}
           commit-message: 🤖 Update Dependencies
-          committer: update-github-bot
-          author: update-github-bot
           signoff: false
           branch: bot-update-deps
           delete-branch: true
