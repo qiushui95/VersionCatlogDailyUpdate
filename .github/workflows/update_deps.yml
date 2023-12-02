@@ -13,7 +13,6 @@ jobs:
         env:
           GITHUB_CONTEXT: ${{secrets.TEST2}}
         run: |
-          echo "${{HERO_NEXUS.secrets.TEST2}}"
           echo "${{secrets.HERO_NEXUS.TEST2}}"
       - uses: actions/checkout@v3
       - name: Copy CI gradle.properties
