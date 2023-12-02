@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: echo env
         env:
-          GITHUB_CONTEXT: ${{toJSON(github)}}
+          GITHUB_CONTEXT: ${{toJSON(vars)}}
         run: echo "$GITHUB_CONTEXT"
       - uses: actions/checkout@v3
       - name: Copy CI gradle.properties
