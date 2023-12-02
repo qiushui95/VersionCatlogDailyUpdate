@@ -11,8 +11,10 @@ jobs:
     steps:
       - name: echo env
         env:
-          GITHUB_CONTEXT: ${{HERO_NEXUS.HERO_NEXUS_URL}}
-        run: echo "${{HERO_NEXUS.HERO_NEXUS_URL}}"
+          GITHUB_CONTEXT: ${{secrets.TEST2}}
+        run: |
+          echo "${{HERO_NEXUS.secrets.TEST2}}"
+          echo "${{secrets.HERO_NEXUS.TEST2}}"
       - uses: actions/checkout@v3
       - name: Copy CI gradle.properties
         run: mkdir -p ~/.gradle ; cp .github/ci-gradle.properties ~/.gradle/gradle.properties
