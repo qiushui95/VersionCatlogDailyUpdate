@@ -6,7 +6,7 @@ accompanist = "0.32.0"
 activity = "1.8.1"
 
 #Nothing
-agp = "8.1.4"
+agp = "8.2.0"
 
 #https://github.com/aliyun/aliyun-oss-android-sdk/blob/master/changelog.txt
 alioss = "2.9.18"
