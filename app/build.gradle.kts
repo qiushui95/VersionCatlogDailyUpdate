@@ -91,14 +91,15 @@ dependencies {
     implementation(libs.lifecycle.process)
     implementation(libs.lifecycle.service)
 
-    implementation(platform(libs.compose.bom))
     implementation(libs.compose.runtime)
     implementation(libs.compose.material)
+    implementation(libs.compose.material3)
     implementation(libs.compose.foundation)
     implementation(libs.compose.preview)
     implementation(libs.compose.ui)
     implementation(libs.compose.graphics)
     implementation(libs.compose.test.junit4)
+    implementation(libs.compose.test.manifest)
     implementation(libs.compose.tooling)
 
     implementation(libs.coroutines.android)
@@ -216,8 +217,6 @@ dependencies {
     implementation(libs.fragment.core)
     implementation(libs.fragment.test)
 
-    implementation(libs.alioss)
-
     implementation(libs.android.utils)
 
     implementation(libs.chucker)
@@ -248,4 +247,5 @@ dependencies {
     implementation(libs.swipebox)
 
     implementation(libs.drive.obs)
+    implementation(libs.drive.oss)
 }
