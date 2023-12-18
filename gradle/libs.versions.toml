@@ -83,7 +83,7 @@ glide = "4.16.0"
 gradleVersions = "0.50.0"
 
 #https://github.com/Kotlin/kotlinx.collections.immutable
-immutablecollections = "0.3.6"
+immutablecollections = "0.3.7"
 
 #https://github.com/qiushui95/AndroidInitializer
 initializer = "1.0.16"
