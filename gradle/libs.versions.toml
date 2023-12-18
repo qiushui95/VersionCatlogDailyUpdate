@@ -184,7 +184,7 @@ telephoto = "0.7.1"
 transformers = "1.0.6"
 
 #https://github.com/azhon/AppUpdate
-update = "4.3.1"
+update = "4.3.2"
 
 #https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html#jump2
 wechat = "6.8.24"
