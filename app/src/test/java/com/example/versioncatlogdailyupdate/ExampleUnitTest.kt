@@ -26,7 +26,8 @@ class ExampleUnitTest {
 
     private data class VersionGroup(
         val url: String,
-        val list: MutableList<VersionInfo> = mutableListOf()
+        val descList: MutableList<String> = mutableListOf(),
+        val versionList: MutableList<VersionInfo> = mutableListOf(),
     )
 
     private data class VersionInfo(val name: String, val line: String)
@@ -35,7 +36,8 @@ class ExampleUnitTest {
     private data class PluginInfo(val name: String, val line: String)
     private data class LibraryGroup(
         val url: String,
-        val list: MutableList<LibraryInfo> = mutableListOf()
+        val descList: MutableList<String> = mutableListOf(),
+        val libraryList: MutableList<LibraryInfo> = mutableListOf()
     )
 
     private data class LibraryInfo(val name: String, val line: String)
@@ -87,7 +89,8 @@ class ExampleUnitTest {
                 "" -> continue
             }
 
-            val isUrl = line.startsWith("#")
+            val isUrl = line.startsWith("#http")
+            val isDesc = line.startsWith("#") && !isUrl
 
             val name by lazy {
                 line.substring(0, line.indexOf("="))
@@ -99,9 +102,11 @@ class ExampleUnitTest {
                     if (isUrl) {
                         addVersionInfo()
                         versionGroup = VersionGroup(line)
+                    } else if (isDesc) {
+                        versionGroup?.descList?.add(line)
                     } else {
                         val versionInfo = VersionInfo(name, line)
-                        versionGroup?.list?.add(versionInfo)
+                        versionGroup?.versionList?.add(versionInfo)
                     }
                 }
 
@@ -114,8 +119,10 @@ class ExampleUnitTest {
                     if (isUrl) {
                         addLibraryInfo()
                         libraryGroup = LibraryGroup(line)
+                    } else if (isDesc) {
+                        libraryGroup?.descList?.add(line)
                     } else {
-                        libraryGroup?.list?.add(LibraryInfo(name, line))
+                        libraryGroup?.libraryList?.add(LibraryInfo(name, line))
                     }
                 }
 
@@ -127,14 +134,14 @@ class ExampleUnitTest {
         addLibraryInfo()
 
         versionList.forEach { group ->
-            group.list.sortBy { it.name }
+            group.versionList.sortBy { it.name }
         }
-        versionList.sortBy { it.list.first().name }
+        versionList.sortBy { it.versionList.first().name }
         pluginList.sortBy { it.name }
         libraryList.forEach { group ->
-            group.list.sortBy { it.name }
+            group.libraryList.sortBy { it.name }
         }
-        libraryList.sortBy { it.list.first().name }
+        libraryList.sortBy { it.libraryList.first().name }
 
         val resultList = mutableListOf<String>()
         resultList.add("[versions]")
@@ -144,9 +151,8 @@ class ExampleUnitTest {
 
             resultList.add(group.url)
 
-            for (versionInfo in group.list) {
-                resultList.add(versionInfo.line)
-            }
+            group.descList.forEach(resultList::add)
+            group.versionList.map { it.line }.forEach(resultList::add)
         }
 
         repeat(5) {
@@ -167,7 +173,8 @@ class ExampleUnitTest {
 
             resultList.add(group.url)
 
-            group.list.map { it.line }.forEach(resultList::add)
+            group.descList.forEach(resultList::add)
+            group.libraryList.map { it.line }.forEach(resultList::add)
         }
 
         file.writeText(resultList.joinToString("\n"))

@@ -248,4 +248,9 @@ dependencies {
 
     implementation(libs.drive.obs)
     implementation(libs.drive.oss)
+
+    implementation(libs.bottomsheet.material)
+    implementation(libs.bottomsheet.material3)
+
+    implementation(libs.haze)
 }

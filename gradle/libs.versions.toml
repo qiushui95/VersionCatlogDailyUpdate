@@ -5,7 +5,7 @@ accompanist = "0.32.0"
 #https://developer.android.com/jetpack/androidx/releases/activity
 activity = "1.8.2"
 
-#Nothing
+#http://Nothing
 agp = "8.2.0"
 
 #https://opendocs.alipay.com/open/074rk8?pathHash=bdfba391&ref=api
@@ -19,6 +19,9 @@ annotation = "1.7.1"
 
 #https://developer.android.com/jetpack/androidx/releases/appcompat
 appcompat = "1.6.1"
+
+#https://github.com/skydoves/FlexibleBottomSheet
+bottomsheet = "0.1.1"
 
 #https://bugly.qq.com/docs/release-notes/release-android-bugly/?v=1.0.0
 bugly = "4.1.9.3"
@@ -53,9 +56,8 @@ coresplash = "1.0.1"
 coroutines = "1.7.3"
 
 #https://github.com/Tencent/VasDolly
-dolly = "3.0.6"
-
 # @pin https://github.com/huaweicloud/huaweicloud-sdk-java-obs
+dolly = "3.0.6"
 drive-obs = "3.22.3"
 
 #https://github.com/aliyun/aliyun-oss-android-sdk/blob/master/changelog.txt
@@ -82,8 +84,12 @@ glide = "4.16.0"
 #https://github.com/ben-manes/gradle-versions-plugin
 gradleVersions = "0.50.0"
 
+#https://github.com/chrisbanes/haze
+#动态高斯模糊
+haze = "0.4.1"
+
 #https://github.com/Kotlin/kotlinx.collections.immutable
-immutablecollections = "0.3.6"
+immutablecollections = "0.3.7"
 
 #https://github.com/qiushui95/AndroidInitializer
 initializer = "1.0.16"
@@ -160,7 +166,7 @@ room = "2.6.1"
 sampling_image = "3.10.0"
 
 #https://github.com/LuckSiege/PictureSelector
-selector = "v3.11.1"
+selector = "v3.11.2"
 
 #https://github.com/GIGAMOLE/ComposeShadowsPlus
 shadows = "1.0.4"
@@ -241,6 +247,10 @@ annotation = { group = "androidx.annotation", name = "annotation", version.ref =
 appcompat-core = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 appcompat-resources = { group = "androidx.appcompat", name = "appcompat-resources", version.ref = "appcompat" }
 
+#https://github.com/skydoves/FlexibleBottomSheet
+bottomsheet-material = { group = "com.github.skydoves", name = "flexible-bottomsheet-material", version.ref = "bottomsheet" }
+bottomsheet-material3 = { group = "com.github.skydoves", name = "flexible-bottomsheet-material3", version.ref = "bottomsheet" }
+
 #https://bugly.qq.com/docs/user-guide/instruction-manual-android/?v=1.0.0
 bugly = { group = "com.tencent.bugly", name = "crashreport", version.ref = "bugly" }
 
@@ -320,7 +330,7 @@ glide-core = { group = "com.github.bumptech.glide", name = "glide", version.ref 
 glide-ksp = { group = "com.github.bumptech.glide", name = "ksp", version.ref = "glide" }
 glide-okhttp = { group = "com.github.bumptech.glide", name = "okhttp3-integration", version.ref = "glide" }
 
-#Nothing
+#http://Nothing
 gradlePlugin-android = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
 
 #https://github.com/mannodermaus/android-junit5
@@ -337,6 +347,9 @@ gradlePlugin-mavenPublish = { group = "com.vanniktech", name = "gradle-maven-pub
 
 #https://github.com/diffplug/spotless
 gradlePlugin-spotless = { group = "com.diffplug.spotless", name = "spotless-plugin-gradle", version.ref = "spotless" }
+
+#https://github.com/chrisbanes/haze
+haze={group="dev.chrisbanes.haze",name="haze-jetpack-compose",version.ref="haze"}
 
 #https://github.com/Kotlin/kotlinx.collections.immutable
 immutable-collections = { group = "org.jetbrains.kotlinx", name = "kotlinx-collections-immutable-jvm", version.ref = "immutablecollections" }
