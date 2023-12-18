@@ -160,7 +160,7 @@ room = "2.6.1"
 sampling_image = "3.10.0"
 
 #https://github.com/LuckSiege/PictureSelector
-selector = "v3.11.1"
+selector = "v3.11.2"
 
 #https://github.com/GIGAMOLE/ComposeShadowsPlus
 shadows = "1.0.4"
