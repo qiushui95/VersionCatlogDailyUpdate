@@ -104,7 +104,7 @@ junit = "5.10.1"
 junit5 = "1.10.0.0"
 
 #https://github.com/InsertKoinIO/koin
-koinAndroid = "3.5.0"
+koinAndroid = "3.5.3"
 koinCompose = "3.5.0"
 koinCore = "3.5.0"
 
