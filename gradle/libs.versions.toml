@@ -40,7 +40,7 @@ compose-core = "1.5.4"
 compose-material3 = "1.1.2"
 
 #https://developer.android.com/jetpack/androidx/releases/compose-compiler
-composeCompiler = "1.5.6"
+composeCompiler = "1.5.7"
 
 #https://developer.android.com/jetpack/androidx/releases/constraintlayout
 constraint-compose = "1.0.1"
@@ -56,8 +56,9 @@ coresplash = "1.0.1"
 coroutines = "1.7.3"
 
 #https://github.com/Tencent/VasDolly
-# @pin https://github.com/huaweicloud/huaweicloud-sdk-java-obs
 dolly = "3.0.6"
+
+#https://github.com/huaweicloud/huaweicloud-sdk-java-obs
 drive-obs = "3.22.3"
 
 #https://github.com/aliyun/aliyun-oss-android-sdk/blob/master/changelog.txt
