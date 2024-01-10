@@ -122,7 +122,7 @@ ktlint = "1.1.0"
 landscapist = "2.2.13"
 
 #https://square.github.io/leakcanary/getting_started/
-leakcanary = "2.12"
+leakcanary = "2.13"
 
 #https://developer.android.com/jetpack/androidx/releases/lifecycle
 lifecycle = "2.6.2"
