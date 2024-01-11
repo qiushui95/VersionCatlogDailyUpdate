@@ -194,7 +194,7 @@ transformers = "1.0.6"
 update = "4.3.2"
 
 #https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html#jump2
-wechat = "6.8.24"
+wechat = "6.8.26"
 
 #https://developer.android.com/jetpack/androidx/releases/work
 work = "2.9.0"
