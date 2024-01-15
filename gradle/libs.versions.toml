@@ -110,7 +110,7 @@ koinCompose = "3.5.3"
 koinCore = "3.5.3"
 
 #https://github.com/JetBrains/kotlin
-kotlin = "1.9.21"
+kotlin = "1.9.22"
 
 #https://github.com/google/ksp
 ksp = "1.9.22-1.0.16"
