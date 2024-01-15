@@ -6,7 +6,7 @@ accompanist = "0.32.0"
 activity = "1.8.2"
 
 #http://Nothing
-agp = "8.2.0"
+agp = "8.2.1"
 
 #https://opendocs.alipay.com/open/074rk8?pathHash=bdfba391&ref=api
 alipay = "15.8.17"
@@ -40,7 +40,7 @@ compose-core = "1.5.4"
 compose-material3 = "1.1.2"
 
 #https://developer.android.com/jetpack/androidx/releases/compose-compiler
-composeCompiler = "1.5.7"
+composeCompiler = "1.5.8"
 
 #https://developer.android.com/jetpack/androidx/releases/constraintlayout
 constraint-compose = "1.0.1"
@@ -125,7 +125,7 @@ landscapist = "2.2.13"
 leakcanary = "2.13"
 
 #https://developer.android.com/jetpack/androidx/releases/lifecycle
-lifecycle = "2.6.2"
+lifecycle = "2.7.0"
 
 #https://github.com/airbnb/lottie-android
 lottie = "6.3.0"
@@ -203,7 +203,7 @@ work = "2.9.0"
 xcrash = "3.1.0"
 
 #https://github.com/li-xiaojun/XPopup
-xpopup = "2.9.19"
+xpopup = "2.10.0"
 
 
 
