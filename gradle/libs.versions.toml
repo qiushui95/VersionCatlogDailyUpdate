@@ -83,7 +83,7 @@ fragment = "1.6.2"
 glide = "4.16.0"
 
 #https://github.com/ben-manes/gradle-versions-plugin
-gradleVersions = "0.50.0"
+gradleVersions = "0.51.0"
 
 #https://github.com/chrisbanes/haze
 #动态高斯模糊
