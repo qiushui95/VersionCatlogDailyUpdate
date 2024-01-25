@@ -6,7 +6,7 @@ accompanist = "0.32.0"
 activity = "1.8.2"
 
 #http://Nothing
-agp = "8.2.1"
+agp = "8.2.2"
 
 #https://opendocs.alipay.com/open/074rk8?pathHash=bdfba391&ref=api
 alipay = "15.8.17"
@@ -36,7 +36,7 @@ chucker = "4.0.0"
 collapsing = "1.0.8"
 
 #https://developer.android.com/jetpack/compose/bom/bom-mapping
-compose-core = "1.5.4"
+compose-core = "1.6.0"
 compose-material3 = "1.1.2"
 
 #https://developer.android.com/jetpack/androidx/releases/compose-compiler
@@ -192,6 +192,10 @@ transformers = "1.0.6"
 
 #https://github.com/azhon/AppUpdate
 update = "4.3.2"
+
+#https://github.com/adrielcafe/voyager
+#导航框架
+voyager = "1.0.0"
 
 #https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html#jump2
 wechat = "6.8.26"
@@ -350,7 +354,7 @@ gradlePlugin-mavenPublish = { group = "com.vanniktech", name = "gradle-maven-pub
 gradlePlugin-spotless = { group = "com.diffplug.spotless", name = "spotless-plugin-gradle", version.ref = "spotless" }
 
 #https://github.com/chrisbanes/haze
-haze={group="dev.chrisbanes.haze",name="haze-jetpack-compose",version.ref="haze"}
+haze = { group = "dev.chrisbanes.haze", name = "haze-jetpack-compose", version.ref = "haze" }
 
 #https://github.com/Kotlin/kotlinx.collections.immutable
 immutable-collections = { group = "org.jetbrains.kotlinx", name = "kotlinx-collections-immutable-jvm", version.ref = "immutablecollections" }
@@ -496,6 +500,14 @@ transformers-gpu = { group = "jp.wasabeef.transformers", name = "glide-gpu", ver
 
 #https://github.com/azhon/AppUpdate
 update = { group = "io.github.azhon", name = "appupdate", version.ref = "update" }
+
+#https://github.com/adrielcafe/voyager
+voyager-bottom = { group = "cafe.adriel.voyager", name = "voyager-bottom-sheet-navigator", version.ref = "voyager" }
+voyager-core = { group = "cafe.adriel.voyager", name = "voyager-navigator", version.ref = "voyager" }
+voyager-koin = { group = "cafe.adriel.voyager", name = "voyager-koin", version.ref = "voyager" }
+voyager-model = { group = "cafe.adriel.voyager", name = "voyager-screenmodel", version.ref = "voyager" }
+voyager-tab = { group = "cafe.adriel.voyager", name = "voyager-tab-navigator", version.ref = "voyager" }
+voyager-transition = { group = "cafe.adriel.voyager", name = "voyager-transitions", version.ref = "voyager" }
 
 #https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html#jump2
 wechat = { group = "com.tencent.mm.opensdk", name = "wechat-sdk-android", version.ref = "wechat" }

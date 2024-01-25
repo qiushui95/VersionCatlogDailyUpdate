@@ -253,4 +253,11 @@ dependencies {
     implementation(libs.bottomsheet.material3)
 
     implementation(libs.haze)
+
+    implementation(libs.voyager.core)
+    implementation(libs.voyager.model)
+    implementation(libs.voyager.bottom)
+    implementation(libs.voyager.tab)
+    implementation(libs.voyager.koin)
+    implementation(libs.voyager.transition)
 }
