@@ -27,7 +27,7 @@ bottomsheet = "0.1.2"
 bugly = "4.1.9.3"
 
 #https://github.com/littlerobots/version-catalog-update-plugin
-catalogUpdate = "0.8.3"
+catalogUpdate = "0.8.4"
 
 #https://github.com/ChuckerTeam/chucker
 chucker = "4.0.0"
