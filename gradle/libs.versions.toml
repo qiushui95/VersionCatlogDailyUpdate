@@ -20,8 +20,8 @@ annotation = "1.7.1"
 #https://developer.android.com/jetpack/androidx/releases/appcompat
 appcompat = "1.6.1"
 
-#https://github.com/skydoves/FlexibleBottomSheet
-bottomsheet = "0.1.2"
+#https://github.com/dokar3/sheets
+bottomsheet = "0.5.5"
 
 #https://bugly.qq.com/docs/release-notes/release-android-bugly/?v=1.0.0
 bugly = "4.1.9.3"
@@ -209,6 +209,9 @@ xcrash = "3.1.0"
 #https://github.com/li-xiaojun/XPopup
 xpopup = "2.10.0"
 
+#https://github.com/panpf/zoomimage
+zoomimage = "1.0.1"
+
 
 
 
@@ -252,9 +255,8 @@ annotation = { group = "androidx.annotation", name = "annotation", version.ref =
 appcompat-core = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 appcompat-resources = { group = "androidx.appcompat", name = "appcompat-resources", version.ref = "appcompat" }
 
-#https://github.com/skydoves/FlexibleBottomSheet
-bottomsheet-material = { group = "com.github.skydoves", name = "flexible-bottomsheet-material", version.ref = "bottomsheet" }
-bottomsheet-material3 = { group = "com.github.skydoves", name = "flexible-bottomsheet-material3", version.ref = "bottomsheet" }
+#https://github.com/dokar3/sheets
+bottomsheet = { group = "io.github.dokar3", name = "sheets", version.ref = "bottomsheet" }
 
 #https://bugly.qq.com/docs/user-guide/instruction-manual-android/?v=1.0.0
 bugly = { group = "com.tencent.bugly", name = "crashreport", version.ref = "bugly" }
@@ -522,3 +524,6 @@ xcrash = { group = "com.iqiyi.xcrash", name = "xcrash-android-lib", version.ref 
 
 #https://github.com/li-xiaojun/XPopup
 xpopup = { group = "com.github.li-xiaojun", name = "XPopup", version.ref = "xpopup" }
+
+#https://github.com/panpf/zoomimage
+zoomimage = { group = "io.github.panpf.zoomimage", name = "zoomimage-compose-glide", version.ref = "zoomimage" }

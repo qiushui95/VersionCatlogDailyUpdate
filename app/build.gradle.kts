@@ -249,8 +249,7 @@ dependencies {
     implementation(libs.drive.obs)
     implementation(libs.drive.oss)
 
-    implementation(libs.bottomsheet.material)
-    implementation(libs.bottomsheet.material3)
+    implementation(libs.bottomsheet)
 
     implementation(libs.haze)
 
@@ -260,4 +259,6 @@ dependencies {
     implementation(libs.voyager.tab)
     implementation(libs.voyager.koin)
     implementation(libs.voyager.transition)
+
+    implementation(libs.zoomimage)
 }
