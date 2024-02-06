@@ -96,7 +96,7 @@ immutablecollections = "0.3.7"
 initializer = "1.0.16"
 
 #https://github.com/JodaOrg/joda-time
-jodatime = "2.12.6"
+jodatime = "2.12.7"
 
 #https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
 junit = "5.10.2"
