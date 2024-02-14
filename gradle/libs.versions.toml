@@ -74,7 +74,7 @@ fastjson = "2.0.46"
 flowBinding = "1.2.0"
 
 #https://github.com/respawn-app/FlowMVI
-flowmvi = "1.1.4"
+flowmvi = "2.4.1"
 
 #https://developer.android.com/jetpack/androidx/releases/fragment
 fragment = "1.6.2"
