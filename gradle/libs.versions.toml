@@ -185,7 +185,7 @@ stetho = "1.6.0"
 swipe-box = "1.2.0"
 
 #https://github.com/saket/telephoto
-telephoto = "0.7.1"
+telephoto = "0.8.0"
 
 #https://github.com/wasabeef/transformers
 transformers = "1.0.6"
