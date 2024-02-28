@@ -87,7 +87,7 @@ gradleVersions = "0.51.0"
 
 #https://github.com/chrisbanes/haze
 #动态高斯模糊
-haze = "0.5.3"
+haze = "0.5.4"
 
 #https://github.com/Kotlin/kotlinx.collections.immutable
 immutablecollections = "0.3.7"
