@@ -21,7 +21,7 @@ annotation = "1.7.1"
 appcompat = "1.6.1"
 
 #https://github.com/dokar3/sheets
-bottomsheet = "0.5.6"
+bottomsheet = "0.5.7"
 
 #https://bugly.qq.com/docs/release-notes/release-android-bugly/?v=1.0.0
 bugly = "4.1.9.3"
