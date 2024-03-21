@@ -261,4 +261,6 @@ dependencies {
     implementation(libs.voyager.transition)
 
     implementation(libs.zoomimage)
+
+    implementation(libs.webview)
 }

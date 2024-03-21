@@ -40,7 +40,7 @@ compose-core = "1.6.4"
 compose-material3 = "1.2.1"
 
 #https://developer.android.com/jetpack/androidx/releases/compose-compiler
-composeCompiler = "1.5.10"
+composeCompiler = "1.5.11"
 
 #https://developer.android.com/jetpack/androidx/releases/constraintlayout
 constraint-compose = "1.0.1"
@@ -196,6 +196,9 @@ update = "4.3.2"
 #https://github.com/adrielcafe/voyager
 #导航框架
 voyager = "1.0.0"
+
+#https://github.com/KevinnZou/compose-webview
+webview = "0.33.4"
 
 #https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html#jump2
 wechat = "6.8.28"
@@ -510,6 +513,9 @@ voyager-koin = { group = "cafe.adriel.voyager", name = "voyager-koin", version.r
 voyager-model = { group = "cafe.adriel.voyager", name = "voyager-screenmodel", version.ref = "voyager" }
 voyager-tab = { group = "cafe.adriel.voyager", name = "voyager-tab-navigator", version.ref = "voyager" }
 voyager-transition = { group = "cafe.adriel.voyager", name = "voyager-transitions", version.ref = "voyager" }
+
+#https://github.com/KevinnZou/compose-webview
+webview = { group = "io.github.kevinnzou", name = "compose-webview", version.ref = "webview" }
 
 #https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html#jump2
 wechat = { group = "com.tencent.mm.opensdk", name = "wechat-sdk-android", version.ref = "wechat" }
