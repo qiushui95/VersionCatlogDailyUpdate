@@ -35,6 +35,9 @@ chucker = "4.0.0"
 #https://github.com/onebone/compose-collapsing-toolbar
 collapsing = "1.0.8"
 
+#https://github.com/qiushui95/CollapsingScaffold
+collapsing-scaffold = "1.0.0"
+
 #https://developer.android.com/jetpack/compose/bom/bom-mapping
 compose-core = "1.6.4"
 compose-material3 = "1.2.1"
@@ -134,7 +137,7 @@ lottie = "6.4.0"
 material = "1.11.0"
 
 #https://github.com/vanniktech/gradle-maven-publish-plugin
-mavenpublish = "0.28.0"
+maven = "0.28.0"
 
 #https://github.com/Tencent/MMKV/blob/master/README_CN.md
 mmkv = "1.3.4"
@@ -228,7 +231,7 @@ kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 library = { id = "com.android.library", version.ref = "agp" }
 spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
-
+maven = { id = "com.vanniktech.maven.publish", version.ref = "maven" }
 
 
 
@@ -269,6 +272,9 @@ chucker = { group = "com.github.chuckerteam.chucker", name = "library", version.
 
 #https://github.com/onebone/compose-collapsing-toolbar
 collapsing = { group = "com.github.GIGAMOLE.fix", name = "ComposeCollapsingToolbar", version.ref = "collapsing" }
+
+#https://github.com/qiushui95/CollapsingScaffold
+collapsing-scaffold = { group = "com.github.qiushui95", name = "CollapsingScaffold", version.ref = "collapsing-scaffold" }
 
 #https://developer.android.com/jetpack/androidx/releases/compose
 compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "compose-core" }
@@ -353,7 +359,7 @@ gradlePlugin-kotlin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-pl
 gradlePlugin-ksp = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
 
 #https://github.com/vanniktech/gradle-maven-publish-plugin
-gradlePlugin-mavenPublish = { group = "com.vanniktech", name = "gradle-maven-publish-plugin", version.ref = "mavenpublish" }
+gradlePlugin-maven = { group = "com.vanniktech", name = "gradle-maven-publish-plugin", version.ref = "maven" }
 
 #https://github.com/diffplug/spotless
 gradlePlugin-spotless = { group = "com.diffplug.spotless", name = "spotless-plugin-gradle", version.ref = "spotless" }
