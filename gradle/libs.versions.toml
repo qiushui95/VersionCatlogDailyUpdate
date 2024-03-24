@@ -32,11 +32,8 @@ catalogUpdate = "0.8.4"
 #https://github.com/ChuckerTeam/chucker
 chucker = "4.0.0"
 
-#https://github.com/onebone/compose-collapsing-toolbar
-collapsing = "1.0.8"
-
 #https://github.com/qiushui95/CollapsingScaffold
-collapsing-scaffold = "1.0.0"
+collapsing-scaffold = "1.0.1"
 
 #https://developer.android.com/jetpack/compose/bom/bom-mapping
 compose-core = "1.6.4"
@@ -269,9 +266,6 @@ bugly = { group = "com.tencent.bugly", name = "crashreport", version.ref = "bugl
 
 #https://github.com/ChuckerTeam/chucker
 chucker = { group = "com.github.chuckerteam.chucker", name = "library", version.ref = "chucker" }
-
-#https://github.com/onebone/compose-collapsing-toolbar
-collapsing = { group = "com.github.GIGAMOLE.fix", name = "ComposeCollapsingToolbar", version.ref = "collapsing" }
 
 #https://github.com/qiushui95/CollapsingScaffold
 collapsing-scaffold = { group = "com.github.qiushui95", name = "CollapsingScaffold", version.ref = "collapsing-scaffold" }

@@ -205,7 +205,6 @@ dependencies {
 
     implementation(libs.exif)
 
-    implementation(libs.collapsing)
     implementation(libs.collapsing.scaffold)
 
     implementation(libs.shadows)
