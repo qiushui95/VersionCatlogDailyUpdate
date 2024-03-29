@@ -155,7 +155,7 @@ permission = "18.62"
 player-video = "v8.6.0-release-jitpack"
 
 #https://github.com/square/retrofit
-retrofit = "2.10.0"
+retrofit = "2.11.0"
 
 #https://github.com/MohamedRejeb/Compose-Rich-Editor
 richtext = "0.2.0"
