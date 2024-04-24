@@ -12,10 +12,10 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        maven(url = "https://jitpack.io")
         maven(url = "https://repo1.maven.org/maven2")
         google()
         mavenCentral()
-        maven(url = "https://jitpack.io")
         maven(url = "https://mirrors.huaweicloud.com/repository/maven/")
         maven{
             name="Hero"
