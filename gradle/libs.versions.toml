@@ -59,7 +59,7 @@ coroutines = "1.8.0"
 dolly = "3.0.6"
 
 #https://github.com/huaweicloud/huaweicloud-sdk-java-obs
-drive-obs = "3.22.3"
+drive-obs = "3.24.3"
 
 #https://github.com/aliyun/aliyun-oss-android-sdk/blob/master/changelog.txt
 drive-oss = "2.9.19"
