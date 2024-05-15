@@ -77,7 +77,7 @@ flowBinding = "1.2.0"
 flowmvi = "2.4.1"
 
 #https://developer.android.com/jetpack/androidx/releases/fragment
-fragment = "1.7.0"
+fragment = "1.7.1"
 
 #https://github.com/bumptech/glide
 glide = "4.16.0"
