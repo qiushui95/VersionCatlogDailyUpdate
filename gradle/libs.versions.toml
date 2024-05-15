@@ -40,7 +40,7 @@ compose-core = "1.6.7"
 compose-material3 = "1.2.1"
 
 #https://developer.android.com/jetpack/androidx/releases/compose-compiler
-composeCompiler = "1.5.13"
+composeCompiler = "1.5.14"
 
 #https://developer.android.com/jetpack/androidx/releases/constraintlayout
 constraint-compose = "1.0.1"
@@ -105,9 +105,7 @@ junit = "5.10.2"
 junit5 = "1.10.0.0"
 
 #https://github.com/InsertKoinIO/koin
-koinCore = "3.5.6"
-koinAndroid = "3.5.6"
-koinCompose = "3.5.6"
+koin = "3.5.6"
 
 #https://github.com/JetBrains/kotlin
 kotlin = "1.9.24"
@@ -371,9 +369,9 @@ initializer = { group = "com.github.qiushui95", name = "AndroidInitializer", ver
 jodatime = { group = "joda-time", name = "joda-time", version.ref = "jodatime" }
 
 #https://github.com/InsertKoinIO/koin
-koin-android = { group = "io.insert-koin", name = "koin-android", version.ref = "koinAndroid" }
-koin-compose = { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koinCompose" }
-koin-core = { group = "io.insert-koin", name = "koin-core", version.ref = "koinCore" }
+koin-android = { group = "io.insert-koin", name = "koin-android", version.ref = "koin" }
+koin-compose = { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koin" }
+koin-core = { group = "io.insert-koin", name = "koin-core", version.ref = "koin" }
 
 #https://github.com/JetBrains/kotlin
 kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib", version.ref = "kotlin" }
