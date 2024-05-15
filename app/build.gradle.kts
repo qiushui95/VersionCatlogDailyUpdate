@@ -143,6 +143,7 @@ dependencies {
     implementation(libs.glide.core)
     implementation(libs.glide.okhttp)
     implementation(libs.glide.ksp)
+    implementation(libs.glide.avif)
 
     implementation(libs.transformers.core)
     implementation(libs.transformers.glide)
