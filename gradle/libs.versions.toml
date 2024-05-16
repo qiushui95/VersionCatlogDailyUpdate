@@ -434,7 +434,7 @@ sampling-image = { module = "com.davemorrissey.labs:subsampling-scale-image-view
 selector-camerax = { module = "io.github.lucksiege:camerax", version.ref = "selector" }
 selector-compress = { module = "io.github.lucksiege:compress", version.ref = "selector" }
 selector-core = "io.github.lucksiege:pictureselector:2.6.3"
-selector-crop = "io.github.lucksiege:ucrop:2.2.7"
+selector-crop = "io.github.lucksiege:ucrop:v3.11.2"
 
 #https://github.com/GIGAMOLE/ComposeShadowsPlus
 shadows = { module = "com.github.GIGAMOLE:ComposeShadowsPlus", version.ref = "shadows" }
