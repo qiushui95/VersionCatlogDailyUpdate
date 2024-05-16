@@ -433,8 +433,8 @@ sampling-image = { module = "com.davemorrissey.labs:subsampling-scale-image-view
 #https://github.com/LuckSiege/PictureSelector
 selector-camerax = { module = "io.github.lucksiege:camerax", version.ref = "selector" }
 selector-compress = { module = "io.github.lucksiege:compress", version.ref = "selector" }
-selector-core = "io.github.lucksiege:pictureselector:2.6.3"
-selector-crop = "io.github.lucksiege:ucrop:2.2.7"
+selector-core = { module = "io.github.lucksiege:pictureselector", version.ref = "selector" }
+selector-crop = { module = "io.github.lucksiege:ucrop", version.ref = "selector" }
 
 #https://github.com/GIGAMOLE/ComposeShadowsPlus
 shadows = { module = "com.github.GIGAMOLE:ComposeShadowsPlus", version.ref = "shadows" }
@@ -489,10 +489,10 @@ update = { module = "io.github.azhon:appupdate", version.ref = "update" }
 #https://github.com/adrielcafe/voyager
 voyager-bottom = { module = "cafe.adriel.voyager:voyager-bottom-sheet-navigator", version.ref = "voyager" }
 voyager-core = { module = "cafe.adriel.voyager:voyager-navigator", version.ref = "voyager" }
-voyager-koin = "cafe.adriel.voyager:voyager-koin:1.0.0"
+voyager-koin = { module = "cafe.adriel.voyager:voyager-koin", version.ref = "voyager" }
 voyager-model = { module = "cafe.adriel.voyager:voyager-screenmodel", version.ref = "voyager" }
 voyager-tab = { module = "cafe.adriel.voyager:voyager-tab-navigator", version.ref = "voyager" }
-voyager-transition = "cafe.adriel.voyager:voyager-transitions:1.0.0"
+voyager-transition = { module = "cafe.adriel.voyager:voyager-transitions", version.ref = "voyager" }
 
 #https://github.com/KevinnZou/compose-webview
 webview = { module = "io.github.kevinnzou:compose-webview", version.ref = "webview" }
