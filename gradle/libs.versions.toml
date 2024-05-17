@@ -473,7 +473,7 @@ telephoto-zoomable = { module = "me.saket.telephoto:zoomable", version.ref = "te
 test-core = "androidx.test:core-ktx:1.6.0-alpha06"
 
 #https://mvnrepository.com/artifact/androidx.test.espresso/espresso-core
-test-espresso = "androidx.test.espresso:espresso-core:3.6.0-alpha04"
+test-espresso = "androidx.test.espresso:espresso-core:3.6.0-beta01"
 
 #https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
 test-junit-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit" }
