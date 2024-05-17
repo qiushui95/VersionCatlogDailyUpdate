@@ -347,10 +347,22 @@ glide-ksp = { module = "com.github.bumptech.glide:ksp", version.ref = "glide" }
 glide-okhttp = { module = "com.github.bumptech.glide:okhttp3-integration", version.ref = "glide" }
 
 #http://Nothing
-gradlePlugin-android = { module = "com.android.tools.build:gradle", version.ref = "agp" }
+gradlePlugin-android = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
+
+#https://github.com/mannodermaus/android-junit5
+gradlePlugin-junit5 = { group = "de.mannodermaus.gradle.plugins", name = "android-junit5", version.ref = "junit5" }
 
 #https://github.com/JetBrains/kotlin
-gradlePlugin-kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+gradlePlugin-kotlin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+
+#https://github.com/google/ksp
+gradlePlugin-ksp = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
+
+#https://github.com/vanniktech/gradle-maven-publish-plugin
+gradlePlugin-maven = { group = "com.vanniktech", name = "gradle-maven-publish-plugin", version.ref = "maven" }
+
+#https://github.com/diffplug/spotless
+gradlePlugin-spotless = { group = "com.diffplug.spotless", name = "spotless-plugin-gradle", version.ref = "spotless" }
 
 #https://github.com/chrisbanes/haze
 haze = { module = "dev.chrisbanes.haze:haze-jetpack-compose", version.ref = "haze" }
