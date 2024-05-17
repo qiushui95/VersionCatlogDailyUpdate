@@ -5,6 +5,9 @@ accompanist = "0.34.0"
 #https://developer.android.com/jetpack/androidx/releases/activity
 activity = "1.9.0"
 
+#https://github.com/Justson/AgentWeb
+agentweb = "v5.1.1-androidx"
+
 #http://Nothing
 agp = "8.4.0"
 
@@ -213,6 +216,10 @@ xpopup = "2.10.0"
 #https://github.com/panpf/zoomimage
 zoomimage = "1.0.2"
 
+
+
+
+
 [plugins]
 application = { id = "com.android.application", version.ref = "agp" }
 catalogUpdate = { id = "nl.littlerobots.version-catalog-update", version.ref = "catalogUpdate" }
@@ -221,8 +228,12 @@ junit5 = { id = "de.mannodermaus.android-junit5", version.ref = "junit5" }
 kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 library = { id = "com.android.library", version.ref = "agp" }
-spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
 maven = { id = "com.vanniktech.maven.publish", version.ref = "maven" }
+spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
+
+
+
+
 
 [libraries]
 #https://github.com/google/accompanist
@@ -235,6 +246,9 @@ accompanist-webview = { module = "com.google.accompanist:accompanist-webview", v
 #https://developer.android.com/jetpack/androidx/releases/activity
 activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activity" }
 activity-core = { module = "androidx.activity:activity-ktx", version.ref = "activity" }
+
+#https://github.com/Justson/AgentWeb
+agentweb = { module = "io.github.justson:agentweb-core", version.ref = "agentweb" }
 
 #https://opendocs.alipay.com/open/074rk8?pathHash=bdfba391&ref=api
 alipay = { module = "com.alipay.sdk:alipaysdk-android", version.ref = "alipay" }
@@ -327,10 +341,10 @@ fragment-core = { module = "androidx.fragment:fragment-ktx", version.ref = "frag
 fragment-test = { module = "androidx.fragment:fragment-testing", version.ref = "fragment" }
 
 #https://github.com/bumptech/glide
+glide-avif = { module = "com.github.bumptech.glide:avif-integration", version.ref = "glide" }
 glide-core = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
 glide-ksp = { module = "com.github.bumptech.glide:ksp", version.ref = "glide" }
 glide-okhttp = { module = "com.github.bumptech.glide:okhttp3-integration", version.ref = "glide" }
-glide-avif = { module = "com.github.bumptech.glide:avif-integration", version.ref = "glide" }
 
 #http://Nothing
 gradlePlugin-android = { module = "com.android.tools.build:gradle", version.ref = "agp" }
