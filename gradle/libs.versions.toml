@@ -493,7 +493,7 @@ test-junit-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref =
 test-junit-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit" }
 
 #https://mvnrepository.com/artifact/androidx.test.ext/junit-ktx
-test-junit-ext = "androidx.test.ext:junit-ktx:1.2.0-alpha04"
+test-junit-ext = "androidx.test.ext:junit-ktx:1.2.0-beta01"
 test-junit-params = { module = "org.junit.jupiter:junit-jupiter-params", version.ref = "junit" }
 
 #https://mvnrepository.com/artifact/androidx.test/rules
