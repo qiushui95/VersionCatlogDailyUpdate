@@ -500,7 +500,7 @@ test-junit-params = { module = "org.junit.jupiter:junit-jupiter-params", version
 test-rules = "androidx.test:rules:1.6.0-alpha04"
 
 #https://mvnrepository.com/artifact/androidx.test/runner
-test-runner = "androidx.test:runner:1.6.0-alpha07"
+test-runner = "androidx.test:runner:1.6.0-beta01"
 
 #https://mvnrepository.com/artifact/androidx.test.uiautomator/uiautomator
 test-uiautomator = "androidx.test.uiautomator:uiautomator:2.3.0"
