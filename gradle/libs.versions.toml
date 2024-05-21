@@ -497,7 +497,7 @@ test-junit-ext = "androidx.test.ext:junit-ktx:1.2.0-beta01"
 test-junit-params = { module = "org.junit.jupiter:junit-jupiter-params", version.ref = "junit" }
 
 #https://mvnrepository.com/artifact/androidx.test/rules
-test-rules = "androidx.test:rules:1.6.0-alpha04"
+test-rules = "androidx.test:rules:1.6.0-beta01"
 
 #https://mvnrepository.com/artifact/androidx.test/runner
 test-runner = "androidx.test:runner:1.6.0-beta01"
