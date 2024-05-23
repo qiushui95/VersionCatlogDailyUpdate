@@ -264,7 +264,7 @@ dependencies {
 
     implementation(libs.zoomimage)
 
-    implementation(libs.webview)
-
-    implementation(libs.agentweb)
+    implementation(libs.webview.compose)
+    implementation(libs.webview.agent)
+    implementation(libs.webview.x5)
 }

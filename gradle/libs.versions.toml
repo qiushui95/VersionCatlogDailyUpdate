@@ -5,9 +5,6 @@ accompanist = "0.34.0"
 #https://developer.android.com/jetpack/androidx/releases/activity
 activity = "1.9.0"
 
-#https://github.com/Justson/AgentWeb
-agentweb = "v5.1.1-androidx"
-
 #http://Nothing
 agp = "8.4.1"
 
@@ -168,7 +165,7 @@ room = "2.6.1"
 sampling_image = "3.10.0"
 
 #https://github.com/LuckSiege/PictureSelector
-selector = "v3.11.3"
+selector = "v3.11.2"
 
 #https://github.com/GIGAMOLE/ComposeShadowsPlus
 shadows = "1.0.4"
@@ -198,8 +195,14 @@ update = "4.3.2"
 #导航框架
 voyager = "1.0.0"
 
+#https://github.com/Justson/AgentWeb
+webview_agent = "v5.1.1-androidx"
+
 #https://github.com/KevinnZou/compose-webview
-webview = "0.33.6"
+webview_compose = "0.33.6"
+
+#https://x5.tencent.com/docs/access.html
+webview_x5 = "44286"
 
 #https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html#jump2
 wechat = "6.8.28"
@@ -246,9 +249,6 @@ accompanist-webview = { module = "com.google.accompanist:accompanist-webview", v
 #https://developer.android.com/jetpack/androidx/releases/activity
 activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activity" }
 activity-core = { module = "androidx.activity:activity-ktx", version.ref = "activity" }
-
-#https://github.com/Justson/AgentWeb
-agentweb = { module = "io.github.justson:agentweb-core", version.ref = "agentweb" }
 
 #https://opendocs.alipay.com/open/074rk8?pathHash=bdfba391&ref=api
 alipay = { module = "com.alipay.sdk:alipaysdk-android", version.ref = "alipay" }
@@ -522,7 +522,13 @@ voyager-tab = { module = "cafe.adriel.voyager:voyager-tab-navigator", version.re
 voyager-transition = { module = "cafe.adriel.voyager:voyager-transitions", version.ref = "voyager" }
 
 #https://github.com/KevinnZou/compose-webview
-webview = { module = "io.github.kevinnzou:compose-webview", version.ref = "webview" }
+webview-compose = { module = "io.github.kevinnzou:compose-webview", version.ref = "webview_compose" }
+
+#https://github.com/Justson/AgentWeb
+webview_agent = { module = "io.github.justson:agentweb-core", version.ref = "webview_agent" }
+
+#https://x5.tencent.com/docs/access.html
+webview_x5 = { module = "com.tencent.tbs:tbssdk", version.ref = "webview_x5" }
 
 #https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html#jump2
 wechat = { module = "com.tencent.mm.opensdk:wechat-sdk-android", version.ref = "wechat" }
