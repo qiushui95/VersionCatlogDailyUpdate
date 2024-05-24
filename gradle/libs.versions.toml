@@ -202,7 +202,10 @@ webview_agent = "v5.1.1-androidx"
 webview_compose = "0.33.6"
 
 #https://x5.tencent.com/docs/access.html
-webview_x5 = "44286"
+webview_x5_core = "44286"
+
+#https://github.com/KangYee/tbscompose
+webview_x5_compose = "1.0.1"
 
 #https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html#jump2
 wechat = "6.8.28"
@@ -528,7 +531,10 @@ webview-compose = { module = "io.github.kevinnzou:compose-webview", version.ref 
 webview_agent = { module = "io.github.justson:agentweb-core", version.ref = "webview_agent" }
 
 #https://x5.tencent.com/docs/access.html
-webview_x5 = { module = "com.tencent.tbs:tbssdk", version.ref = "webview_x5" }
+webview_x5_core = { module = "com.tencent.tbs:tbssdk", version.ref = "webview_x5_core" }
+
+#https://github.com/KangYee/tbscompose
+webview_x5_compose = { module = "io.github.kangyee:tbscompose", version.ref = "webview_x5_compose" }
 
 #https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html#jump2
 wechat = { module = "com.tencent.mm.opensdk:wechat-sdk-android", version.ref = "wechat" }

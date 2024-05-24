@@ -266,5 +266,6 @@ dependencies {
 
     implementation(libs.webview.compose)
     implementation(libs.webview.agent)
-    implementation(libs.webview.x5)
+    implementation(libs.webview.x5.core)
+    implementation(libs.webview.x5.compose)
 }
