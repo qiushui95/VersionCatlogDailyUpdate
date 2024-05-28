@@ -39,9 +39,6 @@ collapsing-scaffold = "1.0.4"
 compose-core = "1.6.7"
 compose-material3 = "1.2.1"
 
-#https://developer.android.com/jetpack/androidx/releases/compose-compiler
-composeCompiler = "1.5.14"
-
 #https://developer.android.com/jetpack/androidx/releases/constraintlayout
 constraint-compose = "1.0.1"
 constraint-layout = "2.1.4"
@@ -229,6 +226,7 @@ zoomimage = "1.0.2"
 [plugins]
 application = { id = "com.android.application", version.ref = "agp" }
 catalogUpdate = { id = "nl.littlerobots.version-catalog-update", version.ref = "catalogUpdate" }
+compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 gradleVersions = { id = "com.github.ben-manes.versions", version.ref = "gradleVersions" }
 junit5 = { id = "de.mannodermaus.android-junit5", version.ref = "junit5" }
 kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
