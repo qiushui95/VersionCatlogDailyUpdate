@@ -271,6 +271,5 @@ dependencies {
     implementation(libs.webview.x5.core)
     implementation(libs.webview.x5.compose)
 
-    implementation(libs.analytics.core)
-    implementation(libs.analytics.auto)
+    implementation(libs.analytics.sdk)
 }
