@@ -11,6 +11,10 @@ agp = "8.4.1"
 #https://opendocs.alipay.com/open/074rk8?pathHash=bdfba391&ref=api
 alipay = "15.8.17"
 
+#https://manual.sensorsdata.cn/sa/latest/zh_cn/tech_sdk_client_android_basic-7541696.html
+analytics-plugin = "4.0.2"
+analytics-sdk = "6.8.0"
+
 #https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
 androidutils = "1.31.1"
 
@@ -225,6 +229,7 @@ zoomimage = "1.0.2"
 
 [plugins]
 application = { id = "com.android.application", version.ref = "agp" }
+analytics = { id = "com.sensorsdata.analytics.android", version.ref = "analytics-plugin" }
 catalogUpdate = { id = "nl.littlerobots.version-catalog-update", version.ref = "catalogUpdate" }
 compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 gradleVersions = { id = "com.github.ben-manes.versions", version.ref = "gradleVersions" }
@@ -254,8 +259,12 @@ activity-core = { module = "androidx.activity:activity-ktx", version.ref = "acti
 #https://opendocs.alipay.com/open/074rk8?pathHash=bdfba391&ref=api
 alipay = { module = "com.alipay.sdk:alipaysdk-android", version.ref = "alipay" }
 
+#https://manual.sensorsdata.cn/sa/latest/zh_cn/tech_sdk_client_android_basic-7541696.html
+analytics-core = { module = "com.sensorsdata.analytics.android:core", version.ref = "analytics-sdk" }
+analytics-auto = { module = "com.sensorsdata.analytics.android:autoTrack", version.ref = "analytics-sdk" }
+
 #https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
-android-utils = { module = "com.blankj:utilcodex", version.ref = "androidutils" }
+androidUtils = { module = "com.blankj:utilcodex", version.ref = "androidutils" }
 
 #https://developer.android.com/jetpack/androidx/releases/annotation
 annotation = { module = "androidx.annotation:annotation", version.ref = "annotation" }

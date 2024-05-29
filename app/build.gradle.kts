@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.ksp)
     alias(libs.plugins.junit5)
     alias(libs.plugins.compose)
+    alias(libs.plugins.analytics)
 }
 
 android {
@@ -220,7 +221,7 @@ dependencies {
     implementation(libs.fragment.core)
     implementation(libs.fragment.test)
 
-    implementation(libs.android.utils)
+    implementation(libs.androidUtils)
 
     implementation(libs.chucker)
 
@@ -269,4 +270,7 @@ dependencies {
     implementation(libs.webview.agent)
     implementation(libs.webview.x5.core)
     implementation(libs.webview.x5.compose)
+
+    implementation(libs.analytics.core)
+    implementation(libs.analytics.auto)
 }
