@@ -22,7 +22,7 @@ androidutils = "1.31.1"
 annotation = "1.8.0"
 
 #https://developer.android.com/jetpack/androidx/releases/appcompat
-appcompat = "1.6.1"
+appcompat = "1.7.0"
 
 #https://github.com/dokar3/sheets
 bottomsheet = "0.5.7"
