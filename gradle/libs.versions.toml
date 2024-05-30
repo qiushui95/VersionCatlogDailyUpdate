@@ -12,7 +12,7 @@ agp = "8.4.1"
 alipay = "15.8.17"
 
 #https://git.yingxiong.com/app/analyticssdk
-analytics = "1.0.0"
+analytics = "1.0.1"
 
 #https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
 androidutils = "1.31.1"
