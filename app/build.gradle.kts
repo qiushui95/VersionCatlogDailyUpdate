@@ -4,7 +4,6 @@ plugins {
     alias(libs.plugins.ksp)
     alias(libs.plugins.junit5)
     alias(libs.plugins.compose)
-    alias(libs.plugins.analytics)
 }
 
 android {
@@ -271,5 +270,5 @@ dependencies {
     implementation(libs.webview.x5.core)
     implementation(libs.webview.x5.compose)
 
-    implementation(libs.analytics.sdk)
+    implementation(libs.analytics)
 }
