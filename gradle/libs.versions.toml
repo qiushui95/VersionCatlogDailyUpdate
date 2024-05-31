@@ -490,7 +490,7 @@ telephoto-sampling = { module = "me.saket.telephoto:sub-sampling-image", version
 telephoto-zoomable = { module = "me.saket.telephoto:zoomable", version.ref = "telephoto" }
 
 #https://mvnrepository.com/artifact/androidx.test/core-ktx
-test-core = "androidx.test:core-ktx:1.6.0-beta01"
+test-core = "androidx.test:core-ktx:1.6.0-rc01"
 
 #https://mvnrepository.com/artifact/androidx.test.espresso/espresso-core
 test-espresso = "androidx.test.espresso:espresso-core:3.6.0-beta01"
