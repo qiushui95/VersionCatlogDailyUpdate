@@ -12,10 +12,18 @@ agp = "8.4.2"
 alipay = "15.8.17"
 
 #https://git.yingxiong.com/app/analyticssdk
-analytics = "1.0.1"
+analytics = "1.0.2"
 
 #https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
 androidutils = "1.31.1"
+
+#https://developer.android.com/jetpack/androidx/releases/test
+androidtest = "1.6.0-rc01"
+androidtest-junit-ext = "1.2.0-rc01"
+androidtest-espresso = "3.6.0-rc01"
+
+##https://mvnrepository.com/artifact/androidx.test.uiautomator/uiautomator
+androidtest-uiautomator = "2.3.0"
 
 #https://developer.android.com/jetpack/androidx/releases/annotation
 annotation = "1.8.0"
@@ -99,10 +107,10 @@ initializer = "1.0.17"
 jodatime = "2.12.7"
 
 #https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
-junit = "5.10.2"
+junit5 = "5.10.2"
 
 #https://github.com/mannodermaus/android-junit5
-junit5 = "1.10.0.0"
+android-junit5 = "1.10.0.0"
 
 #https://github.com/InsertKoinIO/koin
 koin = "3.5.6"
@@ -231,7 +239,7 @@ application = { id = "com.android.application", version.ref = "agp" }
 catalogUpdate = { id = "nl.littlerobots.version-catalog-update", version.ref = "catalogUpdate" }
 compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 gradleVersions = { id = "com.github.ben-manes.versions", version.ref = "gradleVersions" }
-junit5 = { id = "de.mannodermaus.android-junit5", version.ref = "junit5" }
+android-junit5 = { id = "de.mannodermaus.android-junit5", version.ref = "android-junit5" }
 kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 library = { id = "com.android.library", version.ref = "agp" }
@@ -357,7 +365,7 @@ glide-okhttp = { module = "com.github.bumptech.glide:okhttp3-integration", versi
 gradlePlugin-android = { group = "com.android.tools.build", name = "gradle", version.ref = "agp" }
 
 #https://github.com/mannodermaus/android-junit5
-gradlePlugin-junit5 = { group = "de.mannodermaus.gradle.plugins", name = "android-junit5", version.ref = "junit5" }
+gradlePlugin-junit5 = { group = "de.mannodermaus.gradle.plugins", name = "android-junit5", version.ref = "android-junit5" }
 
 #https://github.com/JetBrains/kotlin
 gradlePlugin-kotlin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
@@ -489,28 +497,22 @@ telephoto-glide = { module = "me.saket.telephoto:zoomable-image-glide", version.
 telephoto-sampling = { module = "me.saket.telephoto:sub-sampling-image", version.ref = "telephoto" }
 telephoto-zoomable = { module = "me.saket.telephoto:zoomable", version.ref = "telephoto" }
 
-#https://mvnrepository.com/artifact/androidx.test/core-ktx
-test-core = "androidx.test:core-ktx:1.6.0-rc01"
-
-#https://mvnrepository.com/artifact/androidx.test.espresso/espresso-core
-test-espresso = "androidx.test.espresso:espresso-core:3.6.0-rc01"
+#https://developer.android.com/jetpack/androidx/releases/test
+androidtest-core = {module ="androidx.test:core-ktx",version.ref = "androidtest"}
+androidtest-rules = {module ="androidx.test:rules",version.ref = "androidtest"}
+androidtest-runner = {module ="androidx.test:runner",version.ref = "androidtest"}
+androidtest-espresso = {module ="androidx.test.espresso:espresso-core",version.ref = "androidtest-espresso"}
 
 #https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
-test-junit-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit" }
-test-junit-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit" }
+test-junit5-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit5" }
+test-junit5-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit5" }
+test-junit5-params = { module = "org.junit.jupiter:junit-jupiter-params", version.ref = "junit5" }
 
 #https://mvnrepository.com/artifact/androidx.test.ext/junit-ktx
-test-junit-ext = "androidx.test.ext:junit-ktx:1.2.0-rc01"
-test-junit-params = { module = "org.junit.jupiter:junit-jupiter-params", version.ref = "junit" }
+androidtest-junit-ext = {module ="androidx.test.ext:junit-ktx",version.ref = "androidtest-junit-ext"}
 
-#https://mvnrepository.com/artifact/androidx.test/rules
-test-rules = "androidx.test:rules:1.6.0-rc01"
-
-#https://mvnrepository.com/artifact/androidx.test/runner
-test-runner = "androidx.test:runner:1.6.0-rc01"
-
-#https://mvnrepository.com/artifact/androidx.test.uiautomator/uiautomator
-test-uiautomator = "androidx.test.uiautomator:uiautomator:2.3.0"
+#https://developer.android.com/jetpack/androidx/releases/test-uiautomator
+androidtest-uiautomator = {module ="androidx.test.uiautomator:uiautomator",version.ref = "androidtest-uiautomator"}
 
 #https://github.com/wasabeef/transformers
 transformers-core = { module = "jp.wasabeef.transformers:core", version.ref = "transformers" }

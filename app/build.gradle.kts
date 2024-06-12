@@ -2,7 +2,7 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     alias(libs.plugins.ksp)
-    alias(libs.plugins.junit5)
+    alias(libs.plugins.android.junit5)
     alias(libs.plugins.compose)
 }
 
@@ -57,15 +57,16 @@ composeCompiler {
 
 dependencies {
 
-    implementation(libs.test.junit.api)
-    implementation(libs.test.junit.engine)
-    implementation(libs.test.junit.params)
-    implementation(libs.test.core)
-    implementation(libs.test.espresso)
-    implementation(libs.test.junit.ext)
-    implementation(libs.test.rules)
-    implementation(libs.test.runner)
-    implementation(libs.test.uiautomator)
+    implementation(libs.test.junit5.api)
+    implementation(libs.test.junit5.engine)
+    implementation(libs.test.junit5.params)
+
+    implementation(libs.androidtest.core)
+    implementation(libs.androidtest.espresso)
+    implementation(libs.androidtest.junit.ext)
+    implementation(libs.androidtest.rules)
+    implementation(libs.androidtest.runner)
+    implementation(libs.androidtest.uiautomator)
 
     implementation(libs.accompanist.drawablepainter)
     implementation(libs.accompanist.placeholder)
