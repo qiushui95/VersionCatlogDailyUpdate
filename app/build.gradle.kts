@@ -86,11 +86,10 @@ dependencies {
     implementation(libs.core.splash)
 
     implementation(libs.lifecycle.compose)
+    implementation(libs.lifecycle.compose.android)
     implementation(libs.lifecycle.runtime)
     implementation(libs.lifecycle.viewmodel)
     implementation(libs.lifecycle.viewmodel.savedstate)
-    implementation(libs.lifecycle.viewmodel.compose)
-    implementation(libs.lifecycle.runtime.compose)
     implementation(libs.lifecycle.process)
     implementation(libs.lifecycle.service)
 
