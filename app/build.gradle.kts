@@ -214,9 +214,9 @@ dependencies {
     implementation(libs.shadows)
 
     implementation(libs.flowmvi.core)
-    implementation(libs.flowmvi.compose)
     implementation(libs.flowmvi.android)
-    implementation(libs.flowmvi.view)
+    implementation(libs.flowmvi.compose)
+    implementation(libs.flowmvi.savedstate)
 
     implementation(libs.fragment.core)
     implementation(libs.fragment.test)

@@ -348,6 +348,8 @@ flow-binding-viewpager2 = { module = "io.github.reactivecircus.flowbinding:flowb
 #https://github.com/respawn-app/FlowMVI
 flowmvi-android = { module = "pro.respawn.flowmvi:android", version.ref = "flowmvi" }
 flowmvi-core = { module = "pro.respawn.flowmvi:core", version.ref = "flowmvi" }
+flowmvi-compose = { module = "pro.respawn.flowmvi:compose", version.ref = "flowmvi" }
+flowmvi-savedstate = { module = "pro.respawn.flowmvi:savedstate", version.ref = "flowmvi" }
 
 #https://developer.android.com/jetpack/androidx/releases/fragment
 fragment-core = { module = "androidx.fragment:fragment-ktx", version.ref = "fragment" }
