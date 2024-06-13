@@ -47,7 +47,7 @@ chucker = "4.0.0"
 collapsing-scaffold = "1.0.4"
 
 #https://developer.android.com/jetpack/compose/bom/bom-mapping
-compose-core = "1.6.7"
+compose-core = "1.6.8"
 compose-material3 = "1.2.1"
 
 #https://developer.android.com/jetpack/androidx/releases/constraintlayout
