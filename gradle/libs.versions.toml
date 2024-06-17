@@ -14,16 +14,18 @@ alipay = "15.8.17"
 #https://git.yingxiong.com/app/analyticssdk
 analytics = "1.0.2"
 
-#https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
-androidutils = "1.31.1"
+#https://github.com/mannodermaus/android-junit5
+android-junit5 = "1.10.0.0"
 
 #https://developer.android.com/jetpack/androidx/releases/test
-androidtest = "1.6.0-rc01"
-androidtest-junit-ext = "1.2.0-rc01"
-androidtest-espresso = "3.6.0-rc01"
-
 ##https://mvnrepository.com/artifact/androidx.test.uiautomator/uiautomator
+androidtest = "1.6.0-rc01"
+androidtest-espresso = "3.6.0-rc01"
+androidtest-junit-ext = "1.2.0-rc01"
 androidtest-uiautomator = "2.3.0"
+
+#https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
+androidutils = "1.31.1"
 
 #https://developer.android.com/jetpack/androidx/releases/annotation
 annotation = "1.8.0"
@@ -109,9 +111,6 @@ jodatime = "2.12.7"
 #https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
 junit5 = "5.10.2"
 
-#https://github.com/mannodermaus/android-junit5
-android-junit5 = "1.10.0.0"
-
 #https://github.com/InsertKoinIO/koin
 koin = "3.5.6"
 
@@ -159,6 +158,9 @@ permission = "18.63"
 
 #https://github.com/CarGuo/GSYVideoPlayer
 player-video = "v8.6.0-release-jitpack"
+
+#https://github.com/jenly1314/UltraSwipeRefresh
+refresh = "1.1.3"
 
 #https://github.com/square/retrofit
 retrofit = "2.11.0"
@@ -209,11 +211,11 @@ webview_agent = "v5.1.1-androidx"
 #https://github.com/KevinnZou/compose-webview
 webview_compose = "0.33.6"
 
-#https://x5.tencent.com/docs/access.html
-webview_x5_core = "44286"
-
 #https://github.com/KangYee/tbscompose
 webview_x5_compose = "1.0.1"
+
+#https://x5.tencent.com/docs/access.html
+webview_x5_core = "44286"
 
 #https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html#jump2
 wechat = "6.8.28"
@@ -235,11 +237,11 @@ zoomimage = "1.0.2"
 
 
 [plugins]
+android-junit5 = { id = "de.mannodermaus.android-junit5", version.ref = "android-junit5" }
 application = { id = "com.android.application", version.ref = "agp" }
 catalogUpdate = { id = "nl.littlerobots.version-catalog-update", version.ref = "catalogUpdate" }
 compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 gradleVersions = { id = "com.github.ben-manes.versions", version.ref = "gradleVersions" }
-android-junit5 = { id = "de.mannodermaus.android-junit5", version.ref = "android-junit5" }
 kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 library = { id = "com.android.library", version.ref = "agp" }
@@ -270,6 +272,18 @@ analytics = { module = "com.hero.analytics.android.sdk:core", version.ref = "ana
 
 #https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
 androidUtils = { module = "com.blankj:utilcodex", version.ref = "androidutils" }
+
+#https://developer.android.com/jetpack/androidx/releases/test
+androidtest-core = { module = "androidx.test:core-ktx", version.ref = "androidtest" }
+androidtest-espresso = { module = "androidx.test.espresso:espresso-core", version.ref = "androidtest-espresso" }
+androidtest-rules = { module = "androidx.test:rules", version.ref = "androidtest" }
+androidtest-runner = { module = "androidx.test:runner", version.ref = "androidtest" }
+
+#https://mvnrepository.com/artifact/androidx.test.ext/junit-ktx
+androidtest-junit-ext = { module = "androidx.test.ext:junit-ktx", version.ref = "androidtest-junit-ext" }
+
+#https://developer.android.com/jetpack/androidx/releases/test-uiautomator
+androidtest-uiautomator = { module = "androidx.test.uiautomator:uiautomator", version.ref = "androidtest-uiautomator" }
 
 #https://developer.android.com/jetpack/androidx/releases/annotation
 annotation = { module = "androidx.annotation:annotation", version.ref = "annotation" }
@@ -347,8 +361,8 @@ flow-binding-viewpager2 = { module = "io.github.reactivecircus.flowbinding:flowb
 
 #https://github.com/respawn-app/FlowMVI
 flowmvi-android = { module = "pro.respawn.flowmvi:android", version.ref = "flowmvi" }
-flowmvi-core = { module = "pro.respawn.flowmvi:core", version.ref = "flowmvi" }
 flowmvi-compose = { module = "pro.respawn.flowmvi:compose", version.ref = "flowmvi" }
+flowmvi-core = { module = "pro.respawn.flowmvi:core", version.ref = "flowmvi" }
 flowmvi-savedstate = { module = "pro.respawn.flowmvi:savedstate", version.ref = "flowmvi" }
 
 #https://developer.android.com/jetpack/androidx/releases/fragment
@@ -415,8 +429,8 @@ leakcanary = { module = "com.squareup.leakcanary:leakcanary-android", version.re
 
 #https://developer.android.com/jetpack/androidx/releases/lifecycle
 lifecycle-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycle" }
-lifecycle-process = { module = "androidx.lifecycle:lifecycle-process", version.ref = "lifecycle" }
 lifecycle-compose-android = { module = "androidx.lifecycle:lifecycle-runtime-compose-android", version.ref = "lifecycle" }
+lifecycle-process = { module = "androidx.lifecycle:lifecycle-process", version.ref = "lifecycle" }
 lifecycle-runtime = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle" }
 lifecycle-service = { module = "androidx.lifecycle:lifecycle-service", version.ref = "lifecycle" }
 lifecycle-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
@@ -455,6 +469,12 @@ player-video-arm64 = { module = "com.github.CarGuo.GSYVideoPlayer:gsyVideoPlayer
 player-video-armv7a = { module = "com.github.CarGuo.GSYVideoPlayer:gsyVideoPlayer-armv7a", version.ref = "player-video" }
 player-video-core = { module = "com.github.CarGuo.GSYVideoPlayer:gsyVideoPlayer-java", version.ref = "player-video" }
 player-video-exo = { module = "com.github.CarGuo.GSYVideoPlayer:GSYVideoPlayer-exo2", version.ref = "player-video" }
+
+#https://github.com/jenly1314/UltraSwipeRefresh
+refresh-classic = { module = "com.github.jenly1314.UltraSwipeRefresh:refresh-indicator-classic", version.ref = "refresh" }
+refresh-core = { module = "com.github.jenly1314.UltraSwipeRefresh:refresh", version.ref = "refresh" }
+refresh-lottie = { module = "com.github.jenly1314.UltraSwipeRefresh:refresh-indicator-lottie", version.ref = "refresh" }
+refresh-progress = { module = "com.github.jenly1314.UltraSwipeRefresh:refresh-indicator-progress", version.ref = "refresh" }
 
 #https://github.com/square/retrofit
 retrofit-core = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
@@ -496,22 +516,10 @@ telephoto-glide = { module = "me.saket.telephoto:zoomable-image-glide", version.
 telephoto-sampling = { module = "me.saket.telephoto:sub-sampling-image", version.ref = "telephoto" }
 telephoto-zoomable = { module = "me.saket.telephoto:zoomable", version.ref = "telephoto" }
 
-#https://developer.android.com/jetpack/androidx/releases/test
-androidtest-core = {module ="androidx.test:core-ktx",version.ref = "androidtest"}
-androidtest-rules = {module ="androidx.test:rules",version.ref = "androidtest"}
-androidtest-runner = {module ="androidx.test:runner",version.ref = "androidtest"}
-androidtest-espresso = {module ="androidx.test.espresso:espresso-core",version.ref = "androidtest-espresso"}
-
 #https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
 test-junit5-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit5" }
 test-junit5-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit5" }
 test-junit5-params = { module = "org.junit.jupiter:junit-jupiter-params", version.ref = "junit5" }
-
-#https://mvnrepository.com/artifact/androidx.test.ext/junit-ktx
-androidtest-junit-ext = {module ="androidx.test.ext:junit-ktx",version.ref = "androidtest-junit-ext"}
-
-#https://developer.android.com/jetpack/androidx/releases/test-uiautomator
-androidtest-uiautomator = {module ="androidx.test.uiautomator:uiautomator",version.ref = "androidtest-uiautomator"}
 
 #https://github.com/wasabeef/transformers
 transformers-core = { module = "jp.wasabeef.transformers:core", version.ref = "transformers" }
@@ -535,11 +543,11 @@ webview-compose = { module = "io.github.kevinnzou:compose-webview", version.ref 
 #https://github.com/Justson/AgentWeb
 webview_agent = { module = "io.github.justson:agentweb-core", version.ref = "webview_agent" }
 
-#https://x5.tencent.com/docs/access.html
-webview_x5_core = { module = "com.tencent.tbs:tbssdk", version.ref = "webview_x5_core" }
-
 #https://github.com/KangYee/tbscompose
 webview_x5_compose = { module = "io.github.kangyee:tbscompose", version.ref = "webview_x5_compose" }
+
+#https://x5.tencent.com/docs/access.html
+webview_x5_core = { module = "com.tencent.tbs:tbssdk", version.ref = "webview_x5_core" }
 
 #https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html#jump2
 wechat = { module = "com.tencent.mm.opensdk:wechat-sdk-android", version.ref = "wechat" }

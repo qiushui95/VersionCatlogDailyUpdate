@@ -271,4 +271,9 @@ dependencies {
     implementation(libs.webview.x5.compose)
 
     implementation(libs.analytics)
+
+    implementation(libs.refresh.core)
+    implementation(libs.refresh.classic)
+    implementation(libs.refresh.lottie)
+    implementation(libs.refresh.progress)
 }
