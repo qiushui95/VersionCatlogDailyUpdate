@@ -21,7 +21,7 @@ android-junit5 = "1.10.0.0"
 ##https://mvnrepository.com/artifact/androidx.test.uiautomator/uiautomator
 androidtest = "1.6.0"
 androidtest-espresso = "3.6.0"
-androidtest-junit-ext = "1.2.0"
+androidtest-junit-ext = "1.2.1"
 androidtest-uiautomator = "2.3.0"
 
 #https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
