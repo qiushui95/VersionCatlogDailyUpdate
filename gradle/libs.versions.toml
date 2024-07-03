@@ -46,7 +46,7 @@ catalogUpdate = "0.8.4"
 chucker = "4.0.0"
 
 #https://github.com/qiushui95/CollapsingScaffold
-collapsing-scaffold = "1.0.4"
+collapsing-scaffold = "1.0.6"
 
 #https://developer.android.com/jetpack/compose/bom/bom-mapping
 compose-core = "1.6.8"
