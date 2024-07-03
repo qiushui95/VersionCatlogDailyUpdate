@@ -276,4 +276,6 @@ dependencies {
     implementation(libs.refresh.classic)
     implementation(libs.refresh.lottie)
     implementation(libs.refresh.progress)
+
+    implementation(libs.switch)
 }

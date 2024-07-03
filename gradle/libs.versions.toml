@@ -192,6 +192,9 @@ stetho = "1.6.0"
 #https://github.com/KevinnZou/compose-swipeBox
 swipe-box = "1.4.0"
 
+#https://github.com/qiushui95/iOSComoposeSwitch
+switch = "1.0.0"
+
 #https://github.com/saket/telephoto
 telephoto = "0.11.2"
 
@@ -509,6 +512,9 @@ stetho-okhttp = { module = "com.facebook.stetho:stetho-okhttp3", version.ref = "
 
 #https://github.com/KevinnZou/compose-swipeBox
 swipebox = { module = "io.github.kevinnzou:compose-swipebox", version.ref = "swipe-box" }
+
+#https://github.com/qiushui95/iOSComoposeSwitch
+switch = { module = "com.github.qiushui95:iOSComoposeSwitch", version.ref = "switch" }
 
 #https://github.com/saket/telephoto
 telephoto-coil = { module = "me.saket.telephoto:zoomable-image-coil", version.ref = "telephoto" }
