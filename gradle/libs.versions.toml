@@ -189,8 +189,8 @@ spotless = "6.25.0"
 #https://github.com/facebook/stetho
 stetho = "1.6.0"
 
-#https://github.com/KevinnZou/compose-swipeBox
-swipe-box = "1.4.0"
+#https://github.com/qiushui95/ComoposeSwipeRow
+swipe-row = "1.0.0"
 
 #https://github.com/qiushui95/iOSComoposeSwitch
 switch = "1.0.0"
@@ -510,8 +510,8 @@ slider = { module = "com.github.SmartToolFactory:Compose-Colorful-Sliders", vers
 stetho-core = { module = "com.facebook.stetho:stetho", version.ref = "stetho" }
 stetho-okhttp = { module = "com.facebook.stetho:stetho-okhttp3", version.ref = "stetho" }
 
-#https://github.com/KevinnZou/compose-swipeBox
-swipebox = { module = "io.github.kevinnzou:compose-swipebox", version.ref = "swipe-box" }
+#https://github.com/qiushui95/ComoposeSwipeRow
+swipe-row = { module = "com.github.qiushui95:ComoposeSwipeRow", version.ref = "swipe-row" }
 
 #https://github.com/qiushui95/iOSComoposeSwitch
 switch = { module = "com.github.qiushui95:iOSComoposeSwitch", version.ref = "switch" }

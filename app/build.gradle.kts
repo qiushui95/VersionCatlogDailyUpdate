@@ -247,7 +247,7 @@ dependencies {
 
     implementation(libs.fastjson)
 
-    implementation(libs.swipebox)
+    implementation(libs.swipe.row)
 
     implementation(libs.drive.obs)
     implementation(libs.drive.oss)
