@@ -154,7 +154,7 @@ ok-download = "1.0.7"
 okhttp = "4.12.0"
 
 #https://github.com/getActivity/XXPermissions
-permission = "18.65"
+permission = "18.68"
 
 #https://github.com/CarGuo/GSYVideoPlayer
 player-video = "v8.6.0-release-jitpack"
