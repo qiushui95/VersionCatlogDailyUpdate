@@ -193,7 +193,7 @@ stetho = "1.6.0"
 swipe-row = "1.0.0"
 
 #https://github.com/qiushui95/iOSComoposeSwitch
-switch = "1.0.0"
+switch = "1.0.1"
 
 #https://github.com/saket/telephoto
 telephoto = "0.11.2"
