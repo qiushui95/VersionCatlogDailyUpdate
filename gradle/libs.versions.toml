@@ -48,6 +48,9 @@ chucker = "4.0.0"
 #https://github.com/qiushui95/CollapsingScaffold
 collapsing-scaffold = "1.0.6"
 
+#https://developer.android.com/jetpack/androidx/releases/collection
+collection = "1.4.1"
+
 #https://developer.android.com/jetpack/compose/bom/bom-mapping
 compose-core = "1.6.8"
 compose-material3 = "1.2.1"
@@ -306,6 +309,9 @@ chucker = { module = "com.github.chuckerteam.chucker:library", version.ref = "ch
 
 #https://github.com/qiushui95/CollapsingScaffold
 collapsing-scaffold = { module = "com.github.qiushui95:CollapsingScaffold", version.ref = "collapsing-scaffold" }
+
+#https://developer.android.com/jetpack/androidx/releases/collection
+collection = { module = "androidx.collection:collection", version.ref = "collection" }
 
 #https://developer.android.com/jetpack/androidx/releases/compose
 compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "compose-core" }
