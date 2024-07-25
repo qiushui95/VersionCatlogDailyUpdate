@@ -79,6 +79,8 @@ dependencies {
 
     implementation(libs.annotation)
 
+    implementation(libs.collection)
+
     implementation(libs.appcompat.core)
     implementation(libs.appcompat.resources)
 
