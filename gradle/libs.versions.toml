@@ -121,7 +121,7 @@ koin = "3.5.6"
 kotlin = "2.0.0"
 
 #https://github.com/google/ksp
-ksp = "2.0.0-1.0.24"
+ksp = "2.0.0-1.0.23"
 
 #https://github.com/pinterest/ktlint
 ktlint = "1.3.1"
@@ -193,7 +193,7 @@ spotless = "6.25.0"
 stetho = "1.6.0"
 
 #https://github.com/qiushui95/ComoposeSwipeRow
-swipe-row = "1.0.1"
+swipe-row = "1.0.0"
 
 #https://github.com/qiushui95/iOSComoposeSwitch
 switch = "1.0.1"
@@ -299,7 +299,8 @@ appcompat-core = { module = "androidx.appcompat:appcompat", version.ref = "appco
 appcompat-resources = { module = "androidx.appcompat:appcompat-resources", version.ref = "appcompat" }
 
 #https://github.com/dokar3/sheets
-bottomsheet = { module = "io.github.dokar3:sheets", version.ref = "bottomsheet" }
+bottomsheet-m2 = { module = "io.github.dokar3:sheets", version.ref = "bottomsheet" }
+bottomsheet-m3 = { module = "io.github.dokar3:sheets-m3", version.ref = "bottomsheet" }
 
 #https://bugly.qq.com/docs/user-guide/instruction-manual-android/?v=1.0.0
 bugly = { module = "com.tencent.bugly:crashreport", version.ref = "bugly" }
