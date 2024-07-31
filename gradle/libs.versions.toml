@@ -193,7 +193,7 @@ spotless = "6.25.0"
 stetho = "1.6.0"
 
 #https://github.com/qiushui95/ComoposeSwipeRow
-swipe-row = "1.0.0"
+swipe-row = "1.0.1"
 
 #https://github.com/qiushui95/iOSComoposeSwitch
 switch = "1.0.1"
