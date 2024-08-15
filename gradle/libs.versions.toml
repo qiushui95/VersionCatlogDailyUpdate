@@ -112,7 +112,7 @@ initializer = "1.0.17"
 jodatime = "2.12.7"
 
 #https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
-junit5 = "5.10.3"
+junit5 = "5.11.0"
 
 #https://github.com/InsertKoinIO/koin
 koin = "3.5.6"
