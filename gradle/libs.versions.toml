@@ -103,7 +103,7 @@ gradleVersions = "0.51.0"
 haze = "0.7.0"
 
 #https://github.com/Kotlin/kotlinx.collections.immutable
-immutablecollections = "0.3.7"
+immutablecollections = "0.3.8"
 
 #https://github.com/qiushui95/AndroidInitializer
 initializer = "1.0.17"
