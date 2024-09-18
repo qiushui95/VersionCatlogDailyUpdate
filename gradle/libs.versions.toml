@@ -66,7 +66,7 @@ corektx = "1.13.1"
 coresplash = "1.0.1"
 
 #https://github.com/Kotlin/kotlinx.coroutines
-coroutines = "1.8.1"
+coroutines = "1.9.0"
 
 #https://github.com/Tencent/VasDolly
 dolly = "3.0.6"
