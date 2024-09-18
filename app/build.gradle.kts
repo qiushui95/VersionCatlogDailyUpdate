@@ -282,4 +282,6 @@ dependencies {
     implementation(libs.refresh.progress)
 
     implementation(libs.switch)
+
+    implementation(libs.capturable)
 }

@@ -19,7 +19,7 @@ android-junit5 = "1.11.0.0"
 
 #https://developer.android.com/jetpack/androidx/releases/test
 ##https://mvnrepository.com/artifact/androidx.test.uiautomator/uiautomator
-androidtest = "1.6.2"
+androidtest = "1.6.1"
 androidtest-espresso = "3.6.1"
 androidtest-junit-ext = "1.2.1"
 androidtest-uiautomator = "2.3.0"
@@ -38,6 +38,9 @@ bottomsheet = "0.5.7"
 
 #https://bugly.qq.com/docs/release-notes/release-android-bugly/?v=1.0.0
 bugly = "4.1.9.3"
+
+#https://github.com/PatilShreyas/Capturable
+capturable = "2.1.0"
 
 #https://github.com/littlerobots/version-catalog-update-plugin
 catalogUpdate = "0.8.4"
@@ -305,6 +308,9 @@ bottomsheet-m3 = { module = "io.github.dokar3:sheets-m3", version.ref = "bottoms
 #https://bugly.qq.com/docs/user-guide/instruction-manual-android/?v=1.0.0
 bugly = { module = "com.tencent.bugly:crashreport", version.ref = "bugly" }
 
+#https://github.com/PatilShreyas/Capturable
+capturable = { module = "dev.shreyaspatil:capturable", version.ref = "capturable" }
+
 #https://github.com/ChuckerTeam/chucker
 chucker = { module = "com.github.chuckerteam.chucker:library", version.ref = "chucker" }
 
@@ -420,7 +426,6 @@ koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin" }
 koin-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koin" }
 koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin" }
 koin-vm = { module = "io.insert-koin:koin-core-viewmodel", version.ref = "koin" }
-
 
 #https://github.com/JetBrains/kotlin
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
