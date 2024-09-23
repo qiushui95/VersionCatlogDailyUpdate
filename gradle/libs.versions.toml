@@ -40,7 +40,7 @@ bottomsheet = "0.5.7"
 bugly = "4.1.9.3"
 
 #https://github.com/PatilShreyas/Capturable
-capturable = "2.1.0"
+capturable = "3.0.0"
 
 #https://github.com/littlerobots/version-catalog-update-plugin
 catalogUpdate = "0.8.4"
