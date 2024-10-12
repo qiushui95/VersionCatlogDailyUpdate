@@ -1,7 +1,6 @@
 
 plugins {
-    alias(libs.plugins.catalogUpdate)
-    alias(libs.plugins.gradleVersions)
+    alias(libs.plugins.gradleAnalysis)
     alias(libs.plugins.maven)
     alias(libs.plugins.compose) apply false
     alias(libs.plugins.android.junit5) apply false

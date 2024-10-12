@@ -49,10 +49,7 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
-}
 
-composeCompiler {
-    enableStrongSkippingMode = true
 }
 
 dependencies {
