@@ -28,7 +28,7 @@ androidtest-uiautomator = "2.3.0"
 androidutils = "1.31.1"
 
 #https://developer.android.com/jetpack/androidx/releases/annotation
-annotation = "1.8.2"
+annotation = "1.9.0"
 
 #https://developer.android.com/jetpack/androidx/releases/appcompat
 appcompat = "1.7.0"
