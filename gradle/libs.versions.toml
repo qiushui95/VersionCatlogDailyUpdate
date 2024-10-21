@@ -42,9 +42,6 @@ bugly = "4.1.9.3"
 #https://github.com/PatilShreyas/Capturable
 capturable = "3.0.0"
 
-#https://github.com/littlerobots/version-catalog-update-plugin
-catalogUpdate = "0.8.4"
-
 #https://github.com/ChuckerTeam/chucker
 chucker = "4.0.0"
 
