@@ -1,6 +1,6 @@
 plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
+    alias(libs.plugins.application)
+    alias(libs.plugins.kotlin.android)
     alias(libs.plugins.ksp)
     alias(libs.plugins.android.junit5)
     alias(libs.plugins.compose)
@@ -281,4 +281,8 @@ dependencies {
     implementation(libs.switch)
 
     implementation(libs.capturable)
+
+    implementation(libs.devext.moshi)
+    implementation(libs.devext.normal)
+    implementation(libs.devext.coroutines)
 }

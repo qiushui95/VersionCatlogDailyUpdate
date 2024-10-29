@@ -68,6 +68,9 @@ coresplash = "1.0.1"
 #https://github.com/Kotlin/kotlinx.coroutines
 coroutines = "1.9.0"
 
+#https://github.com/qiushui95/YangDevExt
+devext = "1.0.1"
+
 #https://github.com/Tencent/VasDolly
 dolly = "3.0.6"
 
@@ -247,7 +250,8 @@ android-junit5 = { id = "de.mannodermaus.android-junit5", version.ref = "android
 application = { id = "com.android.application", version.ref = "agp" }
 compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 gradleAnalysis = { id = "com.autonomousapps.dependency-analysis", version.ref = "gradleAnalysis" }
-kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 library = { id = "com.android.library", version.ref = "agp" }
 maven = { id = "com.vanniktech.maven.publish", version.ref = "maven" }
@@ -340,6 +344,11 @@ core-splash = { module = "androidx.core:core-splashscreen", version.ref = "cores
 coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
 coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
 coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines" }
+
+#https://github.com/panpf/zoomimage
+devext-coroutines = { module = "com.github.qiushui95.YangDevExt:coroutines", version.ref = "devext" }
+devext-moshi = { module = "com.github.qiushui95.YangDevExt:moshi", version.ref = "devext" }
+devext-normal = { module = "com.github.qiushui95.YangDevExt:normal", version.ref = "devext" }
 
 #https://github.com/Tencent/VasDolly
 dolly = { module = "com.tencent.vasdolly:helper", version.ref = "dolly" }
