@@ -60,7 +60,7 @@ constraint-compose = "1.1.0"
 constraint-layout = "2.1.4"
 
 #https://developer.android.com/jetpack/androidx/releases/core
-corektx = "1.13.1"
+corektx = "1.15.0"
 
 #https://developer.android.com/jetpack/androidx/releases/core
 coresplash = "1.0.1"
