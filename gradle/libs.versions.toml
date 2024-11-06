@@ -130,7 +130,7 @@ ksp = "2.0.21-1.0.26"
 ktlint = "1.4.1"
 
 #https://github.com/skydoves/landscapist
-landscapist = "2.4.1"
+landscapist = "2.4.2"
 
 #https://square.github.io/leakcanary/getting_started/
 leakcanary = "2.14"
