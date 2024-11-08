@@ -124,7 +124,7 @@ koin = "4.0.0"
 kotlin = "2.0.21"
 
 #https://github.com/google/ksp
-ksp = "2.0.21-1.0.26"
+ksp = "2.0.21-1.0.27"
 
 #https://github.com/pinterest/ktlint
 ktlint = "1.4.1"
