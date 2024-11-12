@@ -345,10 +345,14 @@ coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-androi
 coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
 coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines" }
 
-#https://github.com/panpf/zoomimage
+#https://github.com/qiushui95/YangDevExt
 devext-coroutines = { module = "com.github.qiushui95.YangDevExt:coroutines", version.ref = "devext" }
+devext-entity_paging = { module = "com.github.qiushui95.YangDevExt:entity_paging", version.ref = "devext" }
+devext-fragment = { module = "com.github.qiushui95.YangDevExt:fragment", version.ref = "devext" }
 devext-moshi = { module = "com.github.qiushui95.YangDevExt:moshi", version.ref = "devext" }
 devext-normal = { module = "com.github.qiushui95.YangDevExt:normal", version.ref = "devext" }
+devext-vm-core = { module = "com.github.qiushui95.YangDevExt:vm_core", version.ref = "devext" }
+devext-vm-ext = { module = "com.github.qiushui95.YangDevExt:vm_ext", version.ref = "devext" }
 
 #https://github.com/Tencent/VasDolly
 dolly = { module = "com.tencent.vasdolly:helper", version.ref = "dolly" }
@@ -487,10 +491,10 @@ okhttp-mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.
 permission = { module = "com.github.getActivity:XXPermissions", version.ref = "permission" }
 
 #https://github.com/CarGuo/GSYVideoPlayer
-player-video-arm64 = { module = "com.github.CarGuo.GSYVideoPlayer:gsyVideoPlayer-arm64", version.ref = "player-video" }
-player-video-armv7a = { module = "com.github.CarGuo.GSYVideoPlayer:gsyVideoPlayer-armv7a", version.ref = "player-video" }
-player-video-core = { module = "com.github.CarGuo.GSYVideoPlayer:gsyVideoPlayer-java", version.ref = "player-video" }
-player-video-exo = { module = "com.github.CarGuo.GSYVideoPlayer:GSYVideoPlayer-exo2", version.ref = "player-video" }
+player-video-arm64 = { module = "com.github.CarGuo.GSYVideoPlayer:gsyvideoplayer-arm64", version.ref = "player-video" }
+player-video-armv7a = { module = "com.github.CarGuo.GSYVideoPlayer:gsyvideoplayer-armv7a", version.ref = "player-video" }
+player-video-core = { module = "com.github.CarGuo.GSYVideoPlayer:gsyvideoplayer-java", version.ref = "player-video" }
+player-video-exo = { module = "com.github.CarGuo.GSYVideoPlayer:gsyvideoplayer-exo2", version.ref = "player-video" }
 
 #https://github.com/jenly1314/UltraSwipeRefresh
 refresh-classic = { module = "com.github.jenly1314.UltraSwipeRefresh:refresh-indicator-classic", version.ref = "refresh" }

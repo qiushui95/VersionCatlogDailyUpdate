@@ -8,12 +8,12 @@ plugins {
 
 android {
     namespace = "com.example.versioncatlogdailyupdate"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.versioncatlogdailyupdate"
         minSdk = 30
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0.0"
     }
@@ -285,4 +285,8 @@ dependencies {
     implementation(libs.devext.moshi)
     implementation(libs.devext.normal)
     implementation(libs.devext.coroutines)
+    implementation(libs.devext.fragment)
+    implementation(libs.devext.vm.core)
+    implementation(libs.devext.vm.ext)
+    implementation(libs.devext.entity.paging)
 }
