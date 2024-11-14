@@ -202,7 +202,7 @@ swipe-row = "1.0.1"
 switch = "1.0.1"
 
 #https://github.com/saket/telephoto
-telephoto = "0.13.0"
+telephoto = "0.14.0"
 
 #https://github.com/wasabeef/transformers
 transformers = "1.0.6"
