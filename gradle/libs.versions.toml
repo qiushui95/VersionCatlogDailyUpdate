@@ -109,7 +109,7 @@ haze = "0.7.0"
 immutablecollections = "0.3.8"
 
 #https://github.com/qiushui95/AndroidInitializer
-initializer = "1.0.17"
+initializer = "1.0.19"
 
 #https://github.com/JodaOrg/joda-time
 jodatime = "2.13.0"
