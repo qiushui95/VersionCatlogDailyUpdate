@@ -105,9 +105,6 @@ gradleAnalysis = "2.4.2"
 #动态高斯模糊
 haze = "0.7.0"
 
-#https://github.com/Kotlin/kotlinx.collections.immutable
-immutablecollections = "0.3.8"
-
 #https://github.com/qiushui95/AndroidInitializer
 initializer = "1.0.19"
 
@@ -420,9 +417,6 @@ gradlePlugin-spotless = { group = "com.diffplug.spotless", name = "spotless-plug
 
 #https://github.com/chrisbanes/haze
 haze = { module = "dev.chrisbanes.haze:haze-jetpack-compose", version.ref = "haze" }
-
-#https://github.com/Kotlin/kotlinx.collections.immutable
-immutable-collections = { module = "org.jetbrains.kotlinx:kotlinx-collections-immutable-jvm", version.ref = "immutablecollections" }
 
 #https://github.com/qiushui95/AndroidInitializer
 initializer = { module = "com.github.qiushui95:AndroidInitializer", version.ref = "initializer" }
