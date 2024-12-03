@@ -189,8 +189,6 @@ dependencies {
     implementation(libs.flow.binding.viewpager)
     implementation(libs.flow.binding.viewpager2)
 
-    implementation(libs.immutable.collections)
-
     implementation(libs.update)
 
     implementation(libs.wechat)
@@ -289,4 +287,6 @@ dependencies {
     implementation(libs.devext.vm.core)
     implementation(libs.devext.vm.ext)
     implementation(libs.devext.entity.paging)
+
+    implementation(libs.recorder)
 }
