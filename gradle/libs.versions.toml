@@ -148,7 +148,7 @@ maven = "0.30.0"
 mmkv = "2.0.1"
 
 #https://github.com/square/moshi
-moshi = "1.15.1"
+moshi = "1.15.2"
 
 #https://github.com/lingochamp/okdownload
 ok-download = "1.0.7"
