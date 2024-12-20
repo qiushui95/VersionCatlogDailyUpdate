@@ -212,7 +212,7 @@ update = "4.3.6"
 
 #https://github.com/adrielcafe/voyager
 #导航框架
-voyager = "1.0.0"
+voyager = "1.0.1"
 
 #https://github.com/Justson/AgentWeb
 webview_agent = "v5.1.1-androidx"
