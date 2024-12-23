@@ -66,10 +66,6 @@ dependencies {
     implementation(libs.androidtest.uiautomator)
 
     implementation(libs.accompanist.drawablepainter)
-    implementation(libs.accompanist.placeholder)
-    implementation(libs.accompanist.uicontroller)
-    implementation(libs.accompanist.flowlayout)
-    implementation(libs.accompanist.webview)
 
     implementation(libs.activity.core)
     implementation(libs.activity.compose)
@@ -289,4 +285,6 @@ dependencies {
     implementation(libs.devext.entity.paging)
 
     implementation(libs.recorder)
+
+    implementation(libs.shimmer)
 }

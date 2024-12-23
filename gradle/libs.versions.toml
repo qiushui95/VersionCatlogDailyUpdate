@@ -186,6 +186,9 @@ selector = "v3.11.3"
 #https://github.com/GIGAMOLE/ComposeShadowsPlus
 shadows = "1.0.4"
 
+#https://github.com/valentinilk/compose-shimmer
+shimmer = "1.3.1"
+
 #https://github.com/SmartToolFactory/Compose-Colorful-Sliders
 slider = "1.2.2"
 
@@ -521,6 +524,9 @@ selector-crop = { module = "io.github.lucksiege:ucrop", version.ref = "selector"
 
 #https://github.com/GIGAMOLE/ComposeShadowsPlus
 shadows = { module = "com.github.GIGAMOLE:ComposeShadowsPlus", version.ref = "shadows" }
+
+#https://github.com/valentinilk/compose-shimmer
+shimmer = { module = "com.valentinilk.shimmer:compose-shimmer", version.ref = "shimmer" }
 
 #https://github.com/SmartToolFactory/Compose-Colorful-Sliders
 slider = { module = "com.github.SmartToolFactory:Compose-Colorful-Sliders", version.ref = "slider" }
