@@ -162,6 +162,9 @@ permission = "20.0"
 #https://github.com/CarGuo/GSYVideoPlayer
 player-video = "v10.0.0"
 
+#https://github.com/Chaintech-Network/QRKitComposeMultiplatform
+qrKit = "3.0.6"
+
 #https://github.com/HBiSoft/HBRecorder
 recorder = "3.0.8"
 
@@ -491,6 +494,9 @@ player-video-arm64 = { module = "com.github.CarGuo.GSYVideoPlayer:gsyvideoplayer
 player-video-armv7a = { module = "com.github.CarGuo.GSYVideoPlayer:gsyvideoplayer-armv7a", version.ref = "player-video" }
 player-video-core = { module = "com.github.CarGuo.GSYVideoPlayer:gsyvideoplayer-java", version.ref = "player-video" }
 player-video-exo = { module = "com.github.CarGuo.GSYVideoPlayer:gsyvideoplayer-exo2", version.ref = "player-video" }
+
+#https://github.com/Chaintech-Network/QRKitComposeMultiplatform
+qrKit = { module = "network.chaintech:qr-kit", version.ref = "qrKit" }
 
 #https://github.com/HBiSoft/HBRecorder
 recorder = { module = "com.github.HBiSoft:HBRecorder", version.ref = "recorder" }

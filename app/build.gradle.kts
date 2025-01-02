@@ -287,4 +287,6 @@ dependencies {
     implementation(libs.recorder)
 
     implementation(libs.shimmer)
+
+    implementation(libs.qrKit)
 }
