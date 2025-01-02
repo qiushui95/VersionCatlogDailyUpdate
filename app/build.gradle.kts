@@ -284,8 +284,6 @@ dependencies {
     implementation(libs.devext.vm.ext)
     implementation(libs.devext.entity.paging)
 
-    implementation(libs.recorder)
-
     implementation(libs.shimmer)
 
     implementation(libs.qrKit)
