@@ -99,7 +99,7 @@ fragment = "1.8.5"
 glide = "4.16.0"
 
 #https://github.com/autonomousapps/dependency-analysis-gradle-plugin
-gradleAnalysis = "2.7.0"
+gradleAnalysis = "2.8.0"
 
 #https://github.com/chrisbanes/haze
 #动态高斯模糊
