@@ -6,7 +6,7 @@ accompanist = "0.37.0"
 activity = "1.10.0"
 
 #http://Nothing
-agp = "8.8.0"
+agp = "8.8.1"
 
 #https://opendocs.alipay.com/open/074rk8?pathHash=bdfba391&ref=api
 alipay = "15.8.30"
