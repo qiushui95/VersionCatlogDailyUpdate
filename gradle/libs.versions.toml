@@ -1,6 +1,6 @@
 [versions]
 #https://github.com/google/accompanist
-accompanist = "0.37.0"
+accompanist = "0.37.2"
 
 #https://developer.android.com/jetpack/androidx/releases/activity
 activity = "1.10.0"
