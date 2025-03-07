@@ -98,9 +98,6 @@ fragment = "1.8.6"
 #https://github.com/bumptech/glide
 glide = "4.16.0"
 
-#https://github.com/autonomousapps/dependency-analysis-gradle-plugin
-gradleAnalysis = "2.10.1"
-
 #https://github.com/chrisbanes/haze
 #动态高斯模糊
 haze = "0.7.0"
@@ -252,7 +249,6 @@ zoomimage = "1.1.2"
 android-junit5 = { id = "de.mannodermaus.android-junit5", version.ref = "android-junit5" }
 application = { id = "com.android.application", version.ref = "agp" }
 compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
-gradleAnalysis = { id = "com.autonomousapps.dependency-analysis", version.ref = "gradleAnalysis" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
