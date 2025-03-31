@@ -106,7 +106,7 @@ haze = "0.7.0"
 initializer = "1.0.19"
 
 #https://github.com/JodaOrg/joda-time
-jodatime = "2.13.1"
+jodatime = "2.14.0"
 
 #https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api
 junit5 = "5.12.1"
