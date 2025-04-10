@@ -103,7 +103,7 @@ glide = "4.16.0"
 haze = "0.7.0"
 
 #https://github.com/qiushui95/AndroidInitializer
-initializer = "1.0.21"
+initializer = "1.0.20"
 
 #https://github.com/JodaOrg/joda-time
 jodatime = "2.14.0"
