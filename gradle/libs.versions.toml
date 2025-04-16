@@ -154,7 +154,7 @@ ok-download = "1.0.7"
 okhttp = "4.12.0"
 
 #https://github.com/getActivity/XXPermissions
-permission = "21.0"
+permission = "21.2"
 
 #https://github.com/CarGuo/GSYVideoPlayer
 player-video = "v10.1.0"
