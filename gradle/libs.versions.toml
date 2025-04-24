@@ -230,7 +230,7 @@ webview_x5_core = "44286"
 wechat = "6.8.30"
 
 #https://developer.android.com/jetpack/androidx/releases/work
-work = "2.10.0"
+work = "2.10.1"
 
 #https://github.com/iqiyi/xCrash/blob/master/README.zh-CN.md
 xcrash = "3.1.0"
