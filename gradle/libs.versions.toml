@@ -81,7 +81,7 @@ drive-obs = "3.24.12"
 drive-oss = "2.9.21"
 
 #https://developer.android.com/jetpack/androidx/releases/exifinterface
-exif = "1.4.0"
+exif = "1.4.1"
 
 #https://github.com/alibaba/fastjson2
 fastjson = "2.0.57"
