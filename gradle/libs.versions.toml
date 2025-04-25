@@ -387,6 +387,7 @@ flowmvi-savedstate = { module = "pro.respawn.flowmvi:savedstate", version.ref = 
 
 #https://developer.android.com/jetpack/androidx/releases/fragment
 fragment-core = { module = "androidx.fragment:fragment-ktx", version.ref = "fragment" }
+fragment-compose = { module = "androidx.fragment:fragment-compose", version.ref = "fragment" }
 fragment-test = { module = "androidx.fragment:fragment-testing", version.ref = "fragment" }
 
 #https://github.com/bumptech/glide
