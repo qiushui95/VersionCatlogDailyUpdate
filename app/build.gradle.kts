@@ -287,4 +287,7 @@ dependencies {
     implementation(libs.shimmer)
 
     implementation(libs.qrKit)
+
+    implementation(libs.umeng.common)
+    implementation(libs.umeng.asms)
 }
