@@ -75,7 +75,7 @@ devext = "1.0.31"
 dolly = "3.0.6"
 
 #https://github.com/huaweicloud/huaweicloud-sdk-java-obs
-drive-obs = "3.24.12"
+drive-obs = "3.25.4"
 
 #https://github.com/aliyun/aliyun-oss-android-sdk/blob/master/changelog.txt
 drive-oss = "2.9.21"
