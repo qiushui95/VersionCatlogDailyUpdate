@@ -69,7 +69,7 @@ coresplash = "1.0.1"
 coroutines = "1.10.2"
 
 #https://github.com/qiushui95/YangDevExt
-devext = "1.0.31"
+devext = "1.0.32"
 
 #https://github.com/Tencent/VasDolly
 dolly = "3.0.6"
