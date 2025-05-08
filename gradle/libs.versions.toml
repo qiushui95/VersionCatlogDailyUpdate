@@ -130,7 +130,7 @@ landscapist = "2.4.7"
 leakcanary = "2.14"
 
 #https://developer.android.com/jetpack/androidx/releases/lifecycle
-lifecycle = "2.8.7"
+lifecycle = "2.9.0"
 
 #https://github.com/airbnb/lottie-android
 lottie = "6.6.6"
