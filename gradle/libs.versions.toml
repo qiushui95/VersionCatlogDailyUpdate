@@ -142,7 +142,7 @@ material = "1.12.0"
 maven = "0.31.0"
 
 #https://github.com/Tencent/MMKV/blob/master/README_CN.md
-mmkv = "2.2.1"
+mmkv = "2.2.2"
 
 #https://github.com/square/moshi
 moshi = "1.15.2"
