@@ -216,6 +216,9 @@ umeng_common = "9.8.2"
 #https://central.sonatype.com/artifact/com.umeng.umsdk/asms
 umeng_asms = "1.8.7.2"
 
+#https://central.sonatype.com/artifact/com.umeng.umsdk/uyumao
+umeng_uyumao = "1.1.4"
+
 #https://github.com/adrielcafe/voyager
 #导航框架
 voyager = "1.0.1"
@@ -565,6 +568,7 @@ update = { module = "io.github.azhon:appupdate", version.ref = "update" }
 #https://developer.umeng.com/docs/119267/detail/118584
 umeng-common = { module = "com.umeng.umsdk:common", version.ref = "umeng_common" }
 umeng-asms = { module = "com.umeng.umsdk:asms", version.ref = "umeng_asms" }
+umeng-uyumao = { module = "com.umeng.umsdk:uyumao", version.ref = "umeng_uyumao" }
 
 #https://github.com/adrielcafe/voyager
 voyager-bottom = { module = "cafe.adriel.voyager:voyager-bottom-sheet-navigator", version.ref = "voyager" }
