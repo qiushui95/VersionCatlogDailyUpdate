@@ -15,7 +15,7 @@ alipay = "15.8.33"
 analytics = "1.0.2"
 
 #https://github.com/mannodermaus/android-junit5
-android-junit5 = "1.12.0.0"
+android-junit5 = "1.12.2.0"
 
 #https://developer.android.com/jetpack/androidx/releases/test
 #https://mvnrepository.com/artifact/androidx.test.uiautomator/uiautomator
