@@ -121,7 +121,7 @@ kotlin = "2.1.21"
 ksp = "2.1.21-2.0.1"
 
 #https://github.com/pinterest/ktlint
-ktlint = "1.5.0"
+ktlint = "1.6.0"
 
 #https://github.com/skydoves/landscapist
 landscapist = "2.4.8"
