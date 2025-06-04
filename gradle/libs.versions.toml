@@ -157,7 +157,7 @@ okhttp = "4.12.0"
 permission = "23.0"
 
 #https://github.com/CarGuo/GSYVideoPlayer
-player-video = "v10.1.0"
+player-video = "v10.2.0"
 
 #https://github.com/Chaintech-Network/QRKitComposeMultiplatform
 qrKit = "3.0.7"
