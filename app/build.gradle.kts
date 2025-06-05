@@ -134,7 +134,8 @@ dependencies {
 
     implementation(libs.xpopup)
 
-    implementation(libs.permission)
+    implementation(libs.permission.origin)
+    implementation(libs.permission.androidx)
 
     implementation(libs.bugly)
 
