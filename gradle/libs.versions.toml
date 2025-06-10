@@ -112,7 +112,7 @@ jodatime = "2.14.0"
 junit5 = "5.13.1"
 
 #https://github.com/InsertKoinIO/koin
-koin = "4.0.4"
+koin = "4.1.0"
 
 #https://github.com/JetBrains/kotlin
 kotlin = "2.1.21"
