@@ -9,7 +9,7 @@ activity = "1.10.1"
 agp = "8.10.1"
 
 #https://opendocs.alipay.com/open/074rk8?pathHash=bdfba391&ref=api
-alipay = "15.8.33"
+alipay = "15.8.35"
 
 #https://git.yingxiong.com/app/analyticssdk
 analytics = "1.0.2"
