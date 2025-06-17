@@ -133,7 +133,7 @@ leakcanary = "2.14"
 lifecycle = "2.9.1"
 
 #https://github.com/airbnb/lottie-android
-lottie = "6.6.6"
+lottie = "6.6.7"
 
 #https://github.com/material-components/material-components-android
 material = "1.12.0"
