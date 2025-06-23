@@ -139,7 +139,7 @@ lottie = "6.6.7"
 material = "1.12.0"
 
 #https://github.com/vanniktech/gradle-maven-publish-plugin
-maven = "0.32.0"
+maven = "0.33.0"
 
 #https://github.com/Tencent/MMKV/blob/master/README_CN.md
 mmkv = "2.2.2"
