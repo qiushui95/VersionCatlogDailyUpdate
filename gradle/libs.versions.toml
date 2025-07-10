@@ -151,7 +151,7 @@ moshi = "1.15.2"
 ok-download = "1.0.7"
 
 #https://github.com/square/okhttp
-okhttp = "5.0.0"
+okhttp = "5.1.0"
 
 #https://github.com/getActivity/XXPermissions
 permission = "23.0"
