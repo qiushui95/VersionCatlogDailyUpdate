@@ -84,7 +84,7 @@ drive-oss = "2.9.21"
 exif = "1.4.1"
 
 #https://github.com/alibaba/fastjson2
-fastjson = "2.0.57"
+fastjson = "2.0.58"
 
 #https://github.com/ReactiveCircus/FlowBinding
 flowBinding = "1.2.0"
