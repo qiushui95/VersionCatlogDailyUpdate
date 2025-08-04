@@ -180,6 +180,9 @@ sampling_image = "3.10.0"
 #https://github.com/LuckSiege/PictureSelector
 selector = "v3.11.3"
 
+#https://github.com/Kotlin/kotlinx.serialization
+serialization = "1.9.0"
+
 #https://github.com/GIGAMOLE/ComposeShadowsPlus
 shadows = "1.0.4"
 
@@ -263,6 +266,7 @@ ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 library = { id = "com.android.library", version.ref = "agp" }
 maven = { id = "com.vanniktech.maven.publish", version.ref = "maven" }
 spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
+serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 
 
 
@@ -527,6 +531,9 @@ selector-camerax = { module = "io.github.lucksiege:camerax", version.ref = "sele
 selector-compress = { module = "io.github.lucksiege:compress", version.ref = "selector" }
 selector-core = { module = "io.github.lucksiege:pictureselector", version.ref = "selector" }
 selector-crop = { module = "io.github.lucksiege:ucrop", version.ref = "selector" }
+
+#https://github.com/Kotlin/kotlinx.serialization
+serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
 
 #https://github.com/GIGAMOLE/ComposeShadowsPlus
 shadows = { module = "com.github.GIGAMOLE:ComposeShadowsPlus", version.ref = "shadows" }

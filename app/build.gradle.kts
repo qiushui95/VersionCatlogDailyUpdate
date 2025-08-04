@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.ksp)
     alias(libs.plugins.android.junit5)
     alias(libs.plugins.compose)
+    alias(libs.plugins.serialization)
 }
 
 android {
@@ -291,4 +292,6 @@ dependencies {
 
     implementation(libs.umeng.common)
     implementation(libs.umeng.asms)
+
+    implementation(libs.serialization)
 }
