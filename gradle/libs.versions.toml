@@ -515,6 +515,7 @@ refresh-progress = { module = "com.github.jenly1314.UltraSwipeRefresh:refresh-in
 retrofit-core = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 retrofit-moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit" }
 retrofit-scalars = { module = "com.squareup.retrofit2:converter-scalars", version.ref = "retrofit" }
+retrofit-serialization = { module = "com.squareup.retrofit2:converter-kotlinx-serialization", version.ref = "retrofit" }
 
 #https://github.com/MohamedRejeb/Compose-Rich-Editor
 richtext = { module = "com.mohamedrejeb.richeditor:richeditor-compose", version.ref = "richtext" }
