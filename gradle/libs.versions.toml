@@ -136,7 +136,7 @@ lifecycle = "2.9.3"
 lottie = "6.6.7"
 
 #https://github.com/material-components/material-components-android
-material = "1.12.0"
+material = "1.13.0"
 
 #https://github.com/vanniktech/gradle-maven-publish-plugin
 maven = "0.34.0"
