@@ -52,7 +52,7 @@ collapsing-scaffold = "1.0.6"
 collection = "1.5.0"
 
 #https://developer.android.com/jetpack/compose/bom/bom-mapping
-compose-core = "1.9.1"
+compose-core = "1.9.2"
 compose-material3 = "1.4.0"
 
 #https://developer.android.com/jetpack/androidx/releases/constraintlayout
@@ -172,7 +172,7 @@ retrofit = "3.0.0"
 richtext = "0.2.0"
 
 #https://developer.android.com/jetpack/androidx/releases/room
-room = "2.8.0"
+room = "2.8.1"
 
 #https://github.com/davemorrissey/subsampling-scale-image-view
 sampling_image = "3.10.0"
