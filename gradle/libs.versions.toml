@@ -63,7 +63,7 @@ constraint-layout = "2.2.1"
 corektx = "1.17.0"
 
 #https://developer.android.com/jetpack/androidx/releases/core
-coresplash = "1.0.1"
+coresplash = "1.2.0"
 
 #https://github.com/Kotlin/kotlinx.coroutines
 coroutines = "1.10.2"
