@@ -3,7 +3,7 @@
 accompanist = "0.37.3"
 
 #https://developer.android.com/jetpack/androidx/releases/activity
-activity = "1.12.0"
+activity = "1.12.1"
 
 #http://Nothing
 agp = "8.13.1"
