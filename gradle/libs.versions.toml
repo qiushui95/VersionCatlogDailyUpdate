@@ -115,7 +115,7 @@ junit5 = "6.0.1"
 koin = "4.1.1"
 
 #https://github.com/JetBrains/kotlin
-kotlin = "2.2.21"
+kotlin = "2.3.0"
 
 #https://github.com/google/ksp
 ksp = "2.3.3"
