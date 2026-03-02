@@ -43,7 +43,7 @@ bugly = "4.1.9.3"
 capturable = "3.0.1"
 
 #https://github.com/ChuckerTeam/chucker
-chucker = "4.3.0"
+chucker = "4.3.1"
 
 #https://github.com/qiushui95/CollapsingScaffold
 collapsing-scaffold = "1.0.6"
