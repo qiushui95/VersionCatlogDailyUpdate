@@ -11,9 +11,6 @@ agp = "9.1.0"
 #https://opendocs.alipay.com/open/074rk8?pathHash=bdfba391&ref=api
 alipay = "15.8.40"
 
-#https://git.yingxiong.com/app/analyticssdk
-analytics = "1.0.2"
-
 #https://github.com/mannodermaus/android-junit5
 android-junit5 = "2.0.1"
 
@@ -24,9 +21,6 @@ androidtest-espresso = "3.7.0"
 androidtest-junit-ext = "1.3.0"
 androidtest-uiautomator = "2.3.0"
 
-#https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
-androidutils = "1.31.1"
-
 #https://developer.android.com/jetpack/androidx/releases/annotation
 annotation = "1.9.1"
 
@@ -35,12 +29,6 @@ appcompat = "1.7.1"
 
 #https://github.com/dokar3/sheets
 bottomsheet = "0.7.2"
-
-#https://bugly.qq.com/docs/release-notes/release-android-bugly/?v=1.0.0
-bugly = "4.1.9.3"
-
-#https://github.com/PatilShreyas/Capturable
-capturable = "3.0.1"
 
 #https://github.com/ChuckerTeam/chucker
 chucker = "4.3.1"
@@ -85,9 +73,6 @@ exif = "1.4.2"
 
 #https://github.com/alibaba/fastjson2
 fastjson = "2.0.61"
-
-#https://github.com/ReactiveCircus/FlowBinding
-flowBinding = "1.2.0"
 
 #https://github.com/respawn-app/FlowMVI
 flowmvi = "3.2.1"
@@ -142,13 +127,7 @@ material = "1.13.0"
 maven = "0.36.0"
 
 #https://github.com/Tencent/MMKV/blob/master/README_CN.md
-mmkv = "2.3.0"
-
-#https://github.com/square/moshi
-moshi = "1.15.2"
-
-#https://github.com/lingochamp/okdownload
-ok-download = "1.0.7"
+mmkv = "2.4.0"
 
 #https://github.com/square/okhttp
 okhttp = "5.3.2"
@@ -168,23 +147,11 @@ refresh = "1.4.2"
 #https://github.com/square/retrofit
 retrofit = "3.0.0"
 
-#https://github.com/MohamedRejeb/Compose-Rich-Editor
-richtext = "0.2.0"
-
 #https://developer.android.com/jetpack/androidx/releases/room
 room = "2.8.4"
 
-#https://github.com/davemorrissey/subsampling-scale-image-view
-sampling_image = "3.10.0"
-
-#https://github.com/LuckSiege/PictureSelector
-selector = "v3.11.3"
-
 #https://github.com/Kotlin/kotlinx.serialization
 serialization = "1.10.0"
-
-#https://github.com/GIGAMOLE/ComposeShadowsPlus
-shadows = "1.0.4"
 
 #https://github.com/valentinilk/compose-shimmer
 shimmer = "1.3.3"
@@ -194,9 +161,6 @@ slider = "1.3.0"
 
 #https://github.com/diffplug/spotless
 spotless = "8.4.0"
-
-#https://github.com/facebook/stetho
-stetho = "1.6.0"
 
 #https://github.com/qiushui95/ComoposeSwipeRow
 swipe-row = "1.0.3"
@@ -213,42 +177,11 @@ transformers = "1.0.6"
 #https://github.com/azhon/AppUpdate
 update = "4.3.6"
 
-#https://central.sonatype.com/artifact/com.umeng.umsdk/common
-umeng_common = "9.9.0"
-
-#https://central.sonatype.com/artifact/com.umeng.umsdk/asms
-umeng_asms = "1.8.7.2"
-
-#https://central.sonatype.com/artifact/com.umeng.umsdk/uyumao
-umeng_uyumao = "1.1.4"
-
-#https://github.com/adrielcafe/voyager
-#导航框架
-voyager = "1.0.1"
-
-#https://github.com/Justson/AgentWeb
-webview_agent = "v5.1.1-androidx"
-
-#https://github.com/KevinnZou/compose-webview
-webview_compose = "0.33.6"
-
-#https://github.com/KangYee/tbscompose
-webview_x5_compose = "1.0.1"
-
-#https://x5.tencent.com/docs/access.html
-webview_x5_core = "44286"
-
 #https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html#jump2
 wechat = "6.8.34"
 
 #https://developer.android.com/jetpack/androidx/releases/work
 work = "2.11.1"
-
-#https://github.com/iqiyi/xCrash/blob/master/README.zh-CN.md
-xcrash = "3.1.0"
-
-#https://github.com/li-xiaojun/XPopup
-xpopup = "2.10.0"
 
 #https://github.com/panpf/zoomimage
 zoomimage = "1.4.0"
@@ -283,12 +216,6 @@ activity-core = { module = "androidx.activity:activity-ktx", version.ref = "acti
 #https://opendocs.alipay.com/open/074rk8?pathHash=bdfba391&ref=api
 alipay = { module = "com.alipay.sdk:alipaysdk-android", version.ref = "alipay" }
 
-#https://git.yingxiong.com/app/analyticssdk
-analytics = { module = "com.hero.analytics.android.sdk:core", version.ref = "analytics" }
-
-#https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
-androidUtils = { module = "com.blankj:utilcodex", version.ref = "androidutils" }
-
 #https://developer.android.com/jetpack/androidx/releases/test
 androidtest-core = { module = "androidx.test:core-ktx", version.ref = "androidtest" }
 androidtest-espresso = { module = "androidx.test.espresso:espresso-core", version.ref = "androidtest-espresso" }
@@ -311,12 +238,6 @@ appcompat-resources = { module = "androidx.appcompat:appcompat-resources", versi
 #https://github.com/dokar3/sheets
 bottomsheet-m2 = { module = "io.github.dokar3:sheets", version.ref = "bottomsheet" }
 bottomsheet-m3 = { module = "io.github.dokar3:sheets-m3", version.ref = "bottomsheet" }
-
-#https://bugly.qq.com/docs/user-guide/instruction-manual-android/?v=1.0.0
-bugly = { module = "com.tencent.bugly:crashreport", version.ref = "bugly" }
-
-#https://github.com/PatilShreyas/Capturable
-capturable = { module = "dev.shreyaspatil:capturable", version.ref = "capturable" }
 
 #https://github.com/ChuckerTeam/chucker
 chucker = { module = "com.github.chuckerteam.chucker:library", version.ref = "chucker" }
@@ -375,21 +296,6 @@ exif = { module = "androidx.exifinterface:exifinterface", version.ref = "exif" }
 
 #https://github.com/alibaba/fastjson2
 fastjson = { module = "com.alibaba.fastjson2:fastjson2", version.ref = "fastjson" }
-
-#https://github.com/ReactiveCircus/FlowBinding
-flow-binding-activity = { module = "io.github.reactivecircus.flowbinding:flowbinding-activity", version.ref = "flowBinding" }
-flow-binding-android = { module = "io.github.reactivecircus.flowbinding:flowbinding-android", version.ref = "flowBinding" }
-flow-binding-appcompat = { module = "io.github.reactivecircus.flowbinding:flowbinding-appcompat", version.ref = "flowBinding" }
-flow-binding-core = { module = "io.github.reactivecircus.flowbinding:flowbinding-core", version.ref = "flowBinding" }
-flow-binding-drawerlayout = { module = "io.github.reactivecircus.flowbinding:flowbinding-drawerlayout", version.ref = "flowBinding" }
-flow-binding-lifecycle = { module = "io.github.reactivecircus.flowbinding:flowbinding-lifecycle", version.ref = "flowBinding" }
-flow-binding-material = { module = "io.github.reactivecircus.flowbinding:flowbinding-material", version.ref = "flowBinding" }
-flow-binding-navigation = { module = "io.github.reactivecircus.flowbinding:flowbinding-navigation", version.ref = "flowBinding" }
-flow-binding-preference = { module = "io.github.reactivecircus.flowbinding:flowbinding-preference", version.ref = "flowBinding" }
-flow-binding-recyclerview = { module = "io.github.reactivecircus.flowbinding:flowbinding-recyclerview", version.ref = "flowBinding" }
-flow-binding-swiperefreshlayout = { module = "io.github.reactivecircus.flowbinding:flowbinding-swiperefreshlayout", version.ref = "flowBinding" }
-flow-binding-viewpager = { module = "io.github.reactivecircus.flowbinding:flowbinding-viewpager", version.ref = "flowBinding" }
-flow-binding-viewpager2 = { module = "io.github.reactivecircus.flowbinding:flowbinding-viewpager2", version.ref = "flowBinding" }
 
 #https://github.com/respawn-app/FlowMVI
 flowmvi-android = { module = "pro.respawn.flowmvi:android", version.ref = "flowmvi" }
@@ -477,16 +383,6 @@ material = { module = "com.google.android.material:material", version.ref = "mat
 #https://github.com/Tencent/MMKV/blob/master/README_CN.md
 mmkv = { module = "com.tencent:mmkv-static", version.ref = "mmkv" }
 
-#https://github.com/square/moshi
-moshi-core = { module = "com.squareup.moshi:moshi", version.ref = "moshi" }
-moshi-ksp = { module = "com.squareup.moshi:moshi-kotlin-codegen", version.ref = "moshi" }
-
-#https://github.com/lingochamp/okdownload
-okdownload-core = { module = "com.liulishuo.okdownload:okdownload", version.ref = "ok-download" }
-okdownload-ktx = { module = "com.liulishuo.okdownload:ktx", version.ref = "ok-download" }
-okdownload-okhttp = { module = "com.liulishuo.okdownload:okhttp", version.ref = "ok-download" }
-okdownload-sqlite = { module = "com.liulishuo.okdownload:sqlite", version.ref = "ok-download" }
-
 #https://github.com/square/okhttp
 okhttp-core = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
 okhttp-logging = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp" }
@@ -512,41 +408,21 @@ refresh-progress = { module = "com.github.jenly1314.UltraSwipeRefresh:refresh-in
 
 #https://github.com/square/retrofit
 retrofit-core = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
-retrofit-moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit" }
 retrofit-scalars = { module = "com.squareup.retrofit2:converter-scalars", version.ref = "retrofit" }
 retrofit-serialization = { module = "com.squareup.retrofit2:converter-kotlinx-serialization", version.ref = "retrofit" }
-
-#https://github.com/MohamedRejeb/Compose-Rich-Editor
-richtext = { module = "com.mohamedrejeb.richeditor:richeditor-compose", version.ref = "richtext" }
 
 #https://developer.android.com/jetpack/androidx/releases/room
 room-core = { module = "androidx.room:room-ktx", version.ref = "room" }
 room-ksp = { module = "androidx.room:room-compiler", version.ref = "room" }
 
-#https://github.com/davemorrissey/subsampling-scale-image-view
-sampling-image = { module = "com.davemorrissey.labs:subsampling-scale-image-view", version.ref = "sampling_image" }
-
-#https://github.com/LuckSiege/PictureSelector
-selector-camerax = { module = "io.github.lucksiege:camerax", version.ref = "selector" }
-selector-compress = { module = "io.github.lucksiege:compress", version.ref = "selector" }
-selector-core = { module = "io.github.lucksiege:pictureselector", version.ref = "selector" }
-selector-crop = { module = "io.github.lucksiege:ucrop", version.ref = "selector" }
-
 #https://github.com/Kotlin/kotlinx.serialization
 serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
-
-#https://github.com/GIGAMOLE/ComposeShadowsPlus
-shadows = { module = "com.github.GIGAMOLE:ComposeShadowsPlus", version.ref = "shadows" }
 
 #https://github.com/valentinilk/compose-shimmer
 shimmer = { module = "com.valentinilk.shimmer:compose-shimmer", version.ref = "shimmer" }
 
 #https://github.com/SmartToolFactory/Compose-Colorful-Sliders
 slider = { module = "com.github.SmartToolFactory:Compose-Colorful-Sliders", version.ref = "slider" }
-
-#https://github.com/facebook/stetho
-stetho-core = { module = "com.facebook.stetho:stetho", version.ref = "stetho" }
-stetho-okhttp = { module = "com.facebook.stetho:stetho-okhttp3", version.ref = "stetho" }
 
 #https://github.com/qiushui95/ComoposeSwipeRow
 swipe-row = { module = "com.github.qiushui95:ComoposeSwipeRow", version.ref = "swipe-row" }
@@ -573,31 +449,6 @@ transformers-gpu = { module = "jp.wasabeef.transformers:glide-gpu", version.ref 
 #https://github.com/azhon/AppUpdate
 update = { module = "io.github.azhon:appupdate", version.ref = "update" }
 
-#https://developer.umeng.com/docs/119267/detail/118584
-umeng-common = { module = "com.umeng.umsdk:common", version.ref = "umeng_common" }
-umeng-asms = { module = "com.umeng.umsdk:asms", version.ref = "umeng_asms" }
-umeng-uyumao = { module = "com.umeng.umsdk:uyumao", version.ref = "umeng_uyumao" }
-
-#https://github.com/adrielcafe/voyager
-voyager-bottom = { module = "cafe.adriel.voyager:voyager-bottom-sheet-navigator", version.ref = "voyager" }
-voyager-core = { module = "cafe.adriel.voyager:voyager-navigator", version.ref = "voyager" }
-voyager-koin = { module = "cafe.adriel.voyager:voyager-koin", version.ref = "voyager" }
-voyager-model = { module = "cafe.adriel.voyager:voyager-screenmodel", version.ref = "voyager" }
-voyager-tab = { module = "cafe.adriel.voyager:voyager-tab-navigator", version.ref = "voyager" }
-voyager-transition = { module = "cafe.adriel.voyager:voyager-transitions", version.ref = "voyager" }
-
-#https://github.com/KevinnZou/compose-webview
-webview-compose = { module = "io.github.kevinnzou:compose-webview", version.ref = "webview_compose" }
-
-#https://github.com/Justson/AgentWeb
-webview_agent = { module = "io.github.justson:agentweb-core", version.ref = "webview_agent" }
-
-#https://github.com/KangYee/tbscompose
-webview_x5_compose = { module = "io.github.kangyee:tbscompose", version.ref = "webview_x5_compose" }
-
-#https://x5.tencent.com/docs/access.html
-webview_x5_core = { module = "com.tencent.tbs:tbssdk", version.ref = "webview_x5_core" }
-
 #https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Access_Guide/Android.html#jump2
 wechat = { module = "com.tencent.mm.opensdk:wechat-sdk-android", version.ref = "wechat" }
 
@@ -605,12 +456,6 @@ wechat = { module = "com.tencent.mm.opensdk:wechat-sdk-android", version.ref = "
 work-core = { module = "androidx.work:work-runtime", version.ref = "work" }
 work-ktx = { module = "androidx.work:work-runtime-ktx", version.ref = "work" }
 work-process = { module = "androidx.work:work-multiprocess", version.ref = "work" }
-
-#https://github.com/iqiyi/xCrash/blob/master/README.zh-CN.md
-xcrash = { module = "com.iqiyi.xcrash:xcrash-android-lib", version.ref = "xcrash" }
-
-#https://github.com/li-xiaojun/XPopup
-xpopup = { module = "com.github.li-xiaojun:XPopup", version.ref = "xpopup" }
 
 #https://github.com/panpf/zoomimage
 zoomimage = { module = "io.github.panpf.zoomimage:zoomimage-compose-glide", version.ref = "zoomimage" }

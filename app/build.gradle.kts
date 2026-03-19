@@ -120,13 +120,7 @@ dependencies {
 
     implementation(libs.mmkv)
 
-    implementation(libs.xcrash)
-
-    implementation(libs.xpopup)
-
     implementation(libs.permissionxx)
-
-    implementation(libs.bugly)
 
     implementation(libs.glide.core)
     implementation(libs.glide.okhttp)
@@ -137,43 +131,18 @@ dependencies {
     implementation(libs.transformers.glide)
     implementation(libs.transformers.gpu)
 
-    implementation(libs.moshi.core)
-    implementation(libs.moshi.ksp)
-
     implementation(libs.retrofit.core)
-    implementation(libs.retrofit.moshi)
     implementation(libs.retrofit.scalars)
+    implementation(libs.retrofit.serialization)
 
     implementation(libs.room.core)
     implementation(libs.room.ksp)
-
-    implementation(libs.stetho.core)
-    implementation(libs.stetho.okhttp)
 
     implementation(libs.landscapist.glide)
     implementation(libs.landscapist.placeholder)
     implementation(libs.landscapist.animation)
     implementation(libs.landscapist.transformation)
     implementation(libs.landscapist.palette)
-
-    implementation(libs.selector.core)
-    implementation(libs.selector.compress)
-    implementation(libs.selector.crop)
-    implementation(libs.selector.camerax)
-
-    implementation(libs.flow.binding.core)
-    implementation(libs.flow.binding.activity)
-    implementation(libs.flow.binding.android)
-    implementation(libs.flow.binding.appcompat)
-    implementation(libs.flow.binding.drawerlayout)
-    implementation(libs.flow.binding.lifecycle)
-    implementation(libs.flow.binding.material)
-    implementation(libs.flow.binding.navigation)
-    implementation(libs.flow.binding.preference)
-    implementation(libs.flow.binding.recyclerview)
-    implementation(libs.flow.binding.swiperefreshlayout)
-    implementation(libs.flow.binding.viewpager)
-    implementation(libs.flow.binding.viewpager2)
 
     implementation(libs.update)
 
@@ -188,13 +157,9 @@ dependencies {
 
     implementation(libs.slider)
 
-    implementation(libs.richtext)
-
     implementation(libs.exif)
 
     implementation(libs.collapsing.scaffold)
-
-    implementation(libs.shadows)
 
     implementation(libs.flowmvi.core)
     implementation(libs.flowmvi.android)
@@ -204,14 +169,10 @@ dependencies {
     implementation(libs.fragment.core)
     implementation(libs.fragment.test)
 
-    implementation(libs.androidUtils)
-
     implementation(libs.chucker)
 
     implementation(libs.constraint.compose)
     implementation(libs.constraint.layout)
-
-    implementation(libs.sampling.image)
 
     implementation(libs.work.core)
     implementation(libs.work.ktx)
@@ -223,11 +184,6 @@ dependencies {
     implementation(libs.player.video.exo)
     implementation(libs.player.video.arm64)
     implementation(libs.player.video.armv7a)
-
-    implementation(libs.okdownload.core)
-    implementation(libs.okdownload.sqlite)
-    implementation(libs.okdownload.okhttp)
-    implementation(libs.okdownload.ktx)
 
     implementation(libs.fastjson)
 
@@ -241,21 +197,7 @@ dependencies {
 
     implementation(libs.haze)
 
-    implementation(libs.voyager.core)
-    implementation(libs.voyager.model)
-    implementation(libs.voyager.bottom)
-    implementation(libs.voyager.tab)
-    implementation(libs.voyager.koin)
-    implementation(libs.voyager.transition)
-
     implementation(libs.zoomimage)
-
-    implementation(libs.webview.compose)
-    implementation(libs.webview.agent)
-    implementation(libs.webview.x5.core)
-    implementation(libs.webview.x5.compose)
-
-    implementation(libs.analytics)
 
     implementation(libs.refresh.core)
     implementation(libs.refresh.classic)
@@ -263,8 +205,6 @@ dependencies {
     implementation(libs.refresh.progress)
 
     implementation(libs.switch)
-
-    implementation(libs.capturable)
 
     implementation(libs.devext.moshi)
     implementation(libs.devext.normal)
@@ -277,9 +217,6 @@ dependencies {
     implementation(libs.shimmer)
 
     implementation(libs.qrKit)
-
-    implementation(libs.umeng.common)
-    implementation(libs.umeng.asms)
 
     implementation(libs.serialization)
 }
