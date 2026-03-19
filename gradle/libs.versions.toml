@@ -154,7 +154,7 @@ ok-download = "1.0.7"
 okhttp = "5.3.2"
 
 #https://github.com/getActivity/XXPermissions
-permission = "23.0"
+permissionxx = "28.0"
 
 #https://github.com/CarGuo/GSYVideoPlayer
 player-video = "v12.0.0"
@@ -493,8 +493,7 @@ okhttp-logging = { module = "com.squareup.okhttp3:logging-interceptor", version.
 okhttp-mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "okhttp" }
 
 #https://github.com/getActivity/XXPermissions
-permission-origin = { module = "com.github.getActivity:XXPermissions", version.ref = "permission" }
-permission-androidx = { module = "com.github.getActivity:XXPermissionsX", version.ref = "permission" }
+permissionxx = { module = "com.github.getActivity:XXPermissions", version.ref = "permissionxx" }
 
 #https://github.com/CarGuo/GSYVideoPlayer
 player-video-arm64 = { module = "com.github.CarGuo.GSYVideoPlayer:gsyvideoplayer-arm64", version.ref = "player-video" }
