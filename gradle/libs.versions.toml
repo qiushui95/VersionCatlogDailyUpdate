@@ -100,7 +100,7 @@ glide = "5.0.5"
 
 #https://github.com/chrisbanes/haze
 #动态高斯模糊
-haze = "0.7.0"
+haze = "1.7.2"
 
 #https://github.com/qiushui95/AndroidInitializer
 initializer = "1.0.24"
@@ -427,7 +427,7 @@ gradlePlugin-maven = { group = "com.vanniktech", name = "gradle-maven-publish-pl
 gradlePlugin-spotless = { group = "com.diffplug.spotless", name = "spotless-plugin-gradle", version.ref = "spotless" }
 
 #https://github.com/chrisbanes/haze
-haze = { module = "dev.chrisbanes.haze:haze-jetpack-compose", version.ref = "haze" }
+haze = { module = "dev.chrisbanes.haze:haze", version.ref = "haze" }
 
 #https://github.com/qiushui95/AndroidInitializer
 initializer = { module = "com.github.qiushui95:AndroidInitializer", version.ref = "initializer" }
