@@ -27,6 +27,9 @@ annotation = "1.9.1"
 #https://developer.android.com/jetpack/androidx/releases/appcompat
 appcompat = "1.7.1"
 
+#https://github.com/copper-leaf/ballast
+ballast = "5.0.1"
+
 #https://github.com/dokar3/sheets
 bottomsheet = "0.7.2"
 
@@ -57,7 +60,7 @@ coresplash = "1.2.0"
 coroutines = "1.10.2"
 
 #https://github.com/qiushui95/YangDevExt
-devext = "1.0.40"
+devext = "1.0.44"
 
 #https://github.com/Tencent/VasDolly
 dolly = "3.0.6"
@@ -234,6 +237,17 @@ annotation = { module = "androidx.annotation:annotation", version.ref = "annotat
 #https://developer.android.com/jetpack/androidx/releases/appcompat
 appcompat-core = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
 appcompat-resources = { module = "androidx.appcompat:appcompat-resources", version.ref = "appcompat" }
+
+#https://github.com/copper-leaf/ballast
+ballast-core = { module = "io.github.copper-leaf:ballast-core", version.ref = "ballast" }
+ballast-repository = { module = "io.github.copper-leaf:ballast-repository", version.ref = "ballast" }
+ballast-sync = { module = "io.github.copper-leaf:ballast-sync", version.ref = "ballast" }
+ballast-undo = { module = "io.github.copper-leaf:ballast-undo", version.ref = "ballast" }
+ballast-navigation = { module = "io.github.copper-leaf:ballast-navigation", version.ref = "ballast" }
+ballast-schedules = { module = "io.github.copper-leaf:ballast-schedules", version.ref = "ballast" }
+ballast-crash = { module = "io.github.copper-leaf:ballast-crash-reporting", version.ref = "ballast" }
+ballast-debugger = { module = "io.github.copper-leaf:ballast-debugger-client", version.ref = "ballast" }
+ballast-test = { module = "io.github.copper-leaf:ballast-test", version.ref = "ballast" }
 
 #https://github.com/dokar3/sheets
 bottomsheet-m2 = { module = "io.github.dokar3:sheets", version.ref = "bottomsheet" }

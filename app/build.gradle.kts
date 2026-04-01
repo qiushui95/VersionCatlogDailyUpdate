@@ -67,6 +67,17 @@ dependencies {
     implementation(libs.appcompat.core)
     implementation(libs.appcompat.resources)
 
+    implementation(libs.ballast.core)
+    implementation(libs.ballast.repository)
+    implementation(libs.ballast.sync)
+    implementation(libs.ballast.undo)
+    implementation(libs.ballast.navigation)
+    implementation(libs.ballast.schedules)
+    implementation(libs.ballast.crash)
+    implementation(libs.ballast.debugger)
+    implementation(libs.ballast.test)
+
+
     implementation(libs.core.ktx)
     implementation(libs.core.splash)
 
