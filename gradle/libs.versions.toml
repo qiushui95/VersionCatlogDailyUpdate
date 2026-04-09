@@ -22,7 +22,7 @@ androidtest-junit-ext = "1.3.0"
 androidtest-uiautomator = "2.3.0"
 
 #https://developer.android.com/jetpack/androidx/releases/annotation
-annotation = "1.9.1"
+annotation = "1.10.0"
 
 #https://developer.android.com/jetpack/androidx/releases/appcompat
 appcompat = "1.7.1"
