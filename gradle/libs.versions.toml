@@ -57,7 +57,7 @@ corektx = "1.18.0"
 coresplash = "1.2.0"
 
 #https://github.com/Kotlin/kotlinx.coroutines
-coroutines = "1.10.2"
+coroutines = "1.11.0"
 
 #https://github.com/qiushui95/YangDevExt
 devext = "1.0.44"
