@@ -28,7 +28,7 @@ annotation = "1.10.0"
 appcompat = "1.7.1"
 
 #https://github.com/copper-leaf/ballast
-ballast = "5.0.1"
+ballast = "5.1.0"
 
 #https://github.com/dokar3/sheets
 bottomsheet = "0.7.4"
