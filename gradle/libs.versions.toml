@@ -163,7 +163,7 @@ shimmer = "1.4.0"
 slider = "1.3.0"
 
 #https://github.com/diffplug/spotless
-spotless = "8.6.0"
+spotless = "8.7.0"
 
 #https://github.com/qiushui95/ComoposeSwipeRow
 swipe-row = "1.0.3"
