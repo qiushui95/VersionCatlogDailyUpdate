@@ -187,7 +187,7 @@ wechat = "6.8.34"
 work = "2.11.2"
 
 #https://github.com/panpf/zoomimage
-zoomimage = "1.4.0"
+zoomimage = "1.5.0"
 
 
 
