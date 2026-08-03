@@ -130,7 +130,7 @@ material = "1.14.0"
 maven = "0.37.0"
 
 #https://github.com/Tencent/MMKV/blob/master/README_CN.md
-mmkv = "2.4.0"
+mmkv = "2.4.1"
 
 #https://github.com/square/okhttp
 okhttp = "5.4.0"
