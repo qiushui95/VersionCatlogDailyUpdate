@@ -25,7 +25,7 @@ androidtest-uiautomator = "2.4.0"
 annotation = "1.10.0"
 
 #https://developer.android.com/jetpack/androidx/releases/appcompat
-appcompat = "1.7.1"
+appcompat = "1.8.0"
 
 #https://github.com/copper-leaf/ballast
 ballast = "5.1.0"
