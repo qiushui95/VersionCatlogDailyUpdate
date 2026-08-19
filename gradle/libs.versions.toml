@@ -31,7 +31,7 @@ appcompat = "1.8.0"
 ballast = "5.1.0"
 
 #https://github.com/dokar3/sheets
-bottomsheet = "0.7.5"
+bottomsheet = "0.7.6"
 
 #https://github.com/ChuckerTeam/chucker
 chucker = "4.3.1"
