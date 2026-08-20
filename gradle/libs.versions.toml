@@ -133,7 +133,7 @@ maven = "0.37.0"
 mmkv = "2.4.1"
 
 #https://github.com/square/okhttp
-okhttp = "5.4.0"
+okhttp = "5.5.0"
 
 #https://github.com/getActivity/XXPermissions
 permissionxx = "28.3"
