@@ -88,7 +88,7 @@ glide = "5.0.9"
 
 #https://github.com/chrisbanes/haze
 #动态高斯模糊
-haze = "1.7.2"
+haze = "1.7.3"
 
 #https://github.com/qiushui95/AndroidInitializer
 initializer = "1.0.24"
