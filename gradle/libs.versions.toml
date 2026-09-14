@@ -151,7 +151,7 @@ refresh = "1.6.0"
 retrofit = "3.0.0"
 
 #https://developer.android.com/jetpack/androidx/releases/room
-room = "2.8.4"
+room = "2.8.5"
 
 #https://github.com/Kotlin/kotlinx.serialization
 serialization = "1.11.0"
