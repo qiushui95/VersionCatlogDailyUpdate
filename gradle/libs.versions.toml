@@ -184,7 +184,7 @@ update = "4.3.6"
 wechat = "6.8.40"
 
 #https://developer.android.com/jetpack/androidx/releases/work
-work = "2.11.2"
+work = "2.12.0"
 
 #https://github.com/panpf/zoomimage
 zoomimage = "1.6.0"
