@@ -81,7 +81,7 @@ fastjson = "2.0.65"
 flowmvi = "3.2.1"
 
 #https://developer.android.com/jetpack/androidx/releases/fragment
-fragment = "1.9.0"
+fragment = "1.9.1"
 
 #https://github.com/bumptech/glide
 glide = "5.0.9"
