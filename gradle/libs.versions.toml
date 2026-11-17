@@ -34,7 +34,7 @@ ballast = "5.1.0"
 bottomsheet = "0.7.6"
 
 #https://github.com/ChuckerTeam/chucker
-chucker = "4.3.1"
+chucker = "4.4.0"
 
 #https://github.com/qiushui95/CollapsingScaffold
 collapsing-scaffold = "1.0.6"
