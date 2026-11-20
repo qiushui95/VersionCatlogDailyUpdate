@@ -84,7 +84,7 @@ flowmvi = "3.2.1"
 fragment = "1.9.1"
 
 #https://github.com/bumptech/glide
-glide = "5.0.9"
+glide = "5.0.10"
 
 #https://github.com/chrisbanes/haze
 #动态高斯模糊
