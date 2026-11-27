@@ -78,7 +78,7 @@ exif = "1.4.2"
 fastjson = "2.0.66"
 
 #https://github.com/respawn-app/FlowMVI
-flowmvi = "3.2.1"
+flowmvi = "3.4.0"
 
 #https://developer.android.com/jetpack/androidx/releases/fragment
 fragment = "1.9.1"
